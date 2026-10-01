@@ -1,0 +1,2063 @@
+DiagnosticID,SejourID,CodeCIM10,LibelleDiagnostic,Role
+DX-000001,SEJ-000001,I50,Insuffisance cardiaque,Principal
+DX-000002,SEJ-000002,F03,Syndrome démentiel,Principal
+DX-000003,SEJ-000003,M16,Arthrose de la hanche,Principal
+DX-000004,SEJ-000003,N39,Infection urinaire,Complication
+DX-000005,SEJ-000003,N39,Infection urinaire,Associe
+DX-000006,SEJ-000003,F03,Syndrome démentiel,Complication
+DX-000007,SEJ-000003,F03,Syndrome démentiel,Associe
+DX-000008,SEJ-000004,I10,Hypertension essentielle,Principal
+DX-000009,SEJ-000005,F03,Syndrome démentiel,Principal
+DX-000010,SEJ-000005,N39,Infection urinaire,Associe
+DX-000011,SEJ-000006,E11,Diabète sucré de type 2,Principal
+DX-000012,SEJ-000006,C50,Tumeur du sein,Associe
+DX-000013,SEJ-000006,F03,Syndrome démentiel,Complication
+DX-000014,SEJ-000006,E11,Diabète sucré de type 2,Complication
+DX-000015,SEJ-000007,S72,Fracture du col du fémur,Principal
+DX-000016,SEJ-000008,J44,BPCO obstructive,Principal
+DX-000017,SEJ-000008,N39,Infection urinaire,Associe
+DX-000018,SEJ-000008,N18,Insuffisance rénale chronique,Associe
+DX-000019,SEJ-000009,N18,Insuffisance rénale chronique,Principal
+DX-000020,SEJ-000009,I10,Hypertension essentielle,Complication
+DX-000021,SEJ-000010,E78,Hyperlipidémie,Principal
+DX-000022,SEJ-000011,E11,Diabète sucré de type 2,Principal
+DX-000023,SEJ-000011,C50,Tumeur du sein,Complication
+DX-000024,SEJ-000011,C50,Tumeur du sein,Complication
+DX-000025,SEJ-000012,J44,BPCO obstructive,Principal
+DX-000026,SEJ-000012,E11,Diabète sucré de type 2,Associe
+DX-000027,SEJ-000012,K92,Hémorragie digestive,Associe
+DX-000028,SEJ-000012,A41,Septicémie / sepsis,Complication
+DX-000029,SEJ-000012,M16,Arthrose de la hanche,Associe
+DX-000030,SEJ-000012,R07,Douleur thoracique,Associe
+DX-000031,SEJ-000013,F03,Syndrome démentiel,Principal
+DX-000032,SEJ-000013,R07,Douleur thoracique,Complication
+DX-000033,SEJ-000014,I50,Insuffisance cardiaque,Principal
+DX-000034,SEJ-000014,I50,Insuffisance cardiaque,Associe
+DX-000035,SEJ-000014,S72,Fracture du col du fémur,Associe
+DX-000036,SEJ-000015,I50,Insuffisance cardiaque,Principal
+DX-000037,SEJ-000015,I10,Hypertension essentielle,Associe
+DX-000038,SEJ-000015,E11,Diabète sucré de type 2,Associe
+DX-000039,SEJ-000015,J18,Pneumopathie aiguë,Associe
+DX-000040,SEJ-000016,R07,Douleur thoracique,Principal
+DX-000041,SEJ-000017,E11,Diabète sucré de type 2,Principal
+DX-000042,SEJ-000017,N39,Infection urinaire,Complication
+DX-000043,SEJ-000017,J18,Pneumopathie aiguë,Associe
+DX-000044,SEJ-000017,E78,Hyperlipidémie,Associe
+DX-000045,SEJ-000017,N18,Insuffisance rénale chronique,Associe
+DX-000046,SEJ-000017,R07,Douleur thoracique,Complication
+DX-000047,SEJ-000018,E11,Diabète sucré de type 2,Principal
+DX-000048,SEJ-000018,I10,Hypertension essentielle,Associe
+DX-000049,SEJ-000018,J96,Insuffisance respiratoire aiguë,Complication
+DX-000050,SEJ-000019,N18,Insuffisance rénale chronique,Principal
+DX-000051,SEJ-000020,N18,Insuffisance rénale chronique,Principal
+DX-000052,SEJ-000020,E78,Hyperlipidémie,Complication
+DX-000053,SEJ-000021,A41,Septicémie / sepsis,Principal
+DX-000054,SEJ-000022,A41,Septicémie / sepsis,Principal
+DX-000055,SEJ-000023,E78,Hyperlipidémie,Principal
+DX-000056,SEJ-000023,I10,Hypertension essentielle,Complication
+DX-000057,SEJ-000023,F03,Syndrome démentiel,Complication
+DX-000058,SEJ-000023,A41,Septicémie / sepsis,Associe
+DX-000059,SEJ-000024,N18,Insuffisance rénale chronique,Principal
+DX-000060,SEJ-000024,E78,Hyperlipidémie,Complication
+DX-000061,SEJ-000025,M16,Arthrose de la hanche,Principal
+DX-000062,SEJ-000025,J44,BPCO obstructive,Associe
+DX-000063,SEJ-000026,J44,BPCO obstructive,Principal
+DX-000064,SEJ-000026,N18,Insuffisance rénale chronique,Complication
+DX-000065,SEJ-000027,N18,Insuffisance rénale chronique,Principal
+DX-000066,SEJ-000027,N39,Infection urinaire,Complication
+DX-000067,SEJ-000027,E11,Diabète sucré de type 2,Complication
+DX-000068,SEJ-000028,K92,Hémorragie digestive,Principal
+DX-000069,SEJ-000028,I10,Hypertension essentielle,Associe
+DX-000070,SEJ-000028,A41,Septicémie / sepsis,Complication
+DX-000071,SEJ-000028,I10,Hypertension essentielle,Associe
+DX-000072,SEJ-000029,A41,Septicémie / sepsis,Principal
+DX-000073,SEJ-000029,S72,Fracture du col du fémur,Associe
+DX-000074,SEJ-000029,S72,Fracture du col du fémur,Complication
+DX-000075,SEJ-000030,J44,BPCO obstructive,Principal
+DX-000076,SEJ-000031,J18,Pneumopathie aiguë,Principal
+DX-000077,SEJ-000032,E78,Hyperlipidémie,Principal
+DX-000078,SEJ-000032,S72,Fracture du col du fémur,Associe
+DX-000079,SEJ-000033,J18,Pneumopathie aiguë,Principal
+DX-000080,SEJ-000033,R07,Douleur thoracique,Associe
+DX-000081,SEJ-000033,F03,Syndrome démentiel,Associe
+DX-000082,SEJ-000033,R07,Douleur thoracique,Complication
+DX-000083,SEJ-000033,R07,Douleur thoracique,Complication
+DX-000084,SEJ-000033,A41,Septicémie / sepsis,Associe
+DX-000085,SEJ-000034,J96,Insuffisance respiratoire aiguë,Principal
+DX-000086,SEJ-000034,J44,BPCO obstructive,Associe
+DX-000087,SEJ-000035,N18,Insuffisance rénale chronique,Principal
+DX-000088,SEJ-000035,J44,BPCO obstructive,Associe
+DX-000089,SEJ-000036,E11,Diabète sucré de type 2,Principal
+DX-000090,SEJ-000036,E78,Hyperlipidémie,Associe
+DX-000091,SEJ-000036,C50,Tumeur du sein,Associe
+DX-000092,SEJ-000036,I50,Insuffisance cardiaque,Associe
+DX-000093,SEJ-000037,J44,BPCO obstructive,Principal
+DX-000094,SEJ-000037,J44,BPCO obstructive,Associe
+DX-000095,SEJ-000038,J44,BPCO obstructive,Principal
+DX-000096,SEJ-000038,F03,Syndrome démentiel,Complication
+DX-000097,SEJ-000038,N39,Infection urinaire,Associe
+DX-000098,SEJ-000039,A41,Septicémie / sepsis,Principal
+DX-000099,SEJ-000039,N39,Infection urinaire,Complication
+DX-000100,SEJ-000040,J18,Pneumopathie aiguë,Principal
+DX-000101,SEJ-000041,S72,Fracture du col du fémur,Principal
+DX-000102,SEJ-000041,S72,Fracture du col du fémur,Complication
+DX-000103,SEJ-000041,J44,BPCO obstructive,Associe
+DX-000104,SEJ-000041,F03,Syndrome démentiel,Associe
+DX-000105,SEJ-000042,F03,Syndrome démentiel,Principal
+DX-000106,SEJ-000043,E78,Hyperlipidémie,Principal
+DX-000107,SEJ-000044,E78,Hyperlipidémie,Principal
+DX-000108,SEJ-000044,F03,Syndrome démentiel,Associe
+DX-000109,SEJ-000045,I50,Insuffisance cardiaque,Principal
+DX-000110,SEJ-000045,J18,Pneumopathie aiguë,Associe
+DX-000111,SEJ-000045,J18,Pneumopathie aiguë,Associe
+DX-000112,SEJ-000045,R07,Douleur thoracique,Complication
+DX-000113,SEJ-000046,I50,Insuffisance cardiaque,Principal
+DX-000114,SEJ-000046,N18,Insuffisance rénale chronique,Associe
+DX-000115,SEJ-000047,J18,Pneumopathie aiguë,Principal
+DX-000116,SEJ-000048,E11,Diabète sucré de type 2,Principal
+DX-000117,SEJ-000049,K92,Hémorragie digestive,Principal
+DX-000118,SEJ-000049,N18,Insuffisance rénale chronique,Associe
+DX-000119,SEJ-000049,J44,BPCO obstructive,Associe
+DX-000120,SEJ-000050,I50,Insuffisance cardiaque,Principal
+DX-000121,SEJ-000050,S72,Fracture du col du fémur,Associe
+DX-000122,SEJ-000051,R07,Douleur thoracique,Principal
+DX-000123,SEJ-000052,I10,Hypertension essentielle,Principal
+DX-000124,SEJ-000052,I10,Hypertension essentielle,Associe
+DX-000125,SEJ-000053,I10,Hypertension essentielle,Principal
+DX-000126,SEJ-000053,J18,Pneumopathie aiguë,Associe
+DX-000127,SEJ-000053,A41,Septicémie / sepsis,Complication
+DX-000128,SEJ-000053,S72,Fracture du col du fémur,Complication
+DX-000129,SEJ-000053,K92,Hémorragie digestive,Complication
+DX-000130,SEJ-000054,S72,Fracture du col du fémur,Principal
+DX-000131,SEJ-000054,J18,Pneumopathie aiguë,Complication
+DX-000132,SEJ-000055,I50,Insuffisance cardiaque,Principal
+DX-000133,SEJ-000056,E11,Diabète sucré de type 2,Principal
+DX-000134,SEJ-000057,E11,Diabète sucré de type 2,Principal
+DX-000135,SEJ-000058,A41,Septicémie / sepsis,Principal
+DX-000136,SEJ-000059,K92,Hémorragie digestive,Principal
+DX-000137,SEJ-000060,J44,BPCO obstructive,Principal
+DX-000138,SEJ-000060,J18,Pneumopathie aiguë,Associe
+DX-000139,SEJ-000061,I50,Insuffisance cardiaque,Principal
+DX-000140,SEJ-000061,E11,Diabète sucré de type 2,Associe
+DX-000141,SEJ-000062,J44,BPCO obstructive,Principal
+DX-000142,SEJ-000063,F03,Syndrome démentiel,Principal
+DX-000143,SEJ-000063,R07,Douleur thoracique,Associe
+DX-000144,SEJ-000064,F03,Syndrome démentiel,Principal
+DX-000145,SEJ-000064,N39,Infection urinaire,Associe
+DX-000146,SEJ-000065,I10,Hypertension essentielle,Principal
+DX-000147,SEJ-000065,I50,Insuffisance cardiaque,Complication
+DX-000148,SEJ-000065,A41,Septicémie / sepsis,Associe
+DX-000149,SEJ-000066,C50,Tumeur du sein,Principal
+DX-000150,SEJ-000066,J96,Insuffisance respiratoire aiguë,Associe
+DX-000151,SEJ-000066,F03,Syndrome démentiel,Associe
+DX-000152,SEJ-000067,S72,Fracture du col du fémur,Principal
+DX-000153,SEJ-000068,I10,Hypertension essentielle,Principal
+DX-000154,SEJ-000069,C50,Tumeur du sein,Principal
+DX-000155,SEJ-000069,I10,Hypertension essentielle,Associe
+DX-000156,SEJ-000069,C50,Tumeur du sein,Complication
+DX-000157,SEJ-000069,A41,Septicémie / sepsis,Associe
+DX-000158,SEJ-000070,J44,BPCO obstructive,Principal
+DX-000159,SEJ-000070,F03,Syndrome démentiel,Complication
+DX-000160,SEJ-000070,F03,Syndrome démentiel,Associe
+DX-000161,SEJ-000070,M16,Arthrose de la hanche,Associe
+DX-000162,SEJ-000071,J18,Pneumopathie aiguë,Principal
+DX-000163,SEJ-000071,I10,Hypertension essentielle,Associe
+DX-000164,SEJ-000071,M16,Arthrose de la hanche,Associe
+DX-000165,SEJ-000071,M16,Arthrose de la hanche,Complication
+DX-000166,SEJ-000072,I50,Insuffisance cardiaque,Principal
+DX-000167,SEJ-000072,M16,Arthrose de la hanche,Associe
+DX-000168,SEJ-000072,N39,Infection urinaire,Associe
+DX-000169,SEJ-000072,C50,Tumeur du sein,Associe
+DX-000170,SEJ-000072,J96,Insuffisance respiratoire aiguë,Complication
+DX-000171,SEJ-000072,M16,Arthrose de la hanche,Associe
+DX-000172,SEJ-000073,N18,Insuffisance rénale chronique,Principal
+DX-000173,SEJ-000073,N39,Infection urinaire,Associe
+DX-000174,SEJ-000073,S72,Fracture du col du fémur,Complication
+DX-000175,SEJ-000074,N18,Insuffisance rénale chronique,Principal
+DX-000176,SEJ-000074,S72,Fracture du col du fémur,Associe
+DX-000177,SEJ-000074,J96,Insuffisance respiratoire aiguë,Associe
+DX-000178,SEJ-000074,E78,Hyperlipidémie,Complication
+DX-000179,SEJ-000074,K92,Hémorragie digestive,Complication
+DX-000180,SEJ-000075,N18,Insuffisance rénale chronique,Principal
+DX-000181,SEJ-000076,N18,Insuffisance rénale chronique,Principal
+DX-000182,SEJ-000076,E78,Hyperlipidémie,Complication
+DX-000183,SEJ-000076,N39,Infection urinaire,Complication
+DX-000184,SEJ-000076,E78,Hyperlipidémie,Associe
+DX-000185,SEJ-000077,I10,Hypertension essentielle,Principal
+DX-000186,SEJ-000077,F03,Syndrome démentiel,Associe
+DX-000187,SEJ-000077,N18,Insuffisance rénale chronique,Associe
+DX-000188,SEJ-000078,E78,Hyperlipidémie,Principal
+DX-000189,SEJ-000078,R07,Douleur thoracique,Complication
+DX-000190,SEJ-000079,J44,BPCO obstructive,Principal
+DX-000191,SEJ-000079,J18,Pneumopathie aiguë,Associe
+DX-000192,SEJ-000079,S72,Fracture du col du fémur,Associe
+DX-000193,SEJ-000079,J18,Pneumopathie aiguë,Associe
+DX-000194,SEJ-000080,J44,BPCO obstructive,Principal
+DX-000195,SEJ-000081,J44,BPCO obstructive,Principal
+DX-000196,SEJ-000081,S72,Fracture du col du fémur,Associe
+DX-000197,SEJ-000082,M16,Arthrose de la hanche,Principal
+DX-000198,SEJ-000082,N18,Insuffisance rénale chronique,Associe
+DX-000199,SEJ-000082,J44,BPCO obstructive,Associe
+DX-000200,SEJ-000082,J96,Insuffisance respiratoire aiguë,Associe
+DX-000201,SEJ-000082,E11,Diabète sucré de type 2,Complication
+DX-000202,SEJ-000083,I10,Hypertension essentielle,Principal
+DX-000203,SEJ-000083,E78,Hyperlipidémie,Complication
+DX-000204,SEJ-000084,E78,Hyperlipidémie,Principal
+DX-000205,SEJ-000084,I10,Hypertension essentielle,Associe
+DX-000206,SEJ-000084,A41,Septicémie / sepsis,Complication
+DX-000207,SEJ-000085,I10,Hypertension essentielle,Principal
+DX-000208,SEJ-000086,J44,BPCO obstructive,Principal
+DX-000209,SEJ-000087,N39,Infection urinaire,Principal
+DX-000210,SEJ-000087,C50,Tumeur du sein,Complication
+DX-000211,SEJ-000088,K92,Hémorragie digestive,Principal
+DX-000212,SEJ-000089,K92,Hémorragie digestive,Principal
+DX-000213,SEJ-000089,J18,Pneumopathie aiguë,Complication
+DX-000214,SEJ-000090,I50,Insuffisance cardiaque,Principal
+DX-000215,SEJ-000090,N18,Insuffisance rénale chronique,Complication
+DX-000216,SEJ-000090,I50,Insuffisance cardiaque,Associe
+DX-000217,SEJ-000091,E11,Diabète sucré de type 2,Principal
+DX-000218,SEJ-000091,R07,Douleur thoracique,Complication
+DX-000219,SEJ-000091,I50,Insuffisance cardiaque,Complication
+DX-000220,SEJ-000091,J44,BPCO obstructive,Associe
+DX-000221,SEJ-000092,N18,Insuffisance rénale chronique,Principal
+DX-000222,SEJ-000093,J18,Pneumopathie aiguë,Principal
+DX-000223,SEJ-000094,F03,Syndrome démentiel,Principal
+DX-000224,SEJ-000094,J44,BPCO obstructive,Complication
+DX-000225,SEJ-000095,F03,Syndrome démentiel,Principal
+DX-000226,SEJ-000096,C50,Tumeur du sein,Principal
+DX-000227,SEJ-000097,I10,Hypertension essentielle,Principal
+DX-000228,SEJ-000098,N18,Insuffisance rénale chronique,Principal
+DX-000229,SEJ-000098,I50,Insuffisance cardiaque,Associe
+DX-000230,SEJ-000098,I10,Hypertension essentielle,Complication
+DX-000231,SEJ-000099,I10,Hypertension essentielle,Principal
+DX-000232,SEJ-000099,J44,BPCO obstructive,Complication
+DX-000233,SEJ-000100,N18,Insuffisance rénale chronique,Principal
+DX-000234,SEJ-000100,J96,Insuffisance respiratoire aiguë,Associe
+DX-000235,SEJ-000101,I10,Hypertension essentielle,Principal
+DX-000236,SEJ-000102,N39,Infection urinaire,Principal
+DX-000237,SEJ-000102,J18,Pneumopathie aiguë,Associe
+DX-000238,SEJ-000102,F03,Syndrome démentiel,Complication
+DX-000239,SEJ-000103,J44,BPCO obstructive,Principal
+DX-000240,SEJ-000103,I50,Insuffisance cardiaque,Complication
+DX-000241,SEJ-000103,J96,Insuffisance respiratoire aiguë,Complication
+DX-000242,SEJ-000103,C50,Tumeur du sein,Associe
+DX-000243,SEJ-000103,S72,Fracture du col du fémur,Associe
+DX-000244,SEJ-000104,I50,Insuffisance cardiaque,Principal
+DX-000245,SEJ-000104,F03,Syndrome démentiel,Associe
+DX-000246,SEJ-000104,J44,BPCO obstructive,Associe
+DX-000247,SEJ-000104,A41,Septicémie / sepsis,Complication
+DX-000248,SEJ-000105,R07,Douleur thoracique,Principal
+DX-000249,SEJ-000105,N18,Insuffisance rénale chronique,Complication
+DX-000250,SEJ-000105,J96,Insuffisance respiratoire aiguë,Associe
+DX-000251,SEJ-000106,F03,Syndrome démentiel,Principal
+DX-000252,SEJ-000107,E78,Hyperlipidémie,Principal
+DX-000253,SEJ-000107,N18,Insuffisance rénale chronique,Associe
+DX-000254,SEJ-000108,I50,Insuffisance cardiaque,Principal
+DX-000255,SEJ-000109,J96,Insuffisance respiratoire aiguë,Principal
+DX-000256,SEJ-000109,F03,Syndrome démentiel,Complication
+DX-000257,SEJ-000109,E78,Hyperlipidémie,Associe
+DX-000258,SEJ-000110,I10,Hypertension essentielle,Principal
+DX-000259,SEJ-000111,M16,Arthrose de la hanche,Principal
+DX-000260,SEJ-000112,E78,Hyperlipidémie,Principal
+DX-000261,SEJ-000112,I50,Insuffisance cardiaque,Associe
+DX-000262,SEJ-000112,F03,Syndrome démentiel,Associe
+DX-000263,SEJ-000113,M16,Arthrose de la hanche,Principal
+DX-000264,SEJ-000113,J18,Pneumopathie aiguë,Associe
+DX-000265,SEJ-000114,E78,Hyperlipidémie,Principal
+DX-000266,SEJ-000114,J96,Insuffisance respiratoire aiguë,Associe
+DX-000267,SEJ-000114,F03,Syndrome démentiel,Associe
+DX-000268,SEJ-000115,I10,Hypertension essentielle,Principal
+DX-000269,SEJ-000115,R07,Douleur thoracique,Associe
+DX-000270,SEJ-000116,E78,Hyperlipidémie,Principal
+DX-000271,SEJ-000116,E78,Hyperlipidémie,Complication
+DX-000272,SEJ-000116,J18,Pneumopathie aiguë,Complication
+DX-000273,SEJ-000117,J44,BPCO obstructive,Principal
+DX-000274,SEJ-000117,M16,Arthrose de la hanche,Complication
+DX-000275,SEJ-000118,J44,BPCO obstructive,Principal
+DX-000276,SEJ-000118,E11,Diabète sucré de type 2,Associe
+DX-000277,SEJ-000119,E78,Hyperlipidémie,Principal
+DX-000278,SEJ-000119,K92,Hémorragie digestive,Associe
+DX-000279,SEJ-000119,E78,Hyperlipidémie,Associe
+DX-000280,SEJ-000120,K92,Hémorragie digestive,Principal
+DX-000281,SEJ-000120,J96,Insuffisance respiratoire aiguë,Associe
+DX-000282,SEJ-000120,E78,Hyperlipidémie,Associe
+DX-000283,SEJ-000121,I50,Insuffisance cardiaque,Principal
+DX-000284,SEJ-000122,A41,Septicémie / sepsis,Principal
+DX-000285,SEJ-000123,R07,Douleur thoracique,Principal
+DX-000286,SEJ-000124,A41,Septicémie / sepsis,Principal
+DX-000287,SEJ-000125,N18,Insuffisance rénale chronique,Principal
+DX-000288,SEJ-000126,I50,Insuffisance cardiaque,Principal
+DX-000289,SEJ-000127,N39,Infection urinaire,Principal
+DX-000290,SEJ-000128,C50,Tumeur du sein,Principal
+DX-000291,SEJ-000129,F03,Syndrome démentiel,Principal
+DX-000292,SEJ-000129,S72,Fracture du col du fémur,Complication
+DX-000293,SEJ-000130,E11,Diabète sucré de type 2,Principal
+DX-000294,SEJ-000131,R07,Douleur thoracique,Principal
+DX-000295,SEJ-000131,J96,Insuffisance respiratoire aiguë,Associe
+DX-000296,SEJ-000132,E78,Hyperlipidémie,Principal
+DX-000297,SEJ-000132,M16,Arthrose de la hanche,Complication
+DX-000298,SEJ-000133,M16,Arthrose de la hanche,Principal
+DX-000299,SEJ-000133,R07,Douleur thoracique,Associe
+DX-000300,SEJ-000134,A41,Septicémie / sepsis,Principal
+DX-000301,SEJ-000134,N18,Insuffisance rénale chronique,Complication
+DX-000302,SEJ-000134,E11,Diabète sucré de type 2,Associe
+DX-000303,SEJ-000134,M16,Arthrose de la hanche,Associe
+DX-000304,SEJ-000134,I10,Hypertension essentielle,Complication
+DX-000305,SEJ-000134,K92,Hémorragie digestive,Complication
+DX-000306,SEJ-000135,F03,Syndrome démentiel,Principal
+DX-000307,SEJ-000135,I10,Hypertension essentielle,Complication
+DX-000308,SEJ-000135,E11,Diabète sucré de type 2,Complication
+DX-000309,SEJ-000136,F03,Syndrome démentiel,Principal
+DX-000310,SEJ-000136,N39,Infection urinaire,Complication
+DX-000311,SEJ-000136,E78,Hyperlipidémie,Complication
+DX-000312,SEJ-000137,K92,Hémorragie digestive,Principal
+DX-000313,SEJ-000137,E78,Hyperlipidémie,Associe
+DX-000314,SEJ-000137,N39,Infection urinaire,Complication
+DX-000315,SEJ-000138,A41,Septicémie / sepsis,Principal
+DX-000316,SEJ-000139,F03,Syndrome démentiel,Principal
+DX-000317,SEJ-000139,E78,Hyperlipidémie,Associe
+DX-000318,SEJ-000139,I50,Insuffisance cardiaque,Complication
+DX-000319,SEJ-000140,E11,Diabète sucré de type 2,Principal
+DX-000320,SEJ-000140,K92,Hémorragie digestive,Associe
+DX-000321,SEJ-000141,S72,Fracture du col du fémur,Principal
+DX-000322,SEJ-000141,R07,Douleur thoracique,Complication
+DX-000323,SEJ-000142,E78,Hyperlipidémie,Principal
+DX-000324,SEJ-000142,N18,Insuffisance rénale chronique,Associe
+DX-000325,SEJ-000143,N18,Insuffisance rénale chronique,Principal
+DX-000326,SEJ-000143,C50,Tumeur du sein,Associe
+DX-000327,SEJ-000143,J18,Pneumopathie aiguë,Associe
+DX-000328,SEJ-000143,M16,Arthrose de la hanche,Associe
+DX-000329,SEJ-000144,M16,Arthrose de la hanche,Principal
+DX-000330,SEJ-000144,J44,BPCO obstructive,Complication
+DX-000331,SEJ-000145,E11,Diabète sucré de type 2,Principal
+DX-000332,SEJ-000145,R07,Douleur thoracique,Complication
+DX-000333,SEJ-000145,A41,Septicémie / sepsis,Complication
+DX-000334,SEJ-000146,N18,Insuffisance rénale chronique,Principal
+DX-000335,SEJ-000147,I10,Hypertension essentielle,Principal
+DX-000336,SEJ-000147,S72,Fracture du col du fémur,Complication
+DX-000337,SEJ-000147,E78,Hyperlipidémie,Associe
+DX-000338,SEJ-000148,I10,Hypertension essentielle,Principal
+DX-000339,SEJ-000148,N18,Insuffisance rénale chronique,Complication
+DX-000340,SEJ-000148,N39,Infection urinaire,Associe
+DX-000341,SEJ-000149,N18,Insuffisance rénale chronique,Principal
+DX-000342,SEJ-000149,N39,Infection urinaire,Complication
+DX-000343,SEJ-000149,J96,Insuffisance respiratoire aiguë,Associe
+DX-000344,SEJ-000149,C50,Tumeur du sein,Associe
+DX-000345,SEJ-000150,A41,Septicémie / sepsis,Principal
+DX-000346,SEJ-000151,N18,Insuffisance rénale chronique,Principal
+DX-000347,SEJ-000151,M16,Arthrose de la hanche,Associe
+DX-000348,SEJ-000151,I10,Hypertension essentielle,Complication
+DX-000349,SEJ-000152,I50,Insuffisance cardiaque,Principal
+DX-000350,SEJ-000152,E78,Hyperlipidémie,Complication
+DX-000351,SEJ-000153,I50,Insuffisance cardiaque,Principal
+DX-000352,SEJ-000154,N18,Insuffisance rénale chronique,Principal
+DX-000353,SEJ-000154,J44,BPCO obstructive,Complication
+DX-000354,SEJ-000154,N18,Insuffisance rénale chronique,Complication
+DX-000355,SEJ-000155,R07,Douleur thoracique,Principal
+DX-000356,SEJ-000155,E78,Hyperlipidémie,Associe
+DX-000357,SEJ-000155,C50,Tumeur du sein,Associe
+DX-000358,SEJ-000156,E78,Hyperlipidémie,Principal
+DX-000359,SEJ-000157,E11,Diabète sucré de type 2,Principal
+DX-000360,SEJ-000158,E78,Hyperlipidémie,Principal
+DX-000361,SEJ-000158,I50,Insuffisance cardiaque,Complication
+DX-000362,SEJ-000158,S72,Fracture du col du fémur,Associe
+DX-000363,SEJ-000159,I50,Insuffisance cardiaque,Principal
+DX-000364,SEJ-000160,N18,Insuffisance rénale chronique,Principal
+DX-000365,SEJ-000160,E11,Diabète sucré de type 2,Associe
+DX-000366,SEJ-000160,S72,Fracture du col du fémur,Associe
+DX-000367,SEJ-000161,S72,Fracture du col du fémur,Principal
+DX-000368,SEJ-000161,J44,BPCO obstructive,Associe
+DX-000369,SEJ-000162,I10,Hypertension essentielle,Principal
+DX-000370,SEJ-000162,C50,Tumeur du sein,Complication
+DX-000371,SEJ-000162,M16,Arthrose de la hanche,Associe
+DX-000372,SEJ-000163,I10,Hypertension essentielle,Principal
+DX-000373,SEJ-000163,I10,Hypertension essentielle,Complication
+DX-000374,SEJ-000163,M16,Arthrose de la hanche,Associe
+DX-000375,SEJ-000164,I50,Insuffisance cardiaque,Principal
+DX-000376,SEJ-000164,C50,Tumeur du sein,Associe
+DX-000377,SEJ-000164,K92,Hémorragie digestive,Associe
+DX-000378,SEJ-000165,N18,Insuffisance rénale chronique,Principal
+DX-000379,SEJ-000166,J96,Insuffisance respiratoire aiguë,Principal
+DX-000380,SEJ-000167,N18,Insuffisance rénale chronique,Principal
+DX-000381,SEJ-000167,N39,Infection urinaire,Complication
+DX-000382,SEJ-000168,M16,Arthrose de la hanche,Principal
+DX-000383,SEJ-000168,J96,Insuffisance respiratoire aiguë,Associe
+DX-000384,SEJ-000169,J44,BPCO obstructive,Principal
+DX-000385,SEJ-000170,I10,Hypertension essentielle,Principal
+DX-000386,SEJ-000170,C50,Tumeur du sein,Associe
+DX-000387,SEJ-000170,J96,Insuffisance respiratoire aiguë,Complication
+DX-000388,SEJ-000170,A41,Septicémie / sepsis,Complication
+DX-000389,SEJ-000170,S72,Fracture du col du fémur,Associe
+DX-000390,SEJ-000170,R07,Douleur thoracique,Complication
+DX-000391,SEJ-000171,E78,Hyperlipidémie,Principal
+DX-000392,SEJ-000171,E78,Hyperlipidémie,Associe
+DX-000393,SEJ-000171,R07,Douleur thoracique,Complication
+DX-000394,SEJ-000171,N39,Infection urinaire,Associe
+DX-000395,SEJ-000171,A41,Septicémie / sepsis,Associe
+DX-000396,SEJ-000171,K92,Hémorragie digestive,Associe
+DX-000397,SEJ-000172,J18,Pneumopathie aiguë,Principal
+DX-000398,SEJ-000173,I50,Insuffisance cardiaque,Principal
+DX-000399,SEJ-000173,F03,Syndrome démentiel,Associe
+DX-000400,SEJ-000174,J96,Insuffisance respiratoire aiguë,Principal
+DX-000401,SEJ-000175,J44,BPCO obstructive,Principal
+DX-000402,SEJ-000175,F03,Syndrome démentiel,Associe
+DX-000403,SEJ-000175,K92,Hémorragie digestive,Associe
+DX-000404,SEJ-000175,M16,Arthrose de la hanche,Associe
+DX-000405,SEJ-000176,N39,Infection urinaire,Principal
+DX-000406,SEJ-000176,I10,Hypertension essentielle,Complication
+DX-000407,SEJ-000176,E78,Hyperlipidémie,Associe
+DX-000408,SEJ-000177,C50,Tumeur du sein,Principal
+DX-000409,SEJ-000178,R07,Douleur thoracique,Principal
+DX-000410,SEJ-000178,S72,Fracture du col du fémur,Associe
+DX-000411,SEJ-000179,N18,Insuffisance rénale chronique,Principal
+DX-000412,SEJ-000180,I50,Insuffisance cardiaque,Principal
+DX-000413,SEJ-000180,K92,Hémorragie digestive,Complication
+DX-000414,SEJ-000181,I50,Insuffisance cardiaque,Principal
+DX-000415,SEJ-000181,E78,Hyperlipidémie,Associe
+DX-000416,SEJ-000181,M16,Arthrose de la hanche,Complication
+DX-000417,SEJ-000182,N18,Insuffisance rénale chronique,Principal
+DX-000418,SEJ-000182,J18,Pneumopathie aiguë,Complication
+DX-000419,SEJ-000182,N18,Insuffisance rénale chronique,Associe
+DX-000420,SEJ-000183,J44,BPCO obstructive,Principal
+DX-000421,SEJ-000183,M16,Arthrose de la hanche,Complication
+DX-000422,SEJ-000184,I50,Insuffisance cardiaque,Principal
+DX-000423,SEJ-000184,K92,Hémorragie digestive,Associe
+DX-000424,SEJ-000184,E78,Hyperlipidémie,Associe
+DX-000425,SEJ-000184,M16,Arthrose de la hanche,Complication
+DX-000426,SEJ-000185,N18,Insuffisance rénale chronique,Principal
+DX-000427,SEJ-000185,M16,Arthrose de la hanche,Associe
+DX-000428,SEJ-000185,J44,BPCO obstructive,Associe
+DX-000429,SEJ-000186,I50,Insuffisance cardiaque,Principal
+DX-000430,SEJ-000186,N18,Insuffisance rénale chronique,Associe
+DX-000431,SEJ-000187,I50,Insuffisance cardiaque,Principal
+DX-000432,SEJ-000187,E11,Diabète sucré de type 2,Associe
+DX-000433,SEJ-000188,I10,Hypertension essentielle,Principal
+DX-000434,SEJ-000189,S72,Fracture du col du fémur,Principal
+DX-000435,SEJ-000189,N18,Insuffisance rénale chronique,Associe
+DX-000436,SEJ-000190,I50,Insuffisance cardiaque,Principal
+DX-000437,SEJ-000190,E11,Diabète sucré de type 2,Associe
+DX-000438,SEJ-000190,S72,Fracture du col du fémur,Complication
+DX-000439,SEJ-000190,J18,Pneumopathie aiguë,Complication
+DX-000440,SEJ-000191,S72,Fracture du col du fémur,Principal
+DX-000441,SEJ-000191,M16,Arthrose de la hanche,Associe
+DX-000442,SEJ-000192,J44,BPCO obstructive,Principal
+DX-000443,SEJ-000193,N18,Insuffisance rénale chronique,Principal
+DX-000444,SEJ-000193,E11,Diabète sucré de type 2,Associe
+DX-000445,SEJ-000194,E11,Diabète sucré de type 2,Principal
+DX-000446,SEJ-000195,M16,Arthrose de la hanche,Principal
+DX-000447,SEJ-000196,R07,Douleur thoracique,Principal
+DX-000448,SEJ-000197,E11,Diabète sucré de type 2,Principal
+DX-000449,SEJ-000197,R07,Douleur thoracique,Complication
+DX-000450,SEJ-000198,J44,BPCO obstructive,Principal
+DX-000451,SEJ-000198,I50,Insuffisance cardiaque,Complication
+DX-000452,SEJ-000198,C50,Tumeur du sein,Associe
+DX-000453,SEJ-000198,A41,Septicémie / sepsis,Complication
+DX-000454,SEJ-000198,F03,Syndrome démentiel,Complication
+DX-000455,SEJ-000199,E78,Hyperlipidémie,Principal
+DX-000456,SEJ-000199,F03,Syndrome démentiel,Complication
+DX-000457,SEJ-000199,N18,Insuffisance rénale chronique,Associe
+DX-000458,SEJ-000199,C50,Tumeur du sein,Associe
+DX-000459,SEJ-000199,R07,Douleur thoracique,Associe
+DX-000460,SEJ-000200,I10,Hypertension essentielle,Principal
+DX-000461,SEJ-000200,N39,Infection urinaire,Complication
+DX-000462,SEJ-000200,E78,Hyperlipidémie,Complication
+DX-000463,SEJ-000201,I10,Hypertension essentielle,Principal
+DX-000464,SEJ-000201,J18,Pneumopathie aiguë,Complication
+DX-000465,SEJ-000201,R07,Douleur thoracique,Complication
+DX-000466,SEJ-000202,E11,Diabète sucré de type 2,Principal
+DX-000467,SEJ-000202,J44,BPCO obstructive,Complication
+DX-000468,SEJ-000202,I10,Hypertension essentielle,Complication
+DX-000469,SEJ-000202,I50,Insuffisance cardiaque,Associe
+DX-000470,SEJ-000203,M16,Arthrose de la hanche,Principal
+DX-000471,SEJ-000204,E11,Diabète sucré de type 2,Principal
+DX-000472,SEJ-000205,N18,Insuffisance rénale chronique,Principal
+DX-000473,SEJ-000205,R07,Douleur thoracique,Complication
+DX-000474,SEJ-000206,F03,Syndrome démentiel,Principal
+DX-000475,SEJ-000207,E11,Diabète sucré de type 2,Principal
+DX-000476,SEJ-000207,K92,Hémorragie digestive,Associe
+DX-000477,SEJ-000208,I50,Insuffisance cardiaque,Principal
+DX-000478,SEJ-000208,J96,Insuffisance respiratoire aiguë,Associe
+DX-000479,SEJ-000208,N39,Infection urinaire,Associe
+DX-000480,SEJ-000208,C50,Tumeur du sein,Complication
+DX-000481,SEJ-000209,J18,Pneumopathie aiguë,Principal
+DX-000482,SEJ-000210,S72,Fracture du col du fémur,Principal
+DX-000483,SEJ-000210,F03,Syndrome démentiel,Complication
+DX-000484,SEJ-000210,F03,Syndrome démentiel,Complication
+DX-000485,SEJ-000211,J44,BPCO obstructive,Principal
+DX-000486,SEJ-000212,I10,Hypertension essentielle,Principal
+DX-000487,SEJ-000212,N18,Insuffisance rénale chronique,Associe
+DX-000488,SEJ-000213,J44,BPCO obstructive,Principal
+DX-000489,SEJ-000214,F03,Syndrome démentiel,Principal
+DX-000490,SEJ-000214,J18,Pneumopathie aiguë,Complication
+DX-000491,SEJ-000214,N39,Infection urinaire,Complication
+DX-000492,SEJ-000215,N18,Insuffisance rénale chronique,Principal
+DX-000493,SEJ-000215,A41,Septicémie / sepsis,Associe
+DX-000494,SEJ-000215,K92,Hémorragie digestive,Complication
+DX-000495,SEJ-000216,J96,Insuffisance respiratoire aiguë,Principal
+DX-000496,SEJ-000217,I10,Hypertension essentielle,Principal
+DX-000497,SEJ-000217,K92,Hémorragie digestive,Associe
+DX-000498,SEJ-000217,R07,Douleur thoracique,Complication
+DX-000499,SEJ-000218,N18,Insuffisance rénale chronique,Principal
+DX-000500,SEJ-000218,M16,Arthrose de la hanche,Associe
+DX-000501,SEJ-000219,J18,Pneumopathie aiguë,Principal
+DX-000502,SEJ-000219,A41,Septicémie / sepsis,Associe
+DX-000503,SEJ-000219,E11,Diabète sucré de type 2,Associe
+DX-000504,SEJ-000220,N18,Insuffisance rénale chronique,Principal
+DX-000505,SEJ-000220,E78,Hyperlipidémie,Associe
+DX-000506,SEJ-000220,F03,Syndrome démentiel,Associe
+DX-000507,SEJ-000220,C50,Tumeur du sein,Associe
+DX-000508,SEJ-000221,E78,Hyperlipidémie,Principal
+DX-000509,SEJ-000221,N39,Infection urinaire,Associe
+DX-000510,SEJ-000222,M16,Arthrose de la hanche,Principal
+DX-000511,SEJ-000223,N39,Infection urinaire,Principal
+DX-000512,SEJ-000223,A41,Septicémie / sepsis,Associe
+DX-000513,SEJ-000224,M16,Arthrose de la hanche,Principal
+DX-000514,SEJ-000224,E78,Hyperlipidémie,Associe
+DX-000515,SEJ-000224,A41,Septicémie / sepsis,Complication
+DX-000516,SEJ-000225,N18,Insuffisance rénale chronique,Principal
+DX-000517,SEJ-000226,I10,Hypertension essentielle,Principal
+DX-000518,SEJ-000226,F03,Syndrome démentiel,Associe
+DX-000519,SEJ-000226,S72,Fracture du col du fémur,Associe
+DX-000520,SEJ-000227,S72,Fracture du col du fémur,Principal
+DX-000521,SEJ-000227,M16,Arthrose de la hanche,Complication
+DX-000522,SEJ-000227,I10,Hypertension essentielle,Associe
+DX-000523,SEJ-000227,R07,Douleur thoracique,Associe
+DX-000524,SEJ-000228,K92,Hémorragie digestive,Principal
+DX-000525,SEJ-000229,M16,Arthrose de la hanche,Principal
+DX-000526,SEJ-000230,N18,Insuffisance rénale chronique,Principal
+DX-000527,SEJ-000230,J18,Pneumopathie aiguë,Associe
+DX-000528,SEJ-000230,I10,Hypertension essentielle,Associe
+DX-000529,SEJ-000231,I10,Hypertension essentielle,Principal
+DX-000530,SEJ-000232,E11,Diabète sucré de type 2,Principal
+DX-000531,SEJ-000232,K92,Hémorragie digestive,Complication
+DX-000532,SEJ-000233,E11,Diabète sucré de type 2,Principal
+DX-000533,SEJ-000234,C50,Tumeur du sein,Principal
+DX-000534,SEJ-000235,I50,Insuffisance cardiaque,Principal
+DX-000535,SEJ-000235,K92,Hémorragie digestive,Associe
+DX-000536,SEJ-000235,A41,Septicémie / sepsis,Associe
+DX-000537,SEJ-000235,R07,Douleur thoracique,Associe
+DX-000538,SEJ-000236,E78,Hyperlipidémie,Principal
+DX-000539,SEJ-000236,J18,Pneumopathie aiguë,Associe
+DX-000540,SEJ-000237,I50,Insuffisance cardiaque,Principal
+DX-000541,SEJ-000238,S72,Fracture du col du fémur,Principal
+DX-000542,SEJ-000238,S72,Fracture du col du fémur,Complication
+DX-000543,SEJ-000239,R07,Douleur thoracique,Principal
+DX-000544,SEJ-000240,C50,Tumeur du sein,Principal
+DX-000545,SEJ-000240,N39,Infection urinaire,Associe
+DX-000546,SEJ-000241,E11,Diabète sucré de type 2,Principal
+DX-000547,SEJ-000241,N39,Infection urinaire,Complication
+DX-000548,SEJ-000241,M16,Arthrose de la hanche,Associe
+DX-000549,SEJ-000242,N18,Insuffisance rénale chronique,Principal
+DX-000550,SEJ-000242,A41,Septicémie / sepsis,Complication
+DX-000551,SEJ-000243,I50,Insuffisance cardiaque,Principal
+DX-000552,SEJ-000243,J96,Insuffisance respiratoire aiguë,Complication
+DX-000553,SEJ-000244,E78,Hyperlipidémie,Principal
+DX-000554,SEJ-000245,R07,Douleur thoracique,Principal
+DX-000555,SEJ-000245,E11,Diabète sucré de type 2,Associe
+DX-000556,SEJ-000245,I10,Hypertension essentielle,Associe
+DX-000557,SEJ-000245,F03,Syndrome démentiel,Complication
+DX-000558,SEJ-000245,I50,Insuffisance cardiaque,Associe
+DX-000559,SEJ-000246,I50,Insuffisance cardiaque,Principal
+DX-000560,SEJ-000246,N18,Insuffisance rénale chronique,Associe
+DX-000561,SEJ-000246,M16,Arthrose de la hanche,Complication
+DX-000562,SEJ-000247,I10,Hypertension essentielle,Principal
+DX-000563,SEJ-000248,I50,Insuffisance cardiaque,Principal
+DX-000564,SEJ-000248,N39,Infection urinaire,Associe
+DX-000565,SEJ-000249,I50,Insuffisance cardiaque,Principal
+DX-000566,SEJ-000249,J18,Pneumopathie aiguë,Complication
+DX-000567,SEJ-000249,J18,Pneumopathie aiguë,Complication
+DX-000568,SEJ-000249,R07,Douleur thoracique,Associe
+DX-000569,SEJ-000249,R07,Douleur thoracique,Associe
+DX-000570,SEJ-000250,E11,Diabète sucré de type 2,Principal
+DX-000571,SEJ-000250,J96,Insuffisance respiratoire aiguë,Complication
+DX-000572,SEJ-000251,I50,Insuffisance cardiaque,Principal
+DX-000573,SEJ-000251,E11,Diabète sucré de type 2,Complication
+DX-000574,SEJ-000251,I10,Hypertension essentielle,Associe
+DX-000575,SEJ-000252,N18,Insuffisance rénale chronique,Principal
+DX-000576,SEJ-000252,F03,Syndrome démentiel,Associe
+DX-000577,SEJ-000252,I10,Hypertension essentielle,Complication
+DX-000578,SEJ-000252,N18,Insuffisance rénale chronique,Associe
+DX-000579,SEJ-000253,C50,Tumeur du sein,Principal
+DX-000580,SEJ-000254,K92,Hémorragie digestive,Principal
+DX-000581,SEJ-000255,E11,Diabète sucré de type 2,Principal
+DX-000582,SEJ-000256,E78,Hyperlipidémie,Principal
+DX-000583,SEJ-000256,E11,Diabète sucré de type 2,Complication
+DX-000584,SEJ-000256,I50,Insuffisance cardiaque,Complication
+DX-000585,SEJ-000257,J44,BPCO obstructive,Principal
+DX-000586,SEJ-000257,I10,Hypertension essentielle,Associe
+DX-000587,SEJ-000257,E78,Hyperlipidémie,Associe
+DX-000588,SEJ-000257,E11,Diabète sucré de type 2,Complication
+DX-000589,SEJ-000257,S72,Fracture du col du fémur,Associe
+DX-000590,SEJ-000257,E11,Diabète sucré de type 2,Complication
+DX-000591,SEJ-000258,J44,BPCO obstructive,Principal
+DX-000592,SEJ-000259,N18,Insuffisance rénale chronique,Principal
+DX-000593,SEJ-000260,E78,Hyperlipidémie,Principal
+DX-000594,SEJ-000260,J96,Insuffisance respiratoire aiguë,Associe
+DX-000595,SEJ-000260,M16,Arthrose de la hanche,Associe
+DX-000596,SEJ-000260,J44,BPCO obstructive,Associe
+DX-000597,SEJ-000261,J44,BPCO obstructive,Principal
+DX-000598,SEJ-000262,N18,Insuffisance rénale chronique,Principal
+DX-000599,SEJ-000262,C50,Tumeur du sein,Associe
+DX-000600,SEJ-000262,E78,Hyperlipidémie,Complication
+DX-000601,SEJ-000262,N39,Infection urinaire,Associe
+DX-000602,SEJ-000263,N18,Insuffisance rénale chronique,Principal
+DX-000603,SEJ-000263,S72,Fracture du col du fémur,Associe
+DX-000604,SEJ-000264,N18,Insuffisance rénale chronique,Principal
+DX-000605,SEJ-000265,J44,BPCO obstructive,Principal
+DX-000606,SEJ-000265,K92,Hémorragie digestive,Complication
+DX-000607,SEJ-000266,C50,Tumeur du sein,Principal
+DX-000608,SEJ-000266,E78,Hyperlipidémie,Complication
+DX-000609,SEJ-000266,E11,Diabète sucré de type 2,Complication
+DX-000610,SEJ-000266,E78,Hyperlipidémie,Complication
+DX-000611,SEJ-000266,J44,BPCO obstructive,Associe
+DX-000612,SEJ-000267,E11,Diabète sucré de type 2,Principal
+DX-000613,SEJ-000267,J96,Insuffisance respiratoire aiguë,Complication
+DX-000614,SEJ-000268,K92,Hémorragie digestive,Principal
+DX-000615,SEJ-000268,K92,Hémorragie digestive,Associe
+DX-000616,SEJ-000268,R07,Douleur thoracique,Associe
+DX-000617,SEJ-000269,N18,Insuffisance rénale chronique,Principal
+DX-000618,SEJ-000269,E11,Diabète sucré de type 2,Associe
+DX-000619,SEJ-000270,A41,Septicémie / sepsis,Principal
+DX-000620,SEJ-000270,J96,Insuffisance respiratoire aiguë,Associe
+DX-000621,SEJ-000271,E11,Diabète sucré de type 2,Principal
+DX-000622,SEJ-000272,A41,Septicémie / sepsis,Principal
+DX-000623,SEJ-000272,E78,Hyperlipidémie,Associe
+DX-000624,SEJ-000272,I10,Hypertension essentielle,Complication
+DX-000625,SEJ-000273,J44,BPCO obstructive,Principal
+DX-000626,SEJ-000273,E11,Diabète sucré de type 2,Complication
+DX-000627,SEJ-000273,K92,Hémorragie digestive,Associe
+DX-000628,SEJ-000273,S72,Fracture du col du fémur,Complication
+DX-000629,SEJ-000274,J44,BPCO obstructive,Principal
+DX-000630,SEJ-000274,A41,Septicémie / sepsis,Associe
+DX-000631,SEJ-000275,E11,Diabète sucré de type 2,Principal
+DX-000632,SEJ-000275,E11,Diabète sucré de type 2,Associe
+DX-000633,SEJ-000275,R07,Douleur thoracique,Associe
+DX-000634,SEJ-000275,I10,Hypertension essentielle,Associe
+DX-000635,SEJ-000276,J96,Insuffisance respiratoire aiguë,Principal
+DX-000636,SEJ-000276,J96,Insuffisance respiratoire aiguë,Associe
+DX-000637,SEJ-000276,F03,Syndrome démentiel,Complication
+DX-000638,SEJ-000277,J96,Insuffisance respiratoire aiguë,Principal
+DX-000639,SEJ-000278,A41,Septicémie / sepsis,Principal
+DX-000640,SEJ-000278,S72,Fracture du col du fémur,Complication
+DX-000641,SEJ-000278,R07,Douleur thoracique,Associe
+DX-000642,SEJ-000278,C50,Tumeur du sein,Complication
+DX-000643,SEJ-000279,M16,Arthrose de la hanche,Principal
+DX-000644,SEJ-000279,J18,Pneumopathie aiguë,Associe
+DX-000645,SEJ-000279,E11,Diabète sucré de type 2,Complication
+DX-000646,SEJ-000279,K92,Hémorragie digestive,Associe
+DX-000647,SEJ-000279,J18,Pneumopathie aiguë,Associe
+DX-000648,SEJ-000280,I50,Insuffisance cardiaque,Principal
+DX-000649,SEJ-000280,M16,Arthrose de la hanche,Associe
+DX-000650,SEJ-000281,I50,Insuffisance cardiaque,Principal
+DX-000651,SEJ-000281,J18,Pneumopathie aiguë,Complication
+DX-000652,SEJ-000282,J44,BPCO obstructive,Principal
+DX-000653,SEJ-000282,M16,Arthrose de la hanche,Associe
+DX-000654,SEJ-000283,I50,Insuffisance cardiaque,Principal
+DX-000655,SEJ-000283,C50,Tumeur du sein,Complication
+DX-000656,SEJ-000284,I10,Hypertension essentielle,Principal
+DX-000657,SEJ-000285,J96,Insuffisance respiratoire aiguë,Principal
+DX-000658,SEJ-000285,K92,Hémorragie digestive,Complication
+DX-000659,SEJ-000285,I50,Insuffisance cardiaque,Associe
+DX-000660,SEJ-000285,J44,BPCO obstructive,Associe
+DX-000661,SEJ-000286,J44,BPCO obstructive,Principal
+DX-000662,SEJ-000286,I10,Hypertension essentielle,Associe
+DX-000663,SEJ-000286,J44,BPCO obstructive,Associe
+DX-000664,SEJ-000287,E78,Hyperlipidémie,Principal
+DX-000665,SEJ-000287,F03,Syndrome démentiel,Associe
+DX-000666,SEJ-000288,E78,Hyperlipidémie,Principal
+DX-000667,SEJ-000289,J44,BPCO obstructive,Principal
+DX-000668,SEJ-000290,I10,Hypertension essentielle,Principal
+DX-000669,SEJ-000290,C50,Tumeur du sein,Associe
+DX-000670,SEJ-000291,N18,Insuffisance rénale chronique,Principal
+DX-000671,SEJ-000291,J18,Pneumopathie aiguë,Associe
+DX-000672,SEJ-000292,K92,Hémorragie digestive,Principal
+DX-000673,SEJ-000292,I10,Hypertension essentielle,Associe
+DX-000674,SEJ-000293,R07,Douleur thoracique,Principal
+DX-000675,SEJ-000294,J96,Insuffisance respiratoire aiguë,Principal
+DX-000676,SEJ-000294,S72,Fracture du col du fémur,Associe
+DX-000677,SEJ-000294,J44,BPCO obstructive,Associe
+DX-000678,SEJ-000294,M16,Arthrose de la hanche,Complication
+DX-000679,SEJ-000295,K92,Hémorragie digestive,Principal
+DX-000680,SEJ-000295,I10,Hypertension essentielle,Complication
+DX-000681,SEJ-000295,R07,Douleur thoracique,Associe
+DX-000682,SEJ-000296,N39,Infection urinaire,Principal
+DX-000683,SEJ-000296,N18,Insuffisance rénale chronique,Associe
+DX-000684,SEJ-000296,I50,Insuffisance cardiaque,Complication
+DX-000685,SEJ-000297,J96,Insuffisance respiratoire aiguë,Principal
+DX-000686,SEJ-000297,M16,Arthrose de la hanche,Associe
+DX-000687,SEJ-000298,J18,Pneumopathie aiguë,Principal
+DX-000688,SEJ-000298,I10,Hypertension essentielle,Associe
+DX-000689,SEJ-000298,M16,Arthrose de la hanche,Associe
+DX-000690,SEJ-000299,J44,BPCO obstructive,Principal
+DX-000691,SEJ-000299,J44,BPCO obstructive,Associe
+DX-000692,SEJ-000299,J96,Insuffisance respiratoire aiguë,Associe
+DX-000693,SEJ-000299,R07,Douleur thoracique,Complication
+DX-000694,SEJ-000299,I10,Hypertension essentielle,Associe
+DX-000695,SEJ-000299,A41,Septicémie / sepsis,Associe
+DX-000696,SEJ-000300,E11,Diabète sucré de type 2,Principal
+DX-000697,SEJ-000301,J96,Insuffisance respiratoire aiguë,Principal
+DX-000698,SEJ-000301,I50,Insuffisance cardiaque,Associe
+DX-000699,SEJ-000301,K92,Hémorragie digestive,Associe
+DX-000700,SEJ-000302,J44,BPCO obstructive,Principal
+DX-000701,SEJ-000302,N39,Infection urinaire,Associe
+DX-000702,SEJ-000303,J44,BPCO obstructive,Principal
+DX-000703,SEJ-000303,C50,Tumeur du sein,Complication
+DX-000704,SEJ-000304,J44,BPCO obstructive,Principal
+DX-000705,SEJ-000304,K92,Hémorragie digestive,Complication
+DX-000706,SEJ-000304,J96,Insuffisance respiratoire aiguë,Complication
+DX-000707,SEJ-000304,J44,BPCO obstructive,Associe
+DX-000708,SEJ-000305,J44,BPCO obstructive,Principal
+DX-000709,SEJ-000305,E78,Hyperlipidémie,Complication
+DX-000710,SEJ-000306,C50,Tumeur du sein,Principal
+DX-000711,SEJ-000306,C50,Tumeur du sein,Associe
+DX-000712,SEJ-000306,E78,Hyperlipidémie,Complication
+DX-000713,SEJ-000307,J44,BPCO obstructive,Principal
+DX-000714,SEJ-000308,F03,Syndrome démentiel,Principal
+DX-000715,SEJ-000308,J18,Pneumopathie aiguë,Associe
+DX-000716,SEJ-000309,J96,Insuffisance respiratoire aiguë,Principal
+DX-000717,SEJ-000309,N18,Insuffisance rénale chronique,Complication
+DX-000718,SEJ-000309,A41,Septicémie / sepsis,Associe
+DX-000719,SEJ-000309,C50,Tumeur du sein,Associe
+DX-000720,SEJ-000310,E11,Diabète sucré de type 2,Principal
+DX-000721,SEJ-000310,A41,Septicémie / sepsis,Associe
+DX-000722,SEJ-000310,E11,Diabète sucré de type 2,Complication
+DX-000723,SEJ-000311,M16,Arthrose de la hanche,Principal
+DX-000724,SEJ-000311,E11,Diabète sucré de type 2,Associe
+DX-000725,SEJ-000311,M16,Arthrose de la hanche,Associe
+DX-000726,SEJ-000311,F03,Syndrome démentiel,Associe
+DX-000727,SEJ-000312,N18,Insuffisance rénale chronique,Principal
+DX-000728,SEJ-000313,R07,Douleur thoracique,Principal
+DX-000729,SEJ-000313,M16,Arthrose de la hanche,Complication
+DX-000730,SEJ-000314,E78,Hyperlipidémie,Principal
+DX-000731,SEJ-000314,I10,Hypertension essentielle,Associe
+DX-000732,SEJ-000314,I10,Hypertension essentielle,Associe
+DX-000733,SEJ-000314,M16,Arthrose de la hanche,Complication
+DX-000734,SEJ-000315,E11,Diabète sucré de type 2,Principal
+DX-000735,SEJ-000315,R07,Douleur thoracique,Associe
+DX-000736,SEJ-000316,I10,Hypertension essentielle,Principal
+DX-000737,SEJ-000316,N39,Infection urinaire,Associe
+DX-000738,SEJ-000317,N39,Infection urinaire,Principal
+DX-000739,SEJ-000318,K92,Hémorragie digestive,Principal
+DX-000740,SEJ-000318,E78,Hyperlipidémie,Associe
+DX-000741,SEJ-000319,M16,Arthrose de la hanche,Principal
+DX-000742,SEJ-000319,F03,Syndrome démentiel,Complication
+DX-000743,SEJ-000319,K92,Hémorragie digestive,Associe
+DX-000744,SEJ-000320,J96,Insuffisance respiratoire aiguë,Principal
+DX-000745,SEJ-000321,E11,Diabète sucré de type 2,Principal
+DX-000746,SEJ-000321,C50,Tumeur du sein,Complication
+DX-000747,SEJ-000322,E11,Diabète sucré de type 2,Principal
+DX-000748,SEJ-000323,C50,Tumeur du sein,Principal
+DX-000749,SEJ-000323,A41,Septicémie / sepsis,Complication
+DX-000750,SEJ-000324,E11,Diabète sucré de type 2,Principal
+DX-000751,SEJ-000325,E11,Diabète sucré de type 2,Principal
+DX-000752,SEJ-000326,J44,BPCO obstructive,Principal
+DX-000753,SEJ-000327,J44,BPCO obstructive,Principal
+DX-000754,SEJ-000327,E11,Diabète sucré de type 2,Associe
+DX-000755,SEJ-000327,N39,Infection urinaire,Associe
+DX-000756,SEJ-000327,S72,Fracture du col du fémur,Associe
+DX-000757,SEJ-000327,J18,Pneumopathie aiguë,Associe
+DX-000758,SEJ-000327,M16,Arthrose de la hanche,Associe
+DX-000759,SEJ-000328,I10,Hypertension essentielle,Principal
+DX-000760,SEJ-000328,R07,Douleur thoracique,Complication
+DX-000761,SEJ-000328,C50,Tumeur du sein,Associe
+DX-000762,SEJ-000329,A41,Septicémie / sepsis,Principal
+DX-000763,SEJ-000329,E11,Diabète sucré de type 2,Associe
+DX-000764,SEJ-000329,N18,Insuffisance rénale chronique,Complication
+DX-000765,SEJ-000330,N18,Insuffisance rénale chronique,Principal
+DX-000766,SEJ-000331,J96,Insuffisance respiratoire aiguë,Principal
+DX-000767,SEJ-000331,J44,BPCO obstructive,Complication
+DX-000768,SEJ-000332,N39,Infection urinaire,Principal
+DX-000769,SEJ-000333,N18,Insuffisance rénale chronique,Principal
+DX-000770,SEJ-000334,N18,Insuffisance rénale chronique,Principal
+DX-000771,SEJ-000334,S72,Fracture du col du fémur,Associe
+DX-000772,SEJ-000334,S72,Fracture du col du fémur,Complication
+DX-000773,SEJ-000334,J44,BPCO obstructive,Associe
+DX-000774,SEJ-000335,E11,Diabète sucré de type 2,Principal
+DX-000775,SEJ-000335,K92,Hémorragie digestive,Associe
+DX-000776,SEJ-000335,J18,Pneumopathie aiguë,Complication
+DX-000777,SEJ-000336,E11,Diabète sucré de type 2,Principal
+DX-000778,SEJ-000337,E11,Diabète sucré de type 2,Principal
+DX-000779,SEJ-000337,S72,Fracture du col du fémur,Complication
+DX-000780,SEJ-000337,E11,Diabète sucré de type 2,Complication
+DX-000781,SEJ-000338,M16,Arthrose de la hanche,Principal
+DX-000782,SEJ-000338,J96,Insuffisance respiratoire aiguë,Complication
+DX-000783,SEJ-000339,I10,Hypertension essentielle,Principal
+DX-000784,SEJ-000340,J96,Insuffisance respiratoire aiguë,Principal
+DX-000785,SEJ-000341,E11,Diabète sucré de type 2,Principal
+DX-000786,SEJ-000341,A41,Septicémie / sepsis,Associe
+DX-000787,SEJ-000341,R07,Douleur thoracique,Associe
+DX-000788,SEJ-000342,J96,Insuffisance respiratoire aiguë,Principal
+DX-000789,SEJ-000342,A41,Septicémie / sepsis,Associe
+DX-000790,SEJ-000343,E11,Diabète sucré de type 2,Principal
+DX-000791,SEJ-000344,R07,Douleur thoracique,Principal
+DX-000792,SEJ-000345,E11,Diabète sucré de type 2,Principal
+DX-000793,SEJ-000346,J44,BPCO obstructive,Principal
+DX-000794,SEJ-000346,N18,Insuffisance rénale chronique,Associe
+DX-000795,SEJ-000347,J44,BPCO obstructive,Principal
+DX-000796,SEJ-000347,J96,Insuffisance respiratoire aiguë,Complication
+DX-000797,SEJ-000348,N18,Insuffisance rénale chronique,Principal
+DX-000798,SEJ-000348,A41,Septicémie / sepsis,Associe
+DX-000799,SEJ-000348,N39,Infection urinaire,Complication
+DX-000800,SEJ-000349,N18,Insuffisance rénale chronique,Principal
+DX-000801,SEJ-000349,J96,Insuffisance respiratoire aiguë,Associe
+DX-000802,SEJ-000349,N18,Insuffisance rénale chronique,Complication
+DX-000803,SEJ-000349,K92,Hémorragie digestive,Associe
+DX-000804,SEJ-000349,N18,Insuffisance rénale chronique,Associe
+DX-000805,SEJ-000350,N18,Insuffisance rénale chronique,Principal
+DX-000806,SEJ-000350,E78,Hyperlipidémie,Associe
+DX-000807,SEJ-000350,A41,Septicémie / sepsis,Complication
+DX-000808,SEJ-000350,N18,Insuffisance rénale chronique,Associe
+DX-000809,SEJ-000351,E11,Diabète sucré de type 2,Principal
+DX-000810,SEJ-000351,J18,Pneumopathie aiguë,Associe
+DX-000811,SEJ-000352,J44,BPCO obstructive,Principal
+DX-000812,SEJ-000353,N39,Infection urinaire,Principal
+DX-000813,SEJ-000353,K92,Hémorragie digestive,Complication
+DX-000814,SEJ-000354,E11,Diabète sucré de type 2,Principal
+DX-000815,SEJ-000354,R07,Douleur thoracique,Associe
+DX-000816,SEJ-000354,K92,Hémorragie digestive,Associe
+DX-000817,SEJ-000355,E78,Hyperlipidémie,Principal
+DX-000818,SEJ-000355,K92,Hémorragie digestive,Associe
+DX-000819,SEJ-000356,N39,Infection urinaire,Principal
+DX-000820,SEJ-000357,N18,Insuffisance rénale chronique,Principal
+DX-000821,SEJ-000358,J44,BPCO obstructive,Principal
+DX-000822,SEJ-000358,C50,Tumeur du sein,Associe
+DX-000823,SEJ-000359,E78,Hyperlipidémie,Principal
+DX-000824,SEJ-000360,J44,BPCO obstructive,Principal
+DX-000825,SEJ-000361,E78,Hyperlipidémie,Principal
+DX-000826,SEJ-000361,J44,BPCO obstructive,Complication
+DX-000827,SEJ-000362,N18,Insuffisance rénale chronique,Principal
+DX-000828,SEJ-000362,N18,Insuffisance rénale chronique,Associe
+DX-000829,SEJ-000362,M16,Arthrose de la hanche,Complication
+DX-000830,SEJ-000362,C50,Tumeur du sein,Complication
+DX-000831,SEJ-000362,C50,Tumeur du sein,Associe
+DX-000832,SEJ-000362,A41,Septicémie / sepsis,Associe
+DX-000833,SEJ-000363,J18,Pneumopathie aiguë,Principal
+DX-000834,SEJ-000363,A41,Septicémie / sepsis,Complication
+DX-000835,SEJ-000363,A41,Septicémie / sepsis,Complication
+DX-000836,SEJ-000364,S72,Fracture du col du fémur,Principal
+DX-000837,SEJ-000365,E11,Diabète sucré de type 2,Principal
+DX-000838,SEJ-000366,N18,Insuffisance rénale chronique,Principal
+DX-000839,SEJ-000366,J44,BPCO obstructive,Complication
+DX-000840,SEJ-000366,R07,Douleur thoracique,Associe
+DX-000841,SEJ-000366,J96,Insuffisance respiratoire aiguë,Associe
+DX-000842,SEJ-000366,E11,Diabète sucré de type 2,Associe
+DX-000843,SEJ-000367,I50,Insuffisance cardiaque,Principal
+DX-000844,SEJ-000367,I50,Insuffisance cardiaque,Associe
+DX-000845,SEJ-000367,I10,Hypertension essentielle,Complication
+DX-000846,SEJ-000368,N18,Insuffisance rénale chronique,Principal
+DX-000847,SEJ-000368,K92,Hémorragie digestive,Complication
+DX-000848,SEJ-000368,F03,Syndrome démentiel,Associe
+DX-000849,SEJ-000368,I50,Insuffisance cardiaque,Complication
+DX-000850,SEJ-000369,J44,BPCO obstructive,Principal
+DX-000851,SEJ-000370,E78,Hyperlipidémie,Principal
+DX-000852,SEJ-000370,M16,Arthrose de la hanche,Associe
+DX-000853,SEJ-000370,E78,Hyperlipidémie,Complication
+DX-000854,SEJ-000370,E78,Hyperlipidémie,Associe
+DX-000855,SEJ-000371,R07,Douleur thoracique,Principal
+DX-000856,SEJ-000371,S72,Fracture du col du fémur,Complication
+DX-000857,SEJ-000372,N18,Insuffisance rénale chronique,Principal
+DX-000858,SEJ-000372,E78,Hyperlipidémie,Complication
+DX-000859,SEJ-000372,E11,Diabète sucré de type 2,Associe
+DX-000860,SEJ-000373,E11,Diabète sucré de type 2,Principal
+DX-000861,SEJ-000374,E78,Hyperlipidémie,Principal
+DX-000862,SEJ-000374,R07,Douleur thoracique,Associe
+DX-000863,SEJ-000374,K92,Hémorragie digestive,Complication
+DX-000864,SEJ-000375,J44,BPCO obstructive,Principal
+DX-000865,SEJ-000375,A41,Septicémie / sepsis,Associe
+DX-000866,SEJ-000375,I50,Insuffisance cardiaque,Associe
+DX-000867,SEJ-000376,E11,Diabète sucré de type 2,Principal
+DX-000868,SEJ-000377,E11,Diabète sucré de type 2,Principal
+DX-000869,SEJ-000378,N18,Insuffisance rénale chronique,Principal
+DX-000870,SEJ-000379,I50,Insuffisance cardiaque,Principal
+DX-000871,SEJ-000379,J96,Insuffisance respiratoire aiguë,Associe
+DX-000872,SEJ-000379,E78,Hyperlipidémie,Associe
+DX-000873,SEJ-000380,J96,Insuffisance respiratoire aiguë,Principal
+DX-000874,SEJ-000380,J18,Pneumopathie aiguë,Associe
+DX-000875,SEJ-000381,F03,Syndrome démentiel,Principal
+DX-000876,SEJ-000382,N18,Insuffisance rénale chronique,Principal
+DX-000877,SEJ-000383,I50,Insuffisance cardiaque,Principal
+DX-000878,SEJ-000383,S72,Fracture du col du fémur,Complication
+DX-000879,SEJ-000383,J44,BPCO obstructive,Associe
+DX-000880,SEJ-000383,S72,Fracture du col du fémur,Associe
+DX-000881,SEJ-000383,M16,Arthrose de la hanche,Associe
+DX-000882,SEJ-000384,N39,Infection urinaire,Principal
+DX-000883,SEJ-000384,J44,BPCO obstructive,Associe
+DX-000884,SEJ-000385,E11,Diabète sucré de type 2,Principal
+DX-000885,SEJ-000385,F03,Syndrome démentiel,Associe
+DX-000886,SEJ-000385,A41,Septicémie / sepsis,Associe
+DX-000887,SEJ-000385,M16,Arthrose de la hanche,Complication
+DX-000888,SEJ-000386,E78,Hyperlipidémie,Principal
+DX-000889,SEJ-000387,E78,Hyperlipidémie,Principal
+DX-000890,SEJ-000387,E11,Diabète sucré de type 2,Complication
+DX-000891,SEJ-000388,S72,Fracture du col du fémur,Principal
+DX-000892,SEJ-000388,J18,Pneumopathie aiguë,Complication
+DX-000893,SEJ-000388,C50,Tumeur du sein,Complication
+DX-000894,SEJ-000388,J44,BPCO obstructive,Complication
+DX-000895,SEJ-000389,N39,Infection urinaire,Principal
+DX-000896,SEJ-000390,R07,Douleur thoracique,Principal
+DX-000897,SEJ-000390,I10,Hypertension essentielle,Associe
+DX-000898,SEJ-000391,N39,Infection urinaire,Principal
+DX-000899,SEJ-000392,I50,Insuffisance cardiaque,Principal
+DX-000900,SEJ-000392,J96,Insuffisance respiratoire aiguë,Associe
+DX-000901,SEJ-000392,S72,Fracture du col du fémur,Complication
+DX-000902,SEJ-000392,J96,Insuffisance respiratoire aiguë,Associe
+DX-000903,SEJ-000393,I50,Insuffisance cardiaque,Principal
+DX-000904,SEJ-000393,N18,Insuffisance rénale chronique,Associe
+DX-000905,SEJ-000394,R07,Douleur thoracique,Principal
+DX-000906,SEJ-000395,E78,Hyperlipidémie,Principal
+DX-000907,SEJ-000395,I10,Hypertension essentielle,Complication
+DX-000908,SEJ-000395,J44,BPCO obstructive,Complication
+DX-000909,SEJ-000395,K92,Hémorragie digestive,Complication
+DX-000910,SEJ-000395,C50,Tumeur du sein,Associe
+DX-000911,SEJ-000396,E78,Hyperlipidémie,Principal
+DX-000912,SEJ-000396,M16,Arthrose de la hanche,Complication
+DX-000913,SEJ-000397,K92,Hémorragie digestive,Principal
+DX-000914,SEJ-000397,R07,Douleur thoracique,Complication
+DX-000915,SEJ-000397,F03,Syndrome démentiel,Complication
+DX-000916,SEJ-000397,I10,Hypertension essentielle,Complication
+DX-000917,SEJ-000398,F03,Syndrome démentiel,Principal
+DX-000918,SEJ-000399,E11,Diabète sucré de type 2,Principal
+DX-000919,SEJ-000399,S72,Fracture du col du fémur,Associe
+DX-000920,SEJ-000399,E78,Hyperlipidémie,Associe
+DX-000921,SEJ-000400,C50,Tumeur du sein,Principal
+DX-000922,SEJ-000400,J96,Insuffisance respiratoire aiguë,Associe
+DX-000923,SEJ-000400,N39,Infection urinaire,Associe
+DX-000924,SEJ-000401,N18,Insuffisance rénale chronique,Principal
+DX-000925,SEJ-000401,J44,BPCO obstructive,Associe
+DX-000926,SEJ-000401,I10,Hypertension essentielle,Complication
+DX-000927,SEJ-000401,E11,Diabète sucré de type 2,Complication
+DX-000928,SEJ-000402,I10,Hypertension essentielle,Principal
+DX-000929,SEJ-000402,J96,Insuffisance respiratoire aiguë,Associe
+DX-000930,SEJ-000403,J96,Insuffisance respiratoire aiguë,Principal
+DX-000931,SEJ-000403,J96,Insuffisance respiratoire aiguë,Complication
+DX-000932,SEJ-000403,I50,Insuffisance cardiaque,Associe
+DX-000933,SEJ-000403,R07,Douleur thoracique,Associe
+DX-000934,SEJ-000404,I10,Hypertension essentielle,Principal
+DX-000935,SEJ-000405,N18,Insuffisance rénale chronique,Principal
+DX-000936,SEJ-000405,J44,BPCO obstructive,Complication
+DX-000937,SEJ-000406,C50,Tumeur du sein,Principal
+DX-000938,SEJ-000406,J18,Pneumopathie aiguë,Associe
+DX-000939,SEJ-000406,N39,Infection urinaire,Complication
+DX-000940,SEJ-000406,K92,Hémorragie digestive,Associe
+DX-000941,SEJ-000407,I50,Insuffisance cardiaque,Principal
+DX-000942,SEJ-000407,M16,Arthrose de la hanche,Associe
+DX-000943,SEJ-000407,J44,BPCO obstructive,Complication
+DX-000944,SEJ-000408,I50,Insuffisance cardiaque,Principal
+DX-000945,SEJ-000409,J44,BPCO obstructive,Principal
+DX-000946,SEJ-000409,C50,Tumeur du sein,Associe
+DX-000947,SEJ-000409,N18,Insuffisance rénale chronique,Complication
+DX-000948,SEJ-000410,N18,Insuffisance rénale chronique,Principal
+DX-000949,SEJ-000411,N39,Infection urinaire,Principal
+DX-000950,SEJ-000411,J44,BPCO obstructive,Complication
+DX-000951,SEJ-000411,E78,Hyperlipidémie,Associe
+DX-000952,SEJ-000412,M16,Arthrose de la hanche,Principal
+DX-000953,SEJ-000412,J44,BPCO obstructive,Associe
+DX-000954,SEJ-000413,A41,Septicémie / sepsis,Principal
+DX-000955,SEJ-000414,S72,Fracture du col du fémur,Principal
+DX-000956,SEJ-000414,I50,Insuffisance cardiaque,Associe
+DX-000957,SEJ-000415,N39,Infection urinaire,Principal
+DX-000958,SEJ-000415,N39,Infection urinaire,Complication
+DX-000959,SEJ-000415,F03,Syndrome démentiel,Associe
+DX-000960,SEJ-000416,F03,Syndrome démentiel,Principal
+DX-000961,SEJ-000416,C50,Tumeur du sein,Associe
+DX-000962,SEJ-000416,R07,Douleur thoracique,Complication
+DX-000963,SEJ-000417,M16,Arthrose de la hanche,Principal
+DX-000964,SEJ-000417,E78,Hyperlipidémie,Associe
+DX-000965,SEJ-000418,N18,Insuffisance rénale chronique,Principal
+DX-000966,SEJ-000418,K92,Hémorragie digestive,Complication
+DX-000967,SEJ-000418,E78,Hyperlipidémie,Associe
+DX-000968,SEJ-000419,I10,Hypertension essentielle,Principal
+DX-000969,SEJ-000419,S72,Fracture du col du fémur,Associe
+DX-000970,SEJ-000419,F03,Syndrome démentiel,Associe
+DX-000971,SEJ-000419,A41,Septicémie / sepsis,Associe
+DX-000972,SEJ-000420,N39,Infection urinaire,Principal
+DX-000973,SEJ-000420,F03,Syndrome démentiel,Associe
+DX-000974,SEJ-000420,A41,Septicémie / sepsis,Associe
+DX-000975,SEJ-000421,E78,Hyperlipidémie,Principal
+DX-000976,SEJ-000422,A41,Septicémie / sepsis,Principal
+DX-000977,SEJ-000422,I10,Hypertension essentielle,Associe
+DX-000978,SEJ-000422,E11,Diabète sucré de type 2,Complication
+DX-000979,SEJ-000422,N18,Insuffisance rénale chronique,Complication
+DX-000980,SEJ-000422,A41,Septicémie / sepsis,Complication
+DX-000981,SEJ-000422,J44,BPCO obstructive,Associe
+DX-000982,SEJ-000423,J44,BPCO obstructive,Principal
+DX-000983,SEJ-000424,N18,Insuffisance rénale chronique,Principal
+DX-000984,SEJ-000425,C50,Tumeur du sein,Principal
+DX-000985,SEJ-000425,N18,Insuffisance rénale chronique,Complication
+DX-000986,SEJ-000426,J44,BPCO obstructive,Principal
+DX-000987,SEJ-000427,A41,Septicémie / sepsis,Principal
+DX-000988,SEJ-000428,R07,Douleur thoracique,Principal
+DX-000989,SEJ-000428,K92,Hémorragie digestive,Associe
+DX-000990,SEJ-000429,I50,Insuffisance cardiaque,Principal
+DX-000991,SEJ-000430,N39,Infection urinaire,Principal
+DX-000992,SEJ-000430,M16,Arthrose de la hanche,Complication
+DX-000993,SEJ-000431,J44,BPCO obstructive,Principal
+DX-000994,SEJ-000431,I50,Insuffisance cardiaque,Complication
+DX-000995,SEJ-000431,N18,Insuffisance rénale chronique,Complication
+DX-000996,SEJ-000431,R07,Douleur thoracique,Associe
+DX-000997,SEJ-000431,E78,Hyperlipidémie,Complication
+DX-000998,SEJ-000432,E11,Diabète sucré de type 2,Principal
+DX-000999,SEJ-000432,A41,Septicémie / sepsis,Complication
+DX-001000,SEJ-000433,E11,Diabète sucré de type 2,Principal
+DX-001001,SEJ-000434,J96,Insuffisance respiratoire aiguë,Principal
+DX-001002,SEJ-000434,C50,Tumeur du sein,Complication
+DX-001003,SEJ-000435,J44,BPCO obstructive,Principal
+DX-001004,SEJ-000435,N18,Insuffisance rénale chronique,Complication
+DX-001005,SEJ-000436,E11,Diabète sucré de type 2,Principal
+DX-001006,SEJ-000437,J18,Pneumopathie aiguë,Principal
+DX-001007,SEJ-000438,N39,Infection urinaire,Principal
+DX-001008,SEJ-000438,F03,Syndrome démentiel,Complication
+DX-001009,SEJ-000438,N39,Infection urinaire,Complication
+DX-001010,SEJ-000438,K92,Hémorragie digestive,Complication
+DX-001011,SEJ-000439,M16,Arthrose de la hanche,Principal
+DX-001012,SEJ-000440,N18,Insuffisance rénale chronique,Principal
+DX-001013,SEJ-000441,N18,Insuffisance rénale chronique,Principal
+DX-001014,SEJ-000441,S72,Fracture du col du fémur,Associe
+DX-001015,SEJ-000442,E78,Hyperlipidémie,Principal
+DX-001016,SEJ-000443,I10,Hypertension essentielle,Principal
+DX-001017,SEJ-000444,R07,Douleur thoracique,Principal
+DX-001018,SEJ-000445,S72,Fracture du col du fémur,Principal
+DX-001019,SEJ-000446,C50,Tumeur du sein,Principal
+DX-001020,SEJ-000446,N18,Insuffisance rénale chronique,Associe
+DX-001021,SEJ-000446,E78,Hyperlipidémie,Complication
+DX-001022,SEJ-000447,I10,Hypertension essentielle,Principal
+DX-001023,SEJ-000447,I50,Insuffisance cardiaque,Complication
+DX-001024,SEJ-000447,R07,Douleur thoracique,Associe
+DX-001025,SEJ-000448,M16,Arthrose de la hanche,Principal
+DX-001026,SEJ-000449,N39,Infection urinaire,Principal
+DX-001027,SEJ-000449,N39,Infection urinaire,Complication
+DX-001028,SEJ-000449,J96,Insuffisance respiratoire aiguë,Complication
+DX-001029,SEJ-000449,E11,Diabète sucré de type 2,Complication
+DX-001030,SEJ-000449,N39,Infection urinaire,Associe
+DX-001031,SEJ-000450,J96,Insuffisance respiratoire aiguë,Principal
+DX-001032,SEJ-000450,F03,Syndrome démentiel,Associe
+DX-001033,SEJ-000451,E11,Diabète sucré de type 2,Principal
+DX-001034,SEJ-000451,E78,Hyperlipidémie,Associe
+DX-001035,SEJ-000452,N39,Infection urinaire,Principal
+DX-001036,SEJ-000452,N18,Insuffisance rénale chronique,Complication
+DX-001037,SEJ-000452,R07,Douleur thoracique,Associe
+DX-001038,SEJ-000453,N18,Insuffisance rénale chronique,Principal
+DX-001039,SEJ-000453,F03,Syndrome démentiel,Associe
+DX-001040,SEJ-000454,E11,Diabète sucré de type 2,Principal
+DX-001041,SEJ-000455,N39,Infection urinaire,Principal
+DX-001042,SEJ-000455,C50,Tumeur du sein,Complication
+DX-001043,SEJ-000455,J18,Pneumopathie aiguë,Associe
+DX-001044,SEJ-000455,I50,Insuffisance cardiaque,Associe
+DX-001045,SEJ-000456,E78,Hyperlipidémie,Principal
+DX-001046,SEJ-000456,F03,Syndrome démentiel,Associe
+DX-001047,SEJ-000457,M16,Arthrose de la hanche,Principal
+DX-001048,SEJ-000458,I50,Insuffisance cardiaque,Principal
+DX-001049,SEJ-000459,I50,Insuffisance cardiaque,Principal
+DX-001050,SEJ-000460,S72,Fracture du col du fémur,Principal
+DX-001051,SEJ-000460,A41,Septicémie / sepsis,Complication
+DX-001052,SEJ-000460,I50,Insuffisance cardiaque,Associe
+DX-001053,SEJ-000461,I10,Hypertension essentielle,Principal
+DX-001054,SEJ-000461,N39,Infection urinaire,Complication
+DX-001055,SEJ-000462,N39,Infection urinaire,Principal
+DX-001056,SEJ-000462,E11,Diabète sucré de type 2,Associe
+DX-001057,SEJ-000463,R07,Douleur thoracique,Principal
+DX-001058,SEJ-000463,E78,Hyperlipidémie,Associe
+DX-001059,SEJ-000463,N18,Insuffisance rénale chronique,Associe
+DX-001060,SEJ-000463,A41,Septicémie / sepsis,Associe
+DX-001061,SEJ-000464,J44,BPCO obstructive,Principal
+DX-001062,SEJ-000464,E78,Hyperlipidémie,Complication
+DX-001063,SEJ-000465,I50,Insuffisance cardiaque,Principal
+DX-001064,SEJ-000465,F03,Syndrome démentiel,Associe
+DX-001065,SEJ-000466,J44,BPCO obstructive,Principal
+DX-001066,SEJ-000467,I50,Insuffisance cardiaque,Principal
+DX-001067,SEJ-000467,K92,Hémorragie digestive,Associe
+DX-001068,SEJ-000467,C50,Tumeur du sein,Complication
+DX-001069,SEJ-000468,J44,BPCO obstructive,Principal
+DX-001070,SEJ-000468,M16,Arthrose de la hanche,Associe
+DX-001071,SEJ-000468,M16,Arthrose de la hanche,Complication
+DX-001072,SEJ-000468,E78,Hyperlipidémie,Associe
+DX-001073,SEJ-000468,N18,Insuffisance rénale chronique,Associe
+DX-001074,SEJ-000468,F03,Syndrome démentiel,Complication
+DX-001075,SEJ-000469,I50,Insuffisance cardiaque,Principal
+DX-001076,SEJ-000470,I50,Insuffisance cardiaque,Principal
+DX-001077,SEJ-000470,K92,Hémorragie digestive,Complication
+DX-001078,SEJ-000470,F03,Syndrome démentiel,Complication
+DX-001079,SEJ-000471,M16,Arthrose de la hanche,Principal
+DX-001080,SEJ-000471,M16,Arthrose de la hanche,Associe
+DX-001081,SEJ-000471,M16,Arthrose de la hanche,Associe
+DX-001082,SEJ-000472,J44,BPCO obstructive,Principal
+DX-001083,SEJ-000472,I10,Hypertension essentielle,Complication
+DX-001084,SEJ-000472,J44,BPCO obstructive,Complication
+DX-001085,SEJ-000472,J44,BPCO obstructive,Complication
+DX-001086,SEJ-000472,E78,Hyperlipidémie,Complication
+DX-001087,SEJ-000472,I50,Insuffisance cardiaque,Complication
+DX-001088,SEJ-000473,E78,Hyperlipidémie,Principal
+DX-001089,SEJ-000473,S72,Fracture du col du fémur,Complication
+DX-001090,SEJ-000473,R07,Douleur thoracique,Associe
+DX-001091,SEJ-000474,N18,Insuffisance rénale chronique,Principal
+DX-001092,SEJ-000474,C50,Tumeur du sein,Associe
+DX-001093,SEJ-000474,N39,Infection urinaire,Associe
+DX-001094,SEJ-000474,E78,Hyperlipidémie,Complication
+DX-001095,SEJ-000475,E78,Hyperlipidémie,Principal
+DX-001096,SEJ-000476,N18,Insuffisance rénale chronique,Principal
+DX-001097,SEJ-000476,J44,BPCO obstructive,Complication
+DX-001098,SEJ-000476,F03,Syndrome démentiel,Associe
+DX-001099,SEJ-000476,A41,Septicémie / sepsis,Associe
+DX-001100,SEJ-000477,J44,BPCO obstructive,Principal
+DX-001101,SEJ-000477,S72,Fracture du col du fémur,Complication
+DX-001102,SEJ-000477,I10,Hypertension essentielle,Associe
+DX-001103,SEJ-000477,J44,BPCO obstructive,Associe
+DX-001104,SEJ-000478,M16,Arthrose de la hanche,Principal
+DX-001105,SEJ-000478,I10,Hypertension essentielle,Complication
+DX-001106,SEJ-000478,J18,Pneumopathie aiguë,Complication
+DX-001107,SEJ-000479,F03,Syndrome démentiel,Principal
+DX-001108,SEJ-000480,M16,Arthrose de la hanche,Principal
+DX-001109,SEJ-000480,R07,Douleur thoracique,Complication
+DX-001110,SEJ-000481,E11,Diabète sucré de type 2,Principal
+DX-001111,SEJ-000482,E11,Diabète sucré de type 2,Principal
+DX-001112,SEJ-000482,K92,Hémorragie digestive,Associe
+DX-001113,SEJ-000482,K92,Hémorragie digestive,Complication
+DX-001114,SEJ-000483,J18,Pneumopathie aiguë,Principal
+DX-001115,SEJ-000483,K92,Hémorragie digestive,Associe
+DX-001116,SEJ-000483,N18,Insuffisance rénale chronique,Associe
+DX-001117,SEJ-000483,N39,Infection urinaire,Associe
+DX-001118,SEJ-000484,J44,BPCO obstructive,Principal
+DX-001119,SEJ-000485,I50,Insuffisance cardiaque,Principal
+DX-001120,SEJ-000485,N39,Infection urinaire,Complication
+DX-001121,SEJ-000486,E11,Diabète sucré de type 2,Principal
+DX-001122,SEJ-000486,M16,Arthrose de la hanche,Complication
+DX-001123,SEJ-000486,N18,Insuffisance rénale chronique,Complication
+DX-001124,SEJ-000486,E11,Diabète sucré de type 2,Complication
+DX-001125,SEJ-000486,M16,Arthrose de la hanche,Associe
+DX-001126,SEJ-000486,F03,Syndrome démentiel,Associe
+DX-001127,SEJ-000487,K92,Hémorragie digestive,Principal
+DX-001128,SEJ-000488,N39,Infection urinaire,Principal
+DX-001129,SEJ-000488,N18,Insuffisance rénale chronique,Complication
+DX-001130,SEJ-000488,F03,Syndrome démentiel,Associe
+DX-001131,SEJ-000488,J44,BPCO obstructive,Associe
+DX-001132,SEJ-000489,I50,Insuffisance cardiaque,Principal
+DX-001133,SEJ-000489,R07,Douleur thoracique,Associe
+DX-001134,SEJ-000490,C50,Tumeur du sein,Principal
+DX-001135,SEJ-000491,J96,Insuffisance respiratoire aiguë,Principal
+DX-001136,SEJ-000491,A41,Septicémie / sepsis,Associe
+DX-001137,SEJ-000492,I10,Hypertension essentielle,Principal
+DX-001138,SEJ-000492,S72,Fracture du col du fémur,Complication
+DX-001139,SEJ-000492,K92,Hémorragie digestive,Associe
+DX-001140,SEJ-000492,N18,Insuffisance rénale chronique,Complication
+DX-001141,SEJ-000493,I10,Hypertension essentielle,Principal
+DX-001142,SEJ-000493,F03,Syndrome démentiel,Associe
+DX-001143,SEJ-000494,S72,Fracture du col du fémur,Principal
+DX-001144,SEJ-000494,I50,Insuffisance cardiaque,Associe
+DX-001145,SEJ-000495,N18,Insuffisance rénale chronique,Principal
+DX-001146,SEJ-000496,I50,Insuffisance cardiaque,Principal
+DX-001147,SEJ-000496,S72,Fracture du col du fémur,Associe
+DX-001148,SEJ-000496,I50,Insuffisance cardiaque,Associe
+DX-001149,SEJ-000496,F03,Syndrome démentiel,Complication
+DX-001150,SEJ-000496,I10,Hypertension essentielle,Associe
+DX-001151,SEJ-000497,M16,Arthrose de la hanche,Principal
+DX-001152,SEJ-000498,S72,Fracture du col du fémur,Principal
+DX-001153,SEJ-000498,M16,Arthrose de la hanche,Complication
+DX-001154,SEJ-000498,E78,Hyperlipidémie,Associe
+DX-001155,SEJ-000499,E78,Hyperlipidémie,Principal
+DX-001156,SEJ-000499,A41,Septicémie / sepsis,Associe
+DX-001157,SEJ-000499,J44,BPCO obstructive,Complication
+DX-001158,SEJ-000500,I50,Insuffisance cardiaque,Principal
+DX-001159,SEJ-000500,J96,Insuffisance respiratoire aiguë,Complication
+DX-001160,SEJ-000500,N18,Insuffisance rénale chronique,Complication
+DX-001161,SEJ-000500,A41,Septicémie / sepsis,Complication
+DX-001162,SEJ-000501,E11,Diabète sucré de type 2,Principal
+DX-001163,SEJ-000502,J96,Insuffisance respiratoire aiguë,Principal
+DX-001164,SEJ-000503,J96,Insuffisance respiratoire aiguë,Principal
+DX-001165,SEJ-000503,N39,Infection urinaire,Associe
+DX-001166,SEJ-000503,I10,Hypertension essentielle,Complication
+DX-001167,SEJ-000503,C50,Tumeur du sein,Associe
+DX-001168,SEJ-000503,K92,Hémorragie digestive,Complication
+DX-001169,SEJ-000504,J96,Insuffisance respiratoire aiguë,Principal
+DX-001170,SEJ-000504,J44,BPCO obstructive,Associe
+DX-001171,SEJ-000504,F03,Syndrome démentiel,Associe
+DX-001172,SEJ-000504,S72,Fracture du col du fémur,Associe
+DX-001173,SEJ-000504,J18,Pneumopathie aiguë,Associe
+DX-001174,SEJ-000505,C50,Tumeur du sein,Principal
+DX-001175,SEJ-000505,N18,Insuffisance rénale chronique,Associe
+DX-001176,SEJ-000506,J44,BPCO obstructive,Principal
+DX-001177,SEJ-000507,I50,Insuffisance cardiaque,Principal
+DX-001178,SEJ-000507,R07,Douleur thoracique,Associe
+DX-001179,SEJ-000507,N39,Infection urinaire,Complication
+DX-001180,SEJ-000508,I50,Insuffisance cardiaque,Principal
+DX-001181,SEJ-000509,J18,Pneumopathie aiguë,Principal
+DX-001182,SEJ-000510,J44,BPCO obstructive,Principal
+DX-001183,SEJ-000510,J44,BPCO obstructive,Associe
+DX-001184,SEJ-000510,C50,Tumeur du sein,Associe
+DX-001185,SEJ-000511,J44,BPCO obstructive,Principal
+DX-001186,SEJ-000511,R07,Douleur thoracique,Complication
+DX-001187,SEJ-000512,K92,Hémorragie digestive,Principal
+DX-001188,SEJ-000512,M16,Arthrose de la hanche,Associe
+DX-001189,SEJ-000512,A41,Septicémie / sepsis,Associe
+DX-001190,SEJ-000513,N39,Infection urinaire,Principal
+DX-001191,SEJ-000513,I10,Hypertension essentielle,Complication
+DX-001192,SEJ-000514,F03,Syndrome démentiel,Principal
+DX-001193,SEJ-000514,M16,Arthrose de la hanche,Associe
+DX-001194,SEJ-000514,S72,Fracture du col du fémur,Complication
+DX-001195,SEJ-000515,I10,Hypertension essentielle,Principal
+DX-001196,SEJ-000515,R07,Douleur thoracique,Associe
+DX-001197,SEJ-000515,M16,Arthrose de la hanche,Complication
+DX-001198,SEJ-000515,A41,Septicémie / sepsis,Associe
+DX-001199,SEJ-000516,I50,Insuffisance cardiaque,Principal
+DX-001200,SEJ-000517,I50,Insuffisance cardiaque,Principal
+DX-001201,SEJ-000517,J18,Pneumopathie aiguë,Associe
+DX-001202,SEJ-000517,F03,Syndrome démentiel,Complication
+DX-001203,SEJ-000517,J44,BPCO obstructive,Complication
+DX-001204,SEJ-000518,I50,Insuffisance cardiaque,Principal
+DX-001205,SEJ-000518,J96,Insuffisance respiratoire aiguë,Associe
+DX-001206,SEJ-000518,N18,Insuffisance rénale chronique,Associe
+DX-001207,SEJ-000518,S72,Fracture du col du fémur,Associe
+DX-001208,SEJ-000519,N39,Infection urinaire,Principal
+DX-001209,SEJ-000520,N39,Infection urinaire,Principal
+DX-001210,SEJ-000521,N39,Infection urinaire,Principal
+DX-001211,SEJ-000521,A41,Septicémie / sepsis,Associe
+DX-001212,SEJ-000522,N18,Insuffisance rénale chronique,Principal
+DX-001213,SEJ-000523,J18,Pneumopathie aiguë,Principal
+DX-001214,SEJ-000524,N18,Insuffisance rénale chronique,Principal
+DX-001215,SEJ-000525,I10,Hypertension essentielle,Principal
+DX-001216,SEJ-000526,I50,Insuffisance cardiaque,Principal
+DX-001217,SEJ-000526,R07,Douleur thoracique,Complication
+DX-001218,SEJ-000527,C50,Tumeur du sein,Principal
+DX-001219,SEJ-000527,R07,Douleur thoracique,Associe
+DX-001220,SEJ-000528,N18,Insuffisance rénale chronique,Principal
+DX-001221,SEJ-000528,F03,Syndrome démentiel,Complication
+DX-001222,SEJ-000528,K92,Hémorragie digestive,Associe
+DX-001223,SEJ-000528,J96,Insuffisance respiratoire aiguë,Complication
+DX-001224,SEJ-000529,C50,Tumeur du sein,Principal
+DX-001225,SEJ-000530,J44,BPCO obstructive,Principal
+DX-001226,SEJ-000530,F03,Syndrome démentiel,Complication
+DX-001227,SEJ-000531,J96,Insuffisance respiratoire aiguë,Principal
+DX-001228,SEJ-000532,E78,Hyperlipidémie,Principal
+DX-001229,SEJ-000532,F03,Syndrome démentiel,Associe
+DX-001230,SEJ-000533,E78,Hyperlipidémie,Principal
+DX-001231,SEJ-000533,N39,Infection urinaire,Associe
+DX-001232,SEJ-000534,K92,Hémorragie digestive,Principal
+DX-001233,SEJ-000534,F03,Syndrome démentiel,Associe
+DX-001234,SEJ-000535,J44,BPCO obstructive,Principal
+DX-001235,SEJ-000535,J44,BPCO obstructive,Complication
+DX-001236,SEJ-000536,J44,BPCO obstructive,Principal
+DX-001237,SEJ-000536,A41,Septicémie / sepsis,Associe
+DX-001238,SEJ-000536,J44,BPCO obstructive,Complication
+DX-001239,SEJ-000536,J96,Insuffisance respiratoire aiguë,Complication
+DX-001240,SEJ-000537,I50,Insuffisance cardiaque,Principal
+DX-001241,SEJ-000538,J18,Pneumopathie aiguë,Principal
+DX-001242,SEJ-000538,F03,Syndrome démentiel,Associe
+DX-001243,SEJ-000538,I10,Hypertension essentielle,Complication
+DX-001244,SEJ-000539,M16,Arthrose de la hanche,Principal
+DX-001245,SEJ-000540,E78,Hyperlipidémie,Principal
+DX-001246,SEJ-000541,J96,Insuffisance respiratoire aiguë,Principal
+DX-001247,SEJ-000542,C50,Tumeur du sein,Principal
+DX-001248,SEJ-000542,E11,Diabète sucré de type 2,Associe
+DX-001249,SEJ-000542,I10,Hypertension essentielle,Associe
+DX-001250,SEJ-000542,J44,BPCO obstructive,Complication
+DX-001251,SEJ-000543,E78,Hyperlipidémie,Principal
+DX-001252,SEJ-000543,R07,Douleur thoracique,Associe
+DX-001253,SEJ-000544,K92,Hémorragie digestive,Principal
+DX-001254,SEJ-000545,N18,Insuffisance rénale chronique,Principal
+DX-001255,SEJ-000545,I10,Hypertension essentielle,Complication
+DX-001256,SEJ-000545,R07,Douleur thoracique,Complication
+DX-001257,SEJ-000546,E78,Hyperlipidémie,Principal
+DX-001258,SEJ-000546,I50,Insuffisance cardiaque,Associe
+DX-001259,SEJ-000547,M16,Arthrose de la hanche,Principal
+DX-001260,SEJ-000547,J18,Pneumopathie aiguë,Associe
+DX-001261,SEJ-000547,A41,Septicémie / sepsis,Associe
+DX-001262,SEJ-000547,J18,Pneumopathie aiguë,Associe
+DX-001263,SEJ-000547,N39,Infection urinaire,Complication
+DX-001264,SEJ-000548,C50,Tumeur du sein,Principal
+DX-001265,SEJ-000549,F03,Syndrome démentiel,Principal
+DX-001266,SEJ-000550,R07,Douleur thoracique,Principal
+DX-001267,SEJ-000550,M16,Arthrose de la hanche,Complication
+DX-001268,SEJ-000550,E11,Diabète sucré de type 2,Associe
+DX-001269,SEJ-000551,E78,Hyperlipidémie,Principal
+DX-001270,SEJ-000551,J96,Insuffisance respiratoire aiguë,Associe
+DX-001271,SEJ-000551,N18,Insuffisance rénale chronique,Associe
+DX-001272,SEJ-000552,E11,Diabète sucré de type 2,Principal
+DX-001273,SEJ-000552,R07,Douleur thoracique,Complication
+DX-001274,SEJ-000552,E11,Diabète sucré de type 2,Complication
+DX-001275,SEJ-000553,J44,BPCO obstructive,Principal
+DX-001276,SEJ-000554,J96,Insuffisance respiratoire aiguë,Principal
+DX-001277,SEJ-000554,E78,Hyperlipidémie,Complication
+DX-001278,SEJ-000555,F03,Syndrome démentiel,Principal
+DX-001279,SEJ-000555,M16,Arthrose de la hanche,Complication
+DX-001280,SEJ-000555,N18,Insuffisance rénale chronique,Complication
+DX-001281,SEJ-000555,N18,Insuffisance rénale chronique,Associe
+DX-001282,SEJ-000556,I50,Insuffisance cardiaque,Principal
+DX-001283,SEJ-000556,F03,Syndrome démentiel,Associe
+DX-001284,SEJ-000557,I10,Hypertension essentielle,Principal
+DX-001285,SEJ-000558,J44,BPCO obstructive,Principal
+DX-001286,SEJ-000559,I10,Hypertension essentielle,Principal
+DX-001287,SEJ-000559,E78,Hyperlipidémie,Associe
+DX-001288,SEJ-000559,S72,Fracture du col du fémur,Complication
+DX-001289,SEJ-000559,J44,BPCO obstructive,Complication
+DX-001290,SEJ-000560,I10,Hypertension essentielle,Principal
+DX-001291,SEJ-000560,E78,Hyperlipidémie,Complication
+DX-001292,SEJ-000560,A41,Septicémie / sepsis,Complication
+DX-001293,SEJ-000560,C50,Tumeur du sein,Complication
+DX-001294,SEJ-000561,C50,Tumeur du sein,Principal
+DX-001295,SEJ-000561,M16,Arthrose de la hanche,Associe
+DX-001296,SEJ-000562,E78,Hyperlipidémie,Principal
+DX-001297,SEJ-000562,S72,Fracture du col du fémur,Complication
+DX-001298,SEJ-000563,K92,Hémorragie digestive,Principal
+DX-001299,SEJ-000564,N39,Infection urinaire,Principal
+DX-001300,SEJ-000565,N39,Infection urinaire,Principal
+DX-001301,SEJ-000565,N18,Insuffisance rénale chronique,Complication
+DX-001302,SEJ-000566,J96,Insuffisance respiratoire aiguë,Principal
+DX-001303,SEJ-000566,E78,Hyperlipidémie,Complication
+DX-001304,SEJ-000566,N18,Insuffisance rénale chronique,Complication
+DX-001305,SEJ-000566,A41,Septicémie / sepsis,Complication
+DX-001306,SEJ-000566,N18,Insuffisance rénale chronique,Complication
+DX-001307,SEJ-000566,R07,Douleur thoracique,Associe
+DX-001308,SEJ-000567,E78,Hyperlipidémie,Principal
+DX-001309,SEJ-000567,J44,BPCO obstructive,Associe
+DX-001310,SEJ-000568,I10,Hypertension essentielle,Principal
+DX-001311,SEJ-000569,E78,Hyperlipidémie,Principal
+DX-001312,SEJ-000569,C50,Tumeur du sein,Associe
+DX-001313,SEJ-000570,E78,Hyperlipidémie,Principal
+DX-001314,SEJ-000570,S72,Fracture du col du fémur,Associe
+DX-001315,SEJ-000571,K92,Hémorragie digestive,Principal
+DX-001316,SEJ-000571,M16,Arthrose de la hanche,Complication
+DX-001317,SEJ-000572,A41,Septicémie / sepsis,Principal
+DX-001318,SEJ-000572,A41,Septicémie / sepsis,Complication
+DX-001319,SEJ-000572,R07,Douleur thoracique,Associe
+DX-001320,SEJ-000572,J44,BPCO obstructive,Associe
+DX-001321,SEJ-000573,E11,Diabète sucré de type 2,Principal
+DX-001322,SEJ-000573,K92,Hémorragie digestive,Complication
+DX-001323,SEJ-000574,J96,Insuffisance respiratoire aiguë,Principal
+DX-001324,SEJ-000574,J44,BPCO obstructive,Associe
+DX-001325,SEJ-000574,I50,Insuffisance cardiaque,Complication
+DX-001326,SEJ-000575,S72,Fracture du col du fémur,Principal
+DX-001327,SEJ-000575,K92,Hémorragie digestive,Associe
+DX-001328,SEJ-000575,I50,Insuffisance cardiaque,Complication
+DX-001329,SEJ-000576,E78,Hyperlipidémie,Principal
+DX-001330,SEJ-000577,E78,Hyperlipidémie,Principal
+DX-001331,SEJ-000578,E78,Hyperlipidémie,Principal
+DX-001332,SEJ-000578,M16,Arthrose de la hanche,Associe
+DX-001333,SEJ-000578,I50,Insuffisance cardiaque,Associe
+DX-001334,SEJ-000578,E78,Hyperlipidémie,Associe
+DX-001335,SEJ-000579,R07,Douleur thoracique,Principal
+DX-001336,SEJ-000580,N18,Insuffisance rénale chronique,Principal
+DX-001337,SEJ-000580,C50,Tumeur du sein,Associe
+DX-001338,SEJ-000580,F03,Syndrome démentiel,Associe
+DX-001339,SEJ-000581,C50,Tumeur du sein,Principal
+DX-001340,SEJ-000582,J44,BPCO obstructive,Principal
+DX-001341,SEJ-000583,N39,Infection urinaire,Principal
+DX-001342,SEJ-000584,E78,Hyperlipidémie,Principal
+DX-001343,SEJ-000584,E11,Diabète sucré de type 2,Associe
+DX-001344,SEJ-000585,J18,Pneumopathie aiguë,Principal
+DX-001345,SEJ-000585,J18,Pneumopathie aiguë,Complication
+DX-001346,SEJ-000586,F03,Syndrome démentiel,Principal
+DX-001347,SEJ-000587,I50,Insuffisance cardiaque,Principal
+DX-001348,SEJ-000587,F03,Syndrome démentiel,Associe
+DX-001349,SEJ-000587,J44,BPCO obstructive,Associe
+DX-001350,SEJ-000588,N18,Insuffisance rénale chronique,Principal
+DX-001351,SEJ-000588,J96,Insuffisance respiratoire aiguë,Complication
+DX-001352,SEJ-000588,N18,Insuffisance rénale chronique,Associe
+DX-001353,SEJ-000588,E78,Hyperlipidémie,Associe
+DX-001354,SEJ-000588,S72,Fracture du col du fémur,Associe
+DX-001355,SEJ-000589,I10,Hypertension essentielle,Principal
+DX-001356,SEJ-000589,J18,Pneumopathie aiguë,Complication
+DX-001357,SEJ-000590,N18,Insuffisance rénale chronique,Principal
+DX-001358,SEJ-000590,A41,Septicémie / sepsis,Complication
+DX-001359,SEJ-000590,M16,Arthrose de la hanche,Associe
+DX-001360,SEJ-000591,I50,Insuffisance cardiaque,Principal
+DX-001361,SEJ-000592,I10,Hypertension essentielle,Principal
+DX-001362,SEJ-000592,F03,Syndrome démentiel,Complication
+DX-001363,SEJ-000592,J44,BPCO obstructive,Associe
+DX-001364,SEJ-000593,I10,Hypertension essentielle,Principal
+DX-001365,SEJ-000593,E78,Hyperlipidémie,Complication
+DX-001366,SEJ-000593,S72,Fracture du col du fémur,Associe
+DX-001367,SEJ-000593,C50,Tumeur du sein,Associe
+DX-001368,SEJ-000593,A41,Septicémie / sepsis,Associe
+DX-001369,SEJ-000593,E11,Diabète sucré de type 2,Complication
+DX-001370,SEJ-000594,I10,Hypertension essentielle,Principal
+DX-001371,SEJ-000594,N18,Insuffisance rénale chronique,Associe
+DX-001372,SEJ-000595,E11,Diabète sucré de type 2,Principal
+DX-001373,SEJ-000596,F03,Syndrome démentiel,Principal
+DX-001374,SEJ-000596,F03,Syndrome démentiel,Associe
+DX-001375,SEJ-000596,N39,Infection urinaire,Complication
+DX-001376,SEJ-000597,J44,BPCO obstructive,Principal
+DX-001377,SEJ-000597,A41,Septicémie / sepsis,Complication
+DX-001378,SEJ-000597,C50,Tumeur du sein,Associe
+DX-001379,SEJ-000598,N39,Infection urinaire,Principal
+DX-001380,SEJ-000598,J96,Insuffisance respiratoire aiguë,Associe
+DX-001381,SEJ-000598,S72,Fracture du col du fémur,Complication
+DX-001382,SEJ-000598,J96,Insuffisance respiratoire aiguë,Associe
+DX-001383,SEJ-000599,S72,Fracture du col du fémur,Principal
+DX-001384,SEJ-000600,J44,BPCO obstructive,Principal
+DX-001385,SEJ-000601,A41,Septicémie / sepsis,Principal
+DX-001386,SEJ-000602,S72,Fracture du col du fémur,Principal
+DX-001387,SEJ-000602,I50,Insuffisance cardiaque,Complication
+DX-001388,SEJ-000603,E11,Diabète sucré de type 2,Principal
+DX-001389,SEJ-000603,I50,Insuffisance cardiaque,Complication
+DX-001390,SEJ-000604,N39,Infection urinaire,Principal
+DX-001391,SEJ-000604,E11,Diabète sucré de type 2,Associe
+DX-001392,SEJ-000605,S72,Fracture du col du fémur,Principal
+DX-001393,SEJ-000606,J96,Insuffisance respiratoire aiguë,Principal
+DX-001394,SEJ-000606,N18,Insuffisance rénale chronique,Associe
+DX-001395,SEJ-000606,A41,Septicémie / sepsis,Complication
+DX-001396,SEJ-000607,I10,Hypertension essentielle,Principal
+DX-001397,SEJ-000607,I10,Hypertension essentielle,Complication
+DX-001398,SEJ-000608,J44,BPCO obstructive,Principal
+DX-001399,SEJ-000608,S72,Fracture du col du fémur,Complication
+DX-001400,SEJ-000608,K92,Hémorragie digestive,Associe
+DX-001401,SEJ-000608,C50,Tumeur du sein,Complication
+DX-001402,SEJ-000608,E11,Diabète sucré de type 2,Associe
+DX-001403,SEJ-000609,J18,Pneumopathie aiguë,Principal
+DX-001404,SEJ-000609,S72,Fracture du col du fémur,Associe
+DX-001405,SEJ-000610,J44,BPCO obstructive,Principal
+DX-001406,SEJ-000611,N18,Insuffisance rénale chronique,Principal
+DX-001407,SEJ-000611,I50,Insuffisance cardiaque,Associe
+DX-001408,SEJ-000611,N39,Infection urinaire,Associe
+DX-001409,SEJ-000611,K92,Hémorragie digestive,Associe
+DX-001410,SEJ-000611,A41,Septicémie / sepsis,Complication
+DX-001411,SEJ-000611,E78,Hyperlipidémie,Associe
+DX-001412,SEJ-000612,I10,Hypertension essentielle,Principal
+DX-001413,SEJ-000612,S72,Fracture du col du fémur,Associe
+DX-001414,SEJ-000613,I10,Hypertension essentielle,Principal
+DX-001415,SEJ-000613,E11,Diabète sucré de type 2,Associe
+DX-001416,SEJ-000613,R07,Douleur thoracique,Associe
+DX-001417,SEJ-000613,K92,Hémorragie digestive,Associe
+DX-001418,SEJ-000613,M16,Arthrose de la hanche,Associe
+DX-001419,SEJ-000613,N18,Insuffisance rénale chronique,Complication
+DX-001420,SEJ-000614,E11,Diabète sucré de type 2,Principal
+DX-001421,SEJ-000615,M16,Arthrose de la hanche,Principal
+DX-001422,SEJ-000616,J96,Insuffisance respiratoire aiguë,Principal
+DX-001423,SEJ-000616,K92,Hémorragie digestive,Associe
+DX-001424,SEJ-000616,J18,Pneumopathie aiguë,Associe
+DX-001425,SEJ-000616,A41,Septicémie / sepsis,Associe
+DX-001426,SEJ-000617,I10,Hypertension essentielle,Principal
+DX-001427,SEJ-000618,I10,Hypertension essentielle,Principal
+DX-001428,SEJ-000618,I50,Insuffisance cardiaque,Complication
+DX-001429,SEJ-000619,I50,Insuffisance cardiaque,Principal
+DX-001430,SEJ-000619,C50,Tumeur du sein,Complication
+DX-001431,SEJ-000620,I10,Hypertension essentielle,Principal
+DX-001432,SEJ-000621,N39,Infection urinaire,Principal
+DX-001433,SEJ-000622,I50,Insuffisance cardiaque,Principal
+DX-001434,SEJ-000622,M16,Arthrose de la hanche,Associe
+DX-001435,SEJ-000622,E78,Hyperlipidémie,Associe
+DX-001436,SEJ-000623,K92,Hémorragie digestive,Principal
+DX-001437,SEJ-000623,C50,Tumeur du sein,Complication
+DX-001438,SEJ-000623,C50,Tumeur du sein,Associe
+DX-001439,SEJ-000624,E11,Diabète sucré de type 2,Principal
+DX-001440,SEJ-000624,K92,Hémorragie digestive,Complication
+DX-001441,SEJ-000624,R07,Douleur thoracique,Associe
+DX-001442,SEJ-000624,K92,Hémorragie digestive,Associe
+DX-001443,SEJ-000625,M16,Arthrose de la hanche,Principal
+DX-001444,SEJ-000625,A41,Septicémie / sepsis,Associe
+DX-001445,SEJ-000625,K92,Hémorragie digestive,Complication
+DX-001446,SEJ-000625,M16,Arthrose de la hanche,Associe
+DX-001447,SEJ-000626,J96,Insuffisance respiratoire aiguë,Principal
+DX-001448,SEJ-000626,C50,Tumeur du sein,Associe
+DX-001449,SEJ-000626,J44,BPCO obstructive,Complication
+DX-001450,SEJ-000627,J44,BPCO obstructive,Principal
+DX-001451,SEJ-000627,J18,Pneumopathie aiguë,Associe
+DX-001452,SEJ-000627,M16,Arthrose de la hanche,Complication
+DX-001453,SEJ-000627,E78,Hyperlipidémie,Associe
+DX-001454,SEJ-000627,J18,Pneumopathie aiguë,Associe
+DX-001455,SEJ-000628,R07,Douleur thoracique,Principal
+DX-001456,SEJ-000628,F03,Syndrome démentiel,Complication
+DX-001457,SEJ-000629,J96,Insuffisance respiratoire aiguë,Principal
+DX-001458,SEJ-000629,J96,Insuffisance respiratoire aiguë,Associe
+DX-001459,SEJ-000630,A41,Septicémie / sepsis,Principal
+DX-001460,SEJ-000630,F03,Syndrome démentiel,Associe
+DX-001461,SEJ-000630,A41,Septicémie / sepsis,Associe
+DX-001462,SEJ-000631,I10,Hypertension essentielle,Principal
+DX-001463,SEJ-000631,E78,Hyperlipidémie,Associe
+DX-001464,SEJ-000631,F03,Syndrome démentiel,Complication
+DX-001465,SEJ-000632,K92,Hémorragie digestive,Principal
+DX-001466,SEJ-000633,E11,Diabète sucré de type 2,Principal
+DX-001467,SEJ-000633,F03,Syndrome démentiel,Associe
+DX-001468,SEJ-000633,J96,Insuffisance respiratoire aiguë,Associe
+DX-001469,SEJ-000634,I50,Insuffisance cardiaque,Principal
+DX-001470,SEJ-000635,E11,Diabète sucré de type 2,Principal
+DX-001471,SEJ-000635,I50,Insuffisance cardiaque,Associe
+DX-001472,SEJ-000635,N39,Infection urinaire,Associe
+DX-001473,SEJ-000636,I10,Hypertension essentielle,Principal
+DX-001474,SEJ-000636,F03,Syndrome démentiel,Associe
+DX-001475,SEJ-000637,E78,Hyperlipidémie,Principal
+DX-001476,SEJ-000637,E78,Hyperlipidémie,Associe
+DX-001477,SEJ-000637,R07,Douleur thoracique,Associe
+DX-001478,SEJ-000637,I50,Insuffisance cardiaque,Associe
+DX-001479,SEJ-000638,I50,Insuffisance cardiaque,Principal
+DX-001480,SEJ-000639,I50,Insuffisance cardiaque,Principal
+DX-001481,SEJ-000639,I10,Hypertension essentielle,Complication
+DX-001482,SEJ-000640,N18,Insuffisance rénale chronique,Principal
+DX-001483,SEJ-000641,I50,Insuffisance cardiaque,Principal
+DX-001484,SEJ-000641,A41,Septicémie / sepsis,Complication
+DX-001485,SEJ-000642,A41,Septicémie / sepsis,Principal
+DX-001486,SEJ-000642,R07,Douleur thoracique,Complication
+DX-001487,SEJ-000642,I50,Insuffisance cardiaque,Complication
+DX-001488,SEJ-000643,M16,Arthrose de la hanche,Principal
+DX-001489,SEJ-000644,J44,BPCO obstructive,Principal
+DX-001490,SEJ-000644,I50,Insuffisance cardiaque,Complication
+DX-001491,SEJ-000644,I50,Insuffisance cardiaque,Associe
+DX-001492,SEJ-000645,F03,Syndrome démentiel,Principal
+DX-001493,SEJ-000645,N39,Infection urinaire,Associe
+DX-001494,SEJ-000645,I50,Insuffisance cardiaque,Associe
+DX-001495,SEJ-000645,J18,Pneumopathie aiguë,Complication
+DX-001496,SEJ-000646,F03,Syndrome démentiel,Principal
+DX-001497,SEJ-000646,N18,Insuffisance rénale chronique,Associe
+DX-001498,SEJ-000646,J44,BPCO obstructive,Complication
+DX-001499,SEJ-000647,K92,Hémorragie digestive,Principal
+DX-001500,SEJ-000647,N18,Insuffisance rénale chronique,Complication
+DX-001501,SEJ-000647,E11,Diabète sucré de type 2,Associe
+DX-001502,SEJ-000647,E78,Hyperlipidémie,Complication
+DX-001503,SEJ-000647,J96,Insuffisance respiratoire aiguë,Complication
+DX-001504,SEJ-000647,E11,Diabète sucré de type 2,Associe
+DX-001505,SEJ-000648,I50,Insuffisance cardiaque,Principal
+DX-001506,SEJ-000649,N18,Insuffisance rénale chronique,Principal
+DX-001507,SEJ-000649,E78,Hyperlipidémie,Associe
+DX-001508,SEJ-000650,J44,BPCO obstructive,Principal
+DX-001509,SEJ-000651,J18,Pneumopathie aiguë,Principal
+DX-001510,SEJ-000651,A41,Septicémie / sepsis,Associe
+DX-001511,SEJ-000652,J44,BPCO obstructive,Principal
+DX-001512,SEJ-000652,J18,Pneumopathie aiguë,Complication
+DX-001513,SEJ-000652,M16,Arthrose de la hanche,Complication
+DX-001514,SEJ-000653,K92,Hémorragie digestive,Principal
+DX-001515,SEJ-000653,E11,Diabète sucré de type 2,Complication
+DX-001516,SEJ-000654,N18,Insuffisance rénale chronique,Principal
+DX-001517,SEJ-000655,N39,Infection urinaire,Principal
+DX-001518,SEJ-000655,J18,Pneumopathie aiguë,Complication
+DX-001519,SEJ-000656,R07,Douleur thoracique,Principal
+DX-001520,SEJ-000656,K92,Hémorragie digestive,Associe
+DX-001521,SEJ-000656,K92,Hémorragie digestive,Complication
+DX-001522,SEJ-000656,F03,Syndrome démentiel,Associe
+DX-001523,SEJ-000656,A41,Septicémie / sepsis,Complication
+DX-001524,SEJ-000656,J96,Insuffisance respiratoire aiguë,Associe
+DX-001525,SEJ-000657,J44,BPCO obstructive,Principal
+DX-001526,SEJ-000658,I10,Hypertension essentielle,Principal
+DX-001527,SEJ-000659,E11,Diabète sucré de type 2,Principal
+DX-001528,SEJ-000660,J18,Pneumopathie aiguë,Principal
+DX-001529,SEJ-000660,N18,Insuffisance rénale chronique,Complication
+DX-001530,SEJ-000661,F03,Syndrome démentiel,Principal
+DX-001531,SEJ-000662,J44,BPCO obstructive,Principal
+DX-001532,SEJ-000663,S72,Fracture du col du fémur,Principal
+DX-001533,SEJ-000663,E11,Diabète sucré de type 2,Associe
+DX-001534,SEJ-000664,J44,BPCO obstructive,Principal
+DX-001535,SEJ-000665,N39,Infection urinaire,Principal
+DX-001536,SEJ-000665,F03,Syndrome démentiel,Associe
+DX-001537,SEJ-000666,C50,Tumeur du sein,Principal
+DX-001538,SEJ-000667,J44,BPCO obstructive,Principal
+DX-001539,SEJ-000667,J18,Pneumopathie aiguë,Associe
+DX-001540,SEJ-000668,J44,BPCO obstructive,Principal
+DX-001541,SEJ-000669,J44,BPCO obstructive,Principal
+DX-001542,SEJ-000669,R07,Douleur thoracique,Complication
+DX-001543,SEJ-000670,E11,Diabète sucré de type 2,Principal
+DX-001544,SEJ-000670,S72,Fracture du col du fémur,Associe
+DX-001545,SEJ-000670,A41,Septicémie / sepsis,Associe
+DX-001546,SEJ-000671,E11,Diabète sucré de type 2,Principal
+DX-001547,SEJ-000671,J44,BPCO obstructive,Complication
+DX-001548,SEJ-000671,A41,Septicémie / sepsis,Complication
+DX-001549,SEJ-000671,M16,Arthrose de la hanche,Complication
+DX-001550,SEJ-000672,I10,Hypertension essentielle,Principal
+DX-001551,SEJ-000672,N18,Insuffisance rénale chronique,Complication
+DX-001552,SEJ-000673,J44,BPCO obstructive,Principal
+DX-001553,SEJ-000674,F03,Syndrome démentiel,Principal
+DX-001554,SEJ-000674,J44,BPCO obstructive,Associe
+DX-001555,SEJ-000674,C50,Tumeur du sein,Associe
+DX-001556,SEJ-000675,J96,Insuffisance respiratoire aiguë,Principal
+DX-001557,SEJ-000675,J18,Pneumopathie aiguë,Associe
+DX-001558,SEJ-000675,J18,Pneumopathie aiguë,Complication
+DX-001559,SEJ-000676,E11,Diabète sucré de type 2,Principal
+DX-001560,SEJ-000676,C50,Tumeur du sein,Complication
+DX-001561,SEJ-000676,J44,BPCO obstructive,Associe
+DX-001562,SEJ-000677,N18,Insuffisance rénale chronique,Principal
+DX-001563,SEJ-000677,K92,Hémorragie digestive,Associe
+DX-001564,SEJ-000678,N39,Infection urinaire,Principal
+DX-001565,SEJ-000678,E78,Hyperlipidémie,Complication
+DX-001566,SEJ-000678,J96,Insuffisance respiratoire aiguë,Associe
+DX-001567,SEJ-000679,E11,Diabète sucré de type 2,Principal
+DX-001568,SEJ-000679,I10,Hypertension essentielle,Associe
+DX-001569,SEJ-000679,J18,Pneumopathie aiguë,Complication
+DX-001570,SEJ-000680,I10,Hypertension essentielle,Principal
+DX-001571,SEJ-000680,J18,Pneumopathie aiguë,Complication
+DX-001572,SEJ-000680,J18,Pneumopathie aiguë,Associe
+DX-001573,SEJ-000680,R07,Douleur thoracique,Associe
+DX-001574,SEJ-000681,E11,Diabète sucré de type 2,Principal
+DX-001575,SEJ-000681,C50,Tumeur du sein,Associe
+DX-001576,SEJ-000682,C50,Tumeur du sein,Principal
+DX-001577,SEJ-000683,F03,Syndrome démentiel,Principal
+DX-001578,SEJ-000683,E78,Hyperlipidémie,Complication
+DX-001579,SEJ-000683,I10,Hypertension essentielle,Complication
+DX-001580,SEJ-000684,S72,Fracture du col du fémur,Principal
+DX-001581,SEJ-000684,C50,Tumeur du sein,Associe
+DX-001582,SEJ-000684,C50,Tumeur du sein,Complication
+DX-001583,SEJ-000685,E78,Hyperlipidémie,Principal
+DX-001584,SEJ-000685,K92,Hémorragie digestive,Associe
+DX-001585,SEJ-000686,J96,Insuffisance respiratoire aiguë,Principal
+DX-001586,SEJ-000686,S72,Fracture du col du fémur,Complication
+DX-001587,SEJ-000686,J96,Insuffisance respiratoire aiguë,Complication
+DX-001588,SEJ-000687,E78,Hyperlipidémie,Principal
+DX-001589,SEJ-000687,J44,BPCO obstructive,Associe
+DX-001590,SEJ-000688,J18,Pneumopathie aiguë,Principal
+DX-001591,SEJ-000688,I10,Hypertension essentielle,Associe
+DX-001592,SEJ-000688,F03,Syndrome démentiel,Complication
+DX-001593,SEJ-000688,A41,Septicémie / sepsis,Complication
+DX-001594,SEJ-000688,C50,Tumeur du sein,Associe
+DX-001595,SEJ-000689,N39,Infection urinaire,Principal
+DX-001596,SEJ-000689,F03,Syndrome démentiel,Complication
+DX-001597,SEJ-000689,K92,Hémorragie digestive,Associe
+DX-001598,SEJ-000690,E78,Hyperlipidémie,Principal
+DX-001599,SEJ-000691,E78,Hyperlipidémie,Principal
+DX-001600,SEJ-000692,E11,Diabète sucré de type 2,Principal
+DX-001601,SEJ-000692,N39,Infection urinaire,Complication
+DX-001602,SEJ-000692,E78,Hyperlipidémie,Complication
+DX-001603,SEJ-000692,C50,Tumeur du sein,Associe
+DX-001604,SEJ-000693,E11,Diabète sucré de type 2,Principal
+DX-001605,SEJ-000693,E78,Hyperlipidémie,Associe
+DX-001606,SEJ-000694,N18,Insuffisance rénale chronique,Principal
+DX-001607,SEJ-000694,E78,Hyperlipidémie,Associe
+DX-001608,SEJ-000695,J18,Pneumopathie aiguë,Principal
+DX-001609,SEJ-000695,R07,Douleur thoracique,Complication
+DX-001610,SEJ-000695,M16,Arthrose de la hanche,Associe
+DX-001611,SEJ-000696,E11,Diabète sucré de type 2,Principal
+DX-001612,SEJ-000696,N18,Insuffisance rénale chronique,Complication
+DX-001613,SEJ-000697,E11,Diabète sucré de type 2,Principal
+DX-001614,SEJ-000697,C50,Tumeur du sein,Complication
+DX-001615,SEJ-000698,R07,Douleur thoracique,Principal
+DX-001616,SEJ-000699,N18,Insuffisance rénale chronique,Principal
+DX-001617,SEJ-000700,M16,Arthrose de la hanche,Principal
+DX-001618,SEJ-000700,N39,Infection urinaire,Complication
+DX-001619,SEJ-000701,I50,Insuffisance cardiaque,Principal
+DX-001620,SEJ-000701,R07,Douleur thoracique,Associe
+DX-001621,SEJ-000702,J44,BPCO obstructive,Principal
+DX-001622,SEJ-000702,S72,Fracture du col du fémur,Complication
+DX-001623,SEJ-000703,E11,Diabète sucré de type 2,Principal
+DX-001624,SEJ-000703,A41,Septicémie / sepsis,Associe
+DX-001625,SEJ-000704,E11,Diabète sucré de type 2,Principal
+DX-001626,SEJ-000704,S72,Fracture du col du fémur,Associe
+DX-001627,SEJ-000704,I50,Insuffisance cardiaque,Associe
+DX-001628,SEJ-000705,J44,BPCO obstructive,Principal
+DX-001629,SEJ-000705,S72,Fracture du col du fémur,Associe
+DX-001630,SEJ-000705,F03,Syndrome démentiel,Complication
+DX-001631,SEJ-000706,I50,Insuffisance cardiaque,Principal
+DX-001632,SEJ-000706,J96,Insuffisance respiratoire aiguë,Associe
+DX-001633,SEJ-000706,J18,Pneumopathie aiguë,Associe
+DX-001634,SEJ-000706,N39,Infection urinaire,Complication
+DX-001635,SEJ-000707,N39,Infection urinaire,Principal
+DX-001636,SEJ-000708,A41,Septicémie / sepsis,Principal
+DX-001637,SEJ-000708,A41,Septicémie / sepsis,Complication
+DX-001638,SEJ-000709,J96,Insuffisance respiratoire aiguë,Principal
+DX-001639,SEJ-000709,J96,Insuffisance respiratoire aiguë,Associe
+DX-001640,SEJ-000709,S72,Fracture du col du fémur,Complication
+DX-001641,SEJ-000709,R07,Douleur thoracique,Complication
+DX-001642,SEJ-000710,E78,Hyperlipidémie,Principal
+DX-001643,SEJ-000711,I50,Insuffisance cardiaque,Principal
+DX-001644,SEJ-000712,E78,Hyperlipidémie,Principal
+DX-001645,SEJ-000712,K92,Hémorragie digestive,Complication
+DX-001646,SEJ-000712,K92,Hémorragie digestive,Associe
+DX-001647,SEJ-000713,E78,Hyperlipidémie,Principal
+DX-001648,SEJ-000714,I50,Insuffisance cardiaque,Principal
+DX-001649,SEJ-000715,E11,Diabète sucré de type 2,Principal
+DX-001650,SEJ-000715,J18,Pneumopathie aiguë,Associe
+DX-001651,SEJ-000715,E78,Hyperlipidémie,Complication
+DX-001652,SEJ-000716,I10,Hypertension essentielle,Principal
+DX-001653,SEJ-000716,I50,Insuffisance cardiaque,Complication
+DX-001654,SEJ-000716,J18,Pneumopathie aiguë,Associe
+DX-001655,SEJ-000716,I10,Hypertension essentielle,Associe
+DX-001656,SEJ-000717,I50,Insuffisance cardiaque,Principal
+DX-001657,SEJ-000718,I10,Hypertension essentielle,Principal
+DX-001658,SEJ-000718,K92,Hémorragie digestive,Associe
+DX-001659,SEJ-000718,J44,BPCO obstructive,Associe
+DX-001660,SEJ-000718,N39,Infection urinaire,Complication
+DX-001661,SEJ-000719,E11,Diabète sucré de type 2,Principal
+DX-001662,SEJ-000719,J44,BPCO obstructive,Associe
+DX-001663,SEJ-000719,I50,Insuffisance cardiaque,Associe
+DX-001664,SEJ-000720,I50,Insuffisance cardiaque,Principal
+DX-001665,SEJ-000721,I50,Insuffisance cardiaque,Principal
+DX-001666,SEJ-000721,M16,Arthrose de la hanche,Associe
+DX-001667,SEJ-000721,I10,Hypertension essentielle,Complication
+DX-001668,SEJ-000721,N18,Insuffisance rénale chronique,Associe
+DX-001669,SEJ-000722,I10,Hypertension essentielle,Principal
+DX-001670,SEJ-000723,F03,Syndrome démentiel,Principal
+DX-001671,SEJ-000724,J44,BPCO obstructive,Principal
+DX-001672,SEJ-000724,N18,Insuffisance rénale chronique,Associe
+DX-001673,SEJ-000725,N18,Insuffisance rénale chronique,Principal
+DX-001674,SEJ-000726,I50,Insuffisance cardiaque,Principal
+DX-001675,SEJ-000726,R07,Douleur thoracique,Associe
+DX-001676,SEJ-000726,S72,Fracture du col du fémur,Associe
+DX-001677,SEJ-000727,N18,Insuffisance rénale chronique,Principal
+DX-001678,SEJ-000727,I10,Hypertension essentielle,Associe
+DX-001679,SEJ-000728,K92,Hémorragie digestive,Principal
+DX-001680,SEJ-000729,A41,Septicémie / sepsis,Principal
+DX-001681,SEJ-000729,F03,Syndrome démentiel,Associe
+DX-001682,SEJ-000729,E78,Hyperlipidémie,Associe
+DX-001683,SEJ-000730,J44,BPCO obstructive,Principal
+DX-001684,SEJ-000731,R07,Douleur thoracique,Principal
+DX-001685,SEJ-000732,K92,Hémorragie digestive,Principal
+DX-001686,SEJ-000732,J18,Pneumopathie aiguë,Associe
+DX-001687,SEJ-000732,A41,Septicémie / sepsis,Associe
+DX-001688,SEJ-000732,S72,Fracture du col du fémur,Associe
+DX-001689,SEJ-000733,M16,Arthrose de la hanche,Principal
+DX-001690,SEJ-000734,E78,Hyperlipidémie,Principal
+DX-001691,SEJ-000734,A41,Septicémie / sepsis,Associe
+DX-001692,SEJ-000734,I50,Insuffisance cardiaque,Complication
+DX-001693,SEJ-000735,J18,Pneumopathie aiguë,Principal
+DX-001694,SEJ-000735,E11,Diabète sucré de type 2,Associe
+DX-001695,SEJ-000735,I50,Insuffisance cardiaque,Complication
+DX-001696,SEJ-000736,K92,Hémorragie digestive,Principal
+DX-001697,SEJ-000737,E11,Diabète sucré de type 2,Principal
+DX-001698,SEJ-000737,E11,Diabète sucré de type 2,Complication
+DX-001699,SEJ-000737,C50,Tumeur du sein,Associe
+DX-001700,SEJ-000738,J44,BPCO obstructive,Principal
+DX-001701,SEJ-000739,N18,Insuffisance rénale chronique,Principal
+DX-001702,SEJ-000739,R07,Douleur thoracique,Complication
+DX-001703,SEJ-000739,J18,Pneumopathie aiguë,Complication
+DX-001704,SEJ-000739,N39,Infection urinaire,Complication
+DX-001705,SEJ-000740,I50,Insuffisance cardiaque,Principal
+DX-001706,SEJ-000740,C50,Tumeur du sein,Associe
+DX-001707,SEJ-000741,M16,Arthrose de la hanche,Principal
+DX-001708,SEJ-000741,I10,Hypertension essentielle,Complication
+DX-001709,SEJ-000741,J18,Pneumopathie aiguë,Associe
+DX-001710,SEJ-000741,A41,Septicémie / sepsis,Complication
+DX-001711,SEJ-000741,C50,Tumeur du sein,Complication
+DX-001712,SEJ-000741,A41,Septicémie / sepsis,Associe
+DX-001713,SEJ-000742,N18,Insuffisance rénale chronique,Principal
+DX-001714,SEJ-000742,I10,Hypertension essentielle,Associe
+DX-001715,SEJ-000742,R07,Douleur thoracique,Complication
+DX-001716,SEJ-000742,J44,BPCO obstructive,Complication
+DX-001717,SEJ-000742,E78,Hyperlipidémie,Complication
+DX-001718,SEJ-000743,I50,Insuffisance cardiaque,Principal
+DX-001719,SEJ-000743,E11,Diabète sucré de type 2,Associe
+DX-001720,SEJ-000744,S72,Fracture du col du fémur,Principal
+DX-001721,SEJ-000745,M16,Arthrose de la hanche,Principal
+DX-001722,SEJ-000745,R07,Douleur thoracique,Complication
+DX-001723,SEJ-000746,E78,Hyperlipidémie,Principal
+DX-001724,SEJ-000746,I10,Hypertension essentielle,Complication
+DX-001725,SEJ-000746,N39,Infection urinaire,Associe
+DX-001726,SEJ-000746,I50,Insuffisance cardiaque,Complication
+DX-001727,SEJ-000747,K92,Hémorragie digestive,Principal
+DX-001728,SEJ-000747,J96,Insuffisance respiratoire aiguë,Associe
+DX-001729,SEJ-000748,J44,BPCO obstructive,Principal
+DX-001730,SEJ-000748,M16,Arthrose de la hanche,Associe
+DX-001731,SEJ-000749,E11,Diabète sucré de type 2,Principal
+DX-001732,SEJ-000749,S72,Fracture du col du fémur,Complication
+DX-001733,SEJ-000750,E78,Hyperlipidémie,Principal
+DX-001734,SEJ-000750,J44,BPCO obstructive,Associe
+DX-001735,SEJ-000750,I50,Insuffisance cardiaque,Associe
+DX-001736,SEJ-000751,I10,Hypertension essentielle,Principal
+DX-001737,SEJ-000751,J18,Pneumopathie aiguë,Associe
+DX-001738,SEJ-000752,S72,Fracture du col du fémur,Principal
+DX-001739,SEJ-000752,E78,Hyperlipidémie,Associe
+DX-001740,SEJ-000753,I10,Hypertension essentielle,Principal
+DX-001741,SEJ-000753,F03,Syndrome démentiel,Associe
+DX-001742,SEJ-000753,R07,Douleur thoracique,Associe
+DX-001743,SEJ-000754,J44,BPCO obstructive,Principal
+DX-001744,SEJ-000755,J44,BPCO obstructive,Principal
+DX-001745,SEJ-000756,N18,Insuffisance rénale chronique,Principal
+DX-001746,SEJ-000756,C50,Tumeur du sein,Associe
+DX-001747,SEJ-000757,E11,Diabète sucré de type 2,Principal
+DX-001748,SEJ-000757,C50,Tumeur du sein,Complication
+DX-001749,SEJ-000757,R07,Douleur thoracique,Associe
+DX-001750,SEJ-000757,I50,Insuffisance cardiaque,Associe
+DX-001751,SEJ-000758,I50,Insuffisance cardiaque,Principal
+DX-001752,SEJ-000758,N39,Infection urinaire,Complication
+DX-001753,SEJ-000759,F03,Syndrome démentiel,Principal
+DX-001754,SEJ-000759,J18,Pneumopathie aiguë,Associe
+DX-001755,SEJ-000759,J44,BPCO obstructive,Associe
+DX-001756,SEJ-000760,R07,Douleur thoracique,Principal
+DX-001757,SEJ-000760,J44,BPCO obstructive,Complication
+DX-001758,SEJ-000761,J96,Insuffisance respiratoire aiguë,Principal
+DX-001759,SEJ-000762,I50,Insuffisance cardiaque,Principal
+DX-001760,SEJ-000762,N39,Infection urinaire,Associe
+DX-001761,SEJ-000762,C50,Tumeur du sein,Complication
+DX-001762,SEJ-000762,F03,Syndrome démentiel,Complication
+DX-001763,SEJ-000763,J44,BPCO obstructive,Principal
+DX-001764,SEJ-000763,J18,Pneumopathie aiguë,Complication
+DX-001765,SEJ-000763,J96,Insuffisance respiratoire aiguë,Associe
+DX-001766,SEJ-000764,I10,Hypertension essentielle,Principal
+DX-001767,SEJ-000764,A41,Septicémie / sepsis,Associe
+DX-001768,SEJ-000764,J44,BPCO obstructive,Associe
+DX-001769,SEJ-000764,E78,Hyperlipidémie,Associe
+DX-001770,SEJ-000765,S72,Fracture du col du fémur,Principal
+DX-001771,SEJ-000765,S72,Fracture du col du fémur,Associe
+DX-001772,SEJ-000766,I10,Hypertension essentielle,Principal
+DX-001773,SEJ-000767,E11,Diabète sucré de type 2,Principal
+DX-001774,SEJ-000767,E11,Diabète sucré de type 2,Complication
+DX-001775,SEJ-000767,F03,Syndrome démentiel,Complication
+DX-001776,SEJ-000768,J96,Insuffisance respiratoire aiguë,Principal
+DX-001777,SEJ-000768,R07,Douleur thoracique,Complication
+DX-001778,SEJ-000769,E78,Hyperlipidémie,Principal
+DX-001779,SEJ-000769,I10,Hypertension essentielle,Complication
+DX-001780,SEJ-000769,J44,BPCO obstructive,Complication
+DX-001781,SEJ-000770,N18,Insuffisance rénale chronique,Principal
+DX-001782,SEJ-000770,J44,BPCO obstructive,Associe
+DX-001783,SEJ-000770,J18,Pneumopathie aiguë,Complication
+DX-001784,SEJ-000771,F03,Syndrome démentiel,Principal
+DX-001785,SEJ-000771,F03,Syndrome démentiel,Associe
+DX-001786,SEJ-000771,K92,Hémorragie digestive,Associe
+DX-001787,SEJ-000772,I10,Hypertension essentielle,Principal
+DX-001788,SEJ-000772,J96,Insuffisance respiratoire aiguë,Complication
+DX-001789,SEJ-000773,F03,Syndrome démentiel,Principal
+DX-001790,SEJ-000774,J44,BPCO obstructive,Principal
+DX-001791,SEJ-000775,N18,Insuffisance rénale chronique,Principal
+DX-001792,SEJ-000775,S72,Fracture du col du fémur,Associe
+DX-001793,SEJ-000775,J96,Insuffisance respiratoire aiguë,Associe
+DX-001794,SEJ-000775,E11,Diabète sucré de type 2,Associe
+DX-001795,SEJ-000776,N18,Insuffisance rénale chronique,Principal
+DX-001796,SEJ-000777,N39,Infection urinaire,Principal
+DX-001797,SEJ-000777,E78,Hyperlipidémie,Complication
+DX-001798,SEJ-000777,S72,Fracture du col du fémur,Complication
+DX-001799,SEJ-000777,M16,Arthrose de la hanche,Associe
+DX-001800,SEJ-000777,R07,Douleur thoracique,Complication
+DX-001801,SEJ-000777,F03,Syndrome démentiel,Associe
+DX-001802,SEJ-000778,K92,Hémorragie digestive,Principal
+DX-001803,SEJ-000779,E11,Diabète sucré de type 2,Principal
+DX-001804,SEJ-000780,J18,Pneumopathie aiguë,Principal
+DX-001805,SEJ-000781,I10,Hypertension essentielle,Principal
+DX-001806,SEJ-000782,N18,Insuffisance rénale chronique,Principal
+DX-001807,SEJ-000783,E78,Hyperlipidémie,Principal
+DX-001808,SEJ-000783,N39,Infection urinaire,Complication
+DX-001809,SEJ-000783,R07,Douleur thoracique,Associe
+DX-001810,SEJ-000783,J96,Insuffisance respiratoire aiguë,Associe
+DX-001811,SEJ-000784,E78,Hyperlipidémie,Principal
+DX-001812,SEJ-000784,I50,Insuffisance cardiaque,Associe
+DX-001813,SEJ-000784,I50,Insuffisance cardiaque,Associe
+DX-001814,SEJ-000784,J44,BPCO obstructive,Complication
+DX-001815,SEJ-000784,J44,BPCO obstructive,Associe
+DX-001816,SEJ-000784,J96,Insuffisance respiratoire aiguë,Complication
+DX-001817,SEJ-000785,K92,Hémorragie digestive,Principal
+DX-001818,SEJ-000785,E11,Diabète sucré de type 2,Associe
+DX-001819,SEJ-000786,N18,Insuffisance rénale chronique,Principal
+DX-001820,SEJ-000786,J18,Pneumopathie aiguë,Complication
+DX-001821,SEJ-000787,I50,Insuffisance cardiaque,Principal
+DX-001822,SEJ-000787,F03,Syndrome démentiel,Associe
+DX-001823,SEJ-000788,E11,Diabète sucré de type 2,Principal
+DX-001824,SEJ-000788,E78,Hyperlipidémie,Associe
+DX-001825,SEJ-000788,S72,Fracture du col du fémur,Associe
+DX-001826,SEJ-000788,R07,Douleur thoracique,Complication
+DX-001827,SEJ-000789,N18,Insuffisance rénale chronique,Principal
+DX-001828,SEJ-000789,I50,Insuffisance cardiaque,Associe
+DX-001829,SEJ-000789,J96,Insuffisance respiratoire aiguë,Associe
+DX-001830,SEJ-000789,N18,Insuffisance rénale chronique,Associe
+DX-001831,SEJ-000790,E78,Hyperlipidémie,Principal
+DX-001832,SEJ-000790,N39,Infection urinaire,Associe
+DX-001833,SEJ-000790,S72,Fracture du col du fémur,Complication
+DX-001834,SEJ-000791,J44,BPCO obstructive,Principal
+DX-001835,SEJ-000792,J44,BPCO obstructive,Principal
+DX-001836,SEJ-000792,J18,Pneumopathie aiguë,Associe
+DX-001837,SEJ-000793,J96,Insuffisance respiratoire aiguë,Principal
+DX-001838,SEJ-000793,K92,Hémorragie digestive,Complication
+DX-001839,SEJ-000793,M16,Arthrose de la hanche,Complication
+DX-001840,SEJ-000793,N39,Infection urinaire,Associe
+DX-001841,SEJ-000793,S72,Fracture du col du fémur,Associe
+DX-001842,SEJ-000793,E78,Hyperlipidémie,Associe
+DX-001843,SEJ-000794,E78,Hyperlipidémie,Principal
+DX-001844,SEJ-000794,A41,Septicémie / sepsis,Associe
+DX-001845,SEJ-000794,J44,BPCO obstructive,Complication
+DX-001846,SEJ-000795,N18,Insuffisance rénale chronique,Principal
+DX-001847,SEJ-000796,E11,Diabète sucré de type 2,Principal
+DX-001848,SEJ-000796,S72,Fracture du col du fémur,Associe
+DX-001849,SEJ-000796,A41,Septicémie / sepsis,Complication
+DX-001850,SEJ-000796,J96,Insuffisance respiratoire aiguë,Associe
+DX-001851,SEJ-000796,M16,Arthrose de la hanche,Associe
+DX-001852,SEJ-000797,R07,Douleur thoracique,Principal
+DX-001853,SEJ-000797,J44,BPCO obstructive,Associe
+DX-001854,SEJ-000798,E78,Hyperlipidémie,Principal
+DX-001855,SEJ-000799,J18,Pneumopathie aiguë,Principal
+DX-001856,SEJ-000800,N39,Infection urinaire,Principal
+DX-001857,SEJ-000800,J96,Insuffisance respiratoire aiguë,Complication
+DX-001858,SEJ-000800,M16,Arthrose de la hanche,Associe
+DX-001859,SEJ-000801,E78,Hyperlipidémie,Principal
+DX-001860,SEJ-000802,J44,BPCO obstructive,Principal
+DX-001861,SEJ-000803,M16,Arthrose de la hanche,Principal
+DX-001862,SEJ-000804,N18,Insuffisance rénale chronique,Principal
+DX-001863,SEJ-000804,I50,Insuffisance cardiaque,Associe
+DX-001864,SEJ-000804,S72,Fracture du col du fémur,Associe
+DX-001865,SEJ-000805,J18,Pneumopathie aiguë,Principal
+DX-001866,SEJ-000806,N18,Insuffisance rénale chronique,Principal
+DX-001867,SEJ-000807,M16,Arthrose de la hanche,Principal
+DX-001868,SEJ-000808,M16,Arthrose de la hanche,Principal
+DX-001869,SEJ-000809,J18,Pneumopathie aiguë,Principal
+DX-001870,SEJ-000809,J18,Pneumopathie aiguë,Associe
+DX-001871,SEJ-000810,E78,Hyperlipidémie,Principal
+DX-001872,SEJ-000810,E78,Hyperlipidémie,Complication
+DX-001873,SEJ-000810,I50,Insuffisance cardiaque,Associe
+DX-001874,SEJ-000811,I10,Hypertension essentielle,Principal
+DX-001875,SEJ-000811,J44,BPCO obstructive,Associe
+DX-001876,SEJ-000812,R07,Douleur thoracique,Principal
+DX-001877,SEJ-000813,E78,Hyperlipidémie,Principal
+DX-001878,SEJ-000813,M16,Arthrose de la hanche,Complication
+DX-001879,SEJ-000813,J44,BPCO obstructive,Complication
+DX-001880,SEJ-000813,K92,Hémorragie digestive,Complication
+DX-001881,SEJ-000813,N39,Infection urinaire,Complication
+DX-001882,SEJ-000814,I50,Insuffisance cardiaque,Principal
+DX-001883,SEJ-000815,I50,Insuffisance cardiaque,Principal
+DX-001884,SEJ-000815,S72,Fracture du col du fémur,Complication
+DX-001885,SEJ-000815,J96,Insuffisance respiratoire aiguë,Associe
+DX-001886,SEJ-000815,A41,Septicémie / sepsis,Complication
+DX-001887,SEJ-000816,F03,Syndrome démentiel,Principal
+DX-001888,SEJ-000816,N39,Infection urinaire,Associe
+DX-001889,SEJ-000816,R07,Douleur thoracique,Complication
+DX-001890,SEJ-000817,S72,Fracture du col du fémur,Principal
+DX-001891,SEJ-000817,C50,Tumeur du sein,Associe
+DX-001892,SEJ-000818,J96,Insuffisance respiratoire aiguë,Principal
+DX-001893,SEJ-000819,M16,Arthrose de la hanche,Principal
+DX-001894,SEJ-000820,N18,Insuffisance rénale chronique,Principal
+DX-001895,SEJ-000820,N18,Insuffisance rénale chronique,Complication
+DX-001896,SEJ-000820,R07,Douleur thoracique,Associe
+DX-001897,SEJ-000820,S72,Fracture du col du fémur,Complication
+DX-001898,SEJ-000820,N39,Infection urinaire,Associe
+DX-001899,SEJ-000820,C50,Tumeur du sein,Associe
+DX-001900,SEJ-000821,J18,Pneumopathie aiguë,Principal
+DX-001901,SEJ-000821,A41,Septicémie / sepsis,Associe
+DX-001902,SEJ-000822,E11,Diabète sucré de type 2,Principal
+DX-001903,SEJ-000822,I50,Insuffisance cardiaque,Complication
+DX-001904,SEJ-000822,C50,Tumeur du sein,Associe
+DX-001905,SEJ-000822,A41,Septicémie / sepsis,Complication
+DX-001906,SEJ-000822,R07,Douleur thoracique,Associe
+DX-001907,SEJ-000822,I10,Hypertension essentielle,Associe
+DX-001908,SEJ-000823,N18,Insuffisance rénale chronique,Principal
+DX-001909,SEJ-000824,I10,Hypertension essentielle,Principal
+DX-001910,SEJ-000824,K92,Hémorragie digestive,Associe
+DX-001911,SEJ-000824,E11,Diabète sucré de type 2,Complication
+DX-001912,SEJ-000824,A41,Septicémie / sepsis,Complication
+DX-001913,SEJ-000825,I10,Hypertension essentielle,Principal
+DX-001914,SEJ-000825,J18,Pneumopathie aiguë,Associe
+DX-001915,SEJ-000825,E78,Hyperlipidémie,Associe
+DX-001916,SEJ-000826,N18,Insuffisance rénale chronique,Principal
+DX-001917,SEJ-000826,A41,Septicémie / sepsis,Complication
+DX-001918,SEJ-000827,J18,Pneumopathie aiguë,Principal
+DX-001919,SEJ-000827,E78,Hyperlipidémie,Complication
+DX-001920,SEJ-000828,J44,BPCO obstructive,Principal
+DX-001921,SEJ-000828,A41,Septicémie / sepsis,Associe
+DX-001922,SEJ-000828,J96,Insuffisance respiratoire aiguë,Complication
+DX-001923,SEJ-000829,N39,Infection urinaire,Principal
+DX-001924,SEJ-000830,E78,Hyperlipidémie,Principal
+DX-001925,SEJ-000830,M16,Arthrose de la hanche,Complication
+DX-001926,SEJ-000830,N39,Infection urinaire,Associe
+DX-001927,SEJ-000831,R07,Douleur thoracique,Principal
+DX-001928,SEJ-000831,C50,Tumeur du sein,Associe
+DX-001929,SEJ-000831,F03,Syndrome démentiel,Associe
+DX-001930,SEJ-000832,E11,Diabète sucré de type 2,Principal
+DX-001931,SEJ-000833,R07,Douleur thoracique,Principal
+DX-001932,SEJ-000834,J96,Insuffisance respiratoire aiguë,Principal
+DX-001933,SEJ-000835,J96,Insuffisance respiratoire aiguë,Principal
+DX-001934,SEJ-000836,N39,Infection urinaire,Principal
+DX-001935,SEJ-000837,S72,Fracture du col du fémur,Principal
+DX-001936,SEJ-000837,C50,Tumeur du sein,Complication
+DX-001937,SEJ-000837,K92,Hémorragie digestive,Complication
+DX-001938,SEJ-000837,E11,Diabète sucré de type 2,Complication
+DX-001939,SEJ-000838,J44,BPCO obstructive,Principal
+DX-001940,SEJ-000838,N39,Infection urinaire,Complication
+DX-001941,SEJ-000839,I10,Hypertension essentielle,Principal
+DX-001942,SEJ-000839,E11,Diabète sucré de type 2,Complication
+DX-001943,SEJ-000840,I10,Hypertension essentielle,Principal
+DX-001944,SEJ-000840,S72,Fracture du col du fémur,Complication
+DX-001945,SEJ-000840,N39,Infection urinaire,Complication
+DX-001946,SEJ-000841,J44,BPCO obstructive,Principal
+DX-001947,SEJ-000841,J18,Pneumopathie aiguë,Associe
+DX-001948,SEJ-000841,M16,Arthrose de la hanche,Associe
+DX-001949,SEJ-000841,J18,Pneumopathie aiguë,Associe
+DX-001950,SEJ-000842,C50,Tumeur du sein,Principal
+DX-001951,SEJ-000842,S72,Fracture du col du fémur,Associe
+DX-001952,SEJ-000842,J18,Pneumopathie aiguë,Associe
+DX-001953,SEJ-000842,E11,Diabète sucré de type 2,Complication
+DX-001954,SEJ-000843,E78,Hyperlipidémie,Principal
+DX-001955,SEJ-000843,K92,Hémorragie digestive,Associe
+DX-001956,SEJ-000844,N18,Insuffisance rénale chronique,Principal
+DX-001957,SEJ-000844,N39,Infection urinaire,Associe
+DX-001958,SEJ-000844,A41,Septicémie / sepsis,Associe
+DX-001959,SEJ-000845,I50,Insuffisance cardiaque,Principal
+DX-001960,SEJ-000846,N18,Insuffisance rénale chronique,Principal
+DX-001961,SEJ-000847,E11,Diabète sucré de type 2,Principal
+DX-001962,SEJ-000847,F03,Syndrome démentiel,Associe
+DX-001963,SEJ-000847,A41,Septicémie / sepsis,Associe
+DX-001964,SEJ-000847,A41,Septicémie / sepsis,Associe
+DX-001965,SEJ-000848,J44,BPCO obstructive,Principal
+DX-001966,SEJ-000848,F03,Syndrome démentiel,Complication
+DX-001967,SEJ-000849,R07,Douleur thoracique,Principal
+DX-001968,SEJ-000849,N39,Infection urinaire,Associe
+DX-001969,SEJ-000849,N39,Infection urinaire,Complication
+DX-001970,SEJ-000850,F03,Syndrome démentiel,Principal
+DX-001971,SEJ-000850,C50,Tumeur du sein,Complication
+DX-001972,SEJ-000850,S72,Fracture du col du fémur,Associe
+DX-001973,SEJ-000851,J96,Insuffisance respiratoire aiguë,Principal
+DX-001974,SEJ-000851,J18,Pneumopathie aiguë,Associe
+DX-001975,SEJ-000851,I50,Insuffisance cardiaque,Complication
+DX-001976,SEJ-000851,F03,Syndrome démentiel,Associe
+DX-001977,SEJ-000852,I50,Insuffisance cardiaque,Principal
+DX-001978,SEJ-000853,E78,Hyperlipidémie,Principal
+DX-001979,SEJ-000854,E78,Hyperlipidémie,Principal
+DX-001980,SEJ-000855,M16,Arthrose de la hanche,Principal
+DX-001981,SEJ-000856,N39,Infection urinaire,Principal
+DX-001982,SEJ-000856,A41,Septicémie / sepsis,Associe
+DX-001983,SEJ-000856,E78,Hyperlipidémie,Associe
+DX-001984,SEJ-000857,I50,Insuffisance cardiaque,Principal
+DX-001985,SEJ-000858,E11,Diabète sucré de type 2,Principal
+DX-001986,SEJ-000858,C50,Tumeur du sein,Complication
+DX-001987,SEJ-000858,I10,Hypertension essentielle,Complication
+DX-001988,SEJ-000859,N18,Insuffisance rénale chronique,Principal
+DX-001989,SEJ-000859,N18,Insuffisance rénale chronique,Associe
+DX-001990,SEJ-000860,N39,Infection urinaire,Principal
+DX-001991,SEJ-000860,C50,Tumeur du sein,Associe
+DX-001992,SEJ-000860,J18,Pneumopathie aiguë,Associe
+DX-001993,SEJ-000861,J96,Insuffisance respiratoire aiguë,Principal
+DX-001994,SEJ-000861,J96,Insuffisance respiratoire aiguë,Complication
+DX-001995,SEJ-000862,J44,BPCO obstructive,Principal
+DX-001996,SEJ-000862,J18,Pneumopathie aiguë,Associe
+DX-001997,SEJ-000862,E11,Diabète sucré de type 2,Associe
+DX-001998,SEJ-000863,J44,BPCO obstructive,Principal
+DX-001999,SEJ-000863,J44,BPCO obstructive,Complication
+DX-002000,SEJ-000864,N18,Insuffisance rénale chronique,Principal
+DX-002001,SEJ-000864,F03,Syndrome démentiel,Associe
+DX-002002,SEJ-000864,C50,Tumeur du sein,Associe
+DX-002003,SEJ-000864,K92,Hémorragie digestive,Associe
+DX-002004,SEJ-000864,K92,Hémorragie digestive,Associe
+DX-002005,SEJ-000864,J18,Pneumopathie aiguë,Complication
+DX-002006,SEJ-000865,I50,Insuffisance cardiaque,Principal
+DX-002007,SEJ-000865,E11,Diabète sucré de type 2,Complication
+DX-002008,SEJ-000865,J96,Insuffisance respiratoire aiguë,Associe
+DX-002009,SEJ-000865,R07,Douleur thoracique,Associe
+DX-002010,SEJ-000866,C50,Tumeur du sein,Principal
+DX-002011,SEJ-000866,I50,Insuffisance cardiaque,Complication
+DX-002012,SEJ-000866,R07,Douleur thoracique,Associe
+DX-002013,SEJ-000866,I10,Hypertension essentielle,Complication
+DX-002014,SEJ-000867,N39,Infection urinaire,Principal
+DX-002015,SEJ-000867,E78,Hyperlipidémie,Complication
+DX-002016,SEJ-000868,J96,Insuffisance respiratoire aiguë,Principal
+DX-002017,SEJ-000868,F03,Syndrome démentiel,Associe
+DX-002018,SEJ-000868,J96,Insuffisance respiratoire aiguë,Complication
+DX-002019,SEJ-000868,M16,Arthrose de la hanche,Associe
+DX-002020,SEJ-000869,N18,Insuffisance rénale chronique,Principal
+DX-002021,SEJ-000869,J18,Pneumopathie aiguë,Associe
+DX-002022,SEJ-000869,J44,BPCO obstructive,Associe
+DX-002023,SEJ-000869,A41,Septicémie / sepsis,Complication
+DX-002024,SEJ-000870,J18,Pneumopathie aiguë,Principal
+DX-002025,SEJ-000870,R07,Douleur thoracique,Associe
+DX-002026,SEJ-000871,I50,Insuffisance cardiaque,Principal
+DX-002027,SEJ-000872,C50,Tumeur du sein,Principal
+DX-002028,SEJ-000873,I50,Insuffisance cardiaque,Principal
+DX-002029,SEJ-000873,I50,Insuffisance cardiaque,Complication
+DX-002030,SEJ-000873,E78,Hyperlipidémie,Associe
+DX-002031,SEJ-000874,I50,Insuffisance cardiaque,Principal
+DX-002032,SEJ-000874,K92,Hémorragie digestive,Associe
+DX-002033,SEJ-000874,J96,Insuffisance respiratoire aiguë,Associe
+DX-002034,SEJ-000874,I50,Insuffisance cardiaque,Complication
+DX-002035,SEJ-000875,E11,Diabète sucré de type 2,Principal
+DX-002036,SEJ-000876,S72,Fracture du col du fémur,Principal
+DX-002037,SEJ-000876,M16,Arthrose de la hanche,Associe
+DX-002038,SEJ-000877,R07,Douleur thoracique,Principal
+DX-002039,SEJ-000878,I10,Hypertension essentielle,Principal
+DX-002040,SEJ-000878,A41,Septicémie / sepsis,Associe
+DX-002041,SEJ-000878,E11,Diabète sucré de type 2,Associe
+DX-002042,SEJ-000878,J44,BPCO obstructive,Associe
+DX-001317,SEJ-000572,A41,Septicémie / sepsis,Principal
+DX-001001,SEJ-000434,J96,Insuffisance respiratoire aiguë,Principal
+DX-001069,SEJ-000468,J44,BPCO obstructive,Principal
+DX-001970,SEJ-000850,F03,Syndrome démentiel,Principal
+DX-000530,SEJ-000232,E11,Diabète sucré de type 2,Principal
+DX-002005,SEJ-000864,J18,Pneumopathie aiguë,Complication
+DX-000415,SEJ-000181,E78,Hyperlipidémie,Associe
+DX-000983,SEJ-000424,N18,Insuffisance rénale chronique,Principal
+DX-000417,SEJ-000182,N18,Insuffisance rénale chronique,Principal
+DX-001472,SEJ-000635,N39,Infection urinaire,Associe
+DX-001525,SEJ-000657,J44,BPCO obstructive,Principal
+DX-001576,SEJ-000682,C50,Tumeur du sein,Principal
+DX-000252,SEJ-000107,E78,Hyperlipidémie,Principal
+DX-001622,SEJ-000702,S72,Fracture du col du fémur,Complication
+DX-000071,SEJ-000028,I10,Hypertension essentielle,Associe
+DX-001107,SEJ-000479,F03,Syndrome démentiel,Principal
+DX-001363,SEJ-000592,J44,BPCO obstructive,Associe
+DX-000351,SEJ-000153,I50,Insuffisance cardiaque,Principal
+DX-001392,SEJ-000605,S72,Fracture du col du fémur,Principal
+DX-001088,SEJ-000473,E78,Hyperlipidémie,Principal

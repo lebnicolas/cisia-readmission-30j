@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Arbre de décision — chemin du patient</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root {
+    /* Palette du thème design_UI (presentation/design_UI/variables.css) */
+    --plane: #e3f5fa; --surface: #fbfeff; --encre: #091d35; --encre2: #486376;
+    --muet: #5f7a8a; --grille: #cdebf3; --bord: #acd4de; --bleu: #138f9a;
+    --admis: #486376; --deco: #b8e4ef;
+    /* Couleurs d'état : réservées aux alertes, jamais décoratives */
+    --rouge: #d03b3b; --vert: #1f9d55; --orange: #e8811f;
+  }
+  * { box-sizing: border-box; margin: 0; }
+  html, body { height: 100%; }
+  body { font-family: 'Segoe UI', Arial, sans-serif; background: var(--plane);
+         color: var(--encre); display: flex; flex-direction: column; }
+  header { padding: 10px 18px; background: var(--surface);
+           border-bottom: 1px solid var(--bord); display: flex;
+           align-items: center; gap: 14px; flex-wrap: wrap; }
+  header h1 { font-size: 16px; font-weight: 800; }
+  header .note { font-size: 12px; color: var(--encre2); flex: 1; min-width: 260px; }
+  .btn { background: var(--surface); color: var(--encre); border: 1px solid var(--bord);
+         font-family: inherit; border-radius: 8px; padding: 6px 12px; font-size: 13px; cursor: pointer; }
+  .btn:hover { background: var(--plane); }
+  #zoom-lbl { font-size: 12px; color: var(--muet); min-width: 48px; text-align: center; }
+  #scene { flex: 1; overflow: hidden; cursor: grab; background: var(--plane); }
+  #scene.drag { cursor: grabbing; }
+  #scene svg { width: 100%; height: 100%; display: block; }
+</style>
+</head>
+<body>
+  <header>
+    <h1 id="titre">Arbre de décision</h1>
+    <div class="note" id="note">chargement…</div>
+    <button class="btn" onclick="zoomer(1.25)">＋</button>
+    <span id="zoom-lbl">—</span>
+    <button class="btn" onclick="zoomer(0.8)">−</button>
+    <button class="btn" onclick="ajuster()">⤢ ajuster</button>
+    <button class="btn" onclick="suivreChemin()">→ suivre le chemin</button>
+  </header>
+  <div id="scene"></div>
+
+<script>
+const $ = id => document.getElementById(id);
+const sejour = new URLSearchParams(location.search).get("sejour");
+
+const NOMS = {
+  demo_age: "Âge", demo_nb_pathologies: "Nb pathologies chroniques",
+  rx_nb_prescriptions: "Nb prescriptions", rx_nb_classes_atc: "Classes de médicaments",
+  rx_nb_traitements_en_cours: "Traitements en cours", rx_part_intraveineuse: "Part intraveineuse",
+  rx_polymedication: "Polymédication", demo_patho_BPCO: "BPCO",
+  demo_patho_InsuffisanceCardiaque: "Insuff. cardiaque", demo_patho_InsuffisanceRenale: "Insuff. rénale",
+  demo_vit_seul: "Vit seul", demo_aidant_declare: "Aidant déclaré",
+  sej_duree: "Durée du séjour (j)", sej_urgent: "Admission urgente",
+  hist_nb_evenements: "Épisodes de soins antérieurs",
+  hist_duree_hospit_anterieure: "Jours d'hospit. antérieurs",
+  hist_jours_depuis_dernier: "Jours depuis le dernier épisode",
+  dx_nb_total: "Nb diagnostics", act_nb_actes: "Nb actes",
+  bio_natremie_max: "Natrémie max", bio_hemoglobine_min: "Hémoglobine min",
+  bio_crp_max: "CRP max", cst_temperature_fin_sejour: "Température fin de séjour",
+  cst_spo2_moy: "SpO2 moyenne", cst_frequencecardiaque_moy: "FC moyenne",
+  cst_frequencecardiaque_pente: "Pente FC", cst_tensionsystolique_max: "Tension syst. max",
+  cst_etendue_releves_h: "Étendue des relevés (h)",
+  cst_tensionsystolique_taux_manquant: "Taux de trous capteur tension",
+  geo_indice_defavorisation: "Défavorisation (commune)", geo_densite_medicale: "Densité médicale",
+};
+const nomVar = f => NOMS[f] || f;
+
+// geometrie genereuse : la page est faite pour etre zoomee
+const LW = 210, LH = 62, DY = 130;
+let W = 0, H = 0, scale = 1, tx = 0, ty = 0, cheminNoeuds = [];
+
+function construire(d) {
+  const N = d.noeuds, chemin = new Set(d.chemin);
+  cheminNoeuds = d.chemin;
+  const pos = {}; let fx = 0;
+  (function place(i, prof) {
+    const n = N[i];
+    if (n.feature === null) { pos[i] = {x: fx++, y: prof}; return; }
+    place(n.gauche, prof + 1); place(n.droite, prof + 1);
+    pos[i] = {x: (pos[n.gauche].x + pos[n.droite].x) / 2, y: prof};
+  })(0, 0);
+  W = fx * (LW + 18) + 40;
+  H = (d.profondeur + 1) * DY + LH + 82;
+  const X = i => 20 + pos[i].x * (LW + 18) + LW / 2;
+  const Y = i => 20 + pos[i].y * DY;
+  window._XY = {X, Y};
+
+  let out = "";
+  N.forEach((n, i) => {
+    if (n.feature === null) return;
+    for (const [enfant, cote] of [[n.gauche, "oui"], [n.droite, "non"]]) {
+      const sur = chemin.has(i) && chemin.has(enfant);
+      out += `<line x1="${X(i)}" y1="${Y(i) + LH}" x2="${X(enfant)}" y2="${Y(enfant)}"
+        stroke="${sur ? "var(--bleu)" : "var(--bord)"}" stroke-width="${sur ? 4 : 1.5}"/>
+        <text x="${(X(i) + X(enfant)) / 2}" y="${(Y(i) + LH + Y(enfant)) / 2 - 4}"
+        font-size="12" font-weight="${sur ? 700 : 400}"
+        fill="${sur ? "var(--bleu)" : "var(--muet)"}" text-anchor="middle">${cote}</text>`;
+    }
+  });
+  N.forEach((n, i) => {
+    const sur = chemin.has(i);
+    const x = X(i) - LW / 2, y = Y(i);
+    if (n.feature === null) {
+      const alerte = n.risque >= d.seuil;
+      out += `<rect x="${x}" y="${y}" width="${LW}" height="${LH}" rx="9"
+        fill="${alerte ? "#fdf0f0" : "#eaf7ef"}"
+        stroke="${sur ? (alerte ? "var(--rouge)" : "var(--vert)") : "var(--bord)"}"
+        stroke-width="${sur ? 4 : 1}"/>
+        <text x="${X(i)}" y="${y + 25}" font-size="16" font-weight="700" text-anchor="middle"
+        fill="${alerte ? "var(--rouge)" : "var(--vert)"}">moyenne ${(n.risque * 100).toFixed(0)} %</text>
+        <text x="${X(i)}" y="${y + 46}" font-size="12" text-anchor="middle"
+        fill="var(--muet)">des ${n.n} séjours de ce chemin</text>`;
+      if (sur) {
+        out += `<rect x="${x}" y="${y + LH + 8}" width="${LW}" height="30" rx="7"
+          fill="${alerte ? "var(--rouge)" : "var(--vert)"}"/>
+          <text x="${X(i)}" y="${y + LH + 28}" font-size="13" font-weight="700"
+          text-anchor="middle" fill="#fff">CE PATIENT : ${(window._risqueModele * 100).toFixed(0)} % (modèle)</text>`;
+      }
+    } else {
+      const v = d.valeurs[n.feature];
+      out += `<rect x="${x}" y="${y}" width="${LW}" height="${LH}" rx="9"
+        fill="var(--surface)" stroke="${sur ? "var(--bleu)" : "var(--bord)"}"
+        stroke-width="${sur ? 3.5 : 1}"/>
+        <text x="${X(i)}" y="${y + 24}" font-size="13.5" font-weight="600"
+        text-anchor="middle" fill="var(--encre)">${nomVar(n.feature)} ≤ ${n.seuil} ?</text>
+        <text x="${X(i)}" y="${y + 45}" font-size="12" text-anchor="middle"
+        fill="${sur ? "var(--bleu)" : "var(--muet)"}">${
+          sur ? "ce patient : " + (v === null ? "valeur manquante" : v)
+              : n.n + " séjours"}</text>`;
+    }
+  });
+  $("scene").innerHTML =
+    `<svg><g id="monde">${out}</g></svg>`;
+}
+
+function appliquer() {
+  document.getElementById("monde").setAttribute(
+    "transform", `translate(${tx},${ty}) scale(${scale})`);
+  $("zoom-lbl").textContent = Math.round(scale * 100) + " %";
+}
+
+function zoomer(k, cx, cy) {
+  const r = $("scene").getBoundingClientRect();
+  const mx = cx ?? r.width / 2, my = cy ?? r.height / 2;
+  tx = mx - (mx - tx) * k; ty = my - (my - ty) * k; scale *= k;
+  appliquer();
+}
+
+function ajuster() {
+  const r = $("scene").getBoundingClientRect();
+  scale = Math.min(r.width / W, r.height / H) * 0.96;
+  tx = (r.width - W * scale) / 2; ty = (r.height - H * scale) / 2;
+  appliquer();
+}
+
+// centre la vue sur le chemin du patient, a un zoom lisible
+function suivreChemin() {
+  if (!cheminNoeuds.length) return;
+  const {X, Y} = window._XY;
+  const xs = cheminNoeuds.map(X), ys = cheminNoeuds.map(Y);
+  const x0 = Math.min(...xs) - LW, x1 = Math.max(...xs) + LW;
+  const y0 = Math.min(...ys) - 30, y1 = Math.max(...ys) + LH + 30;
+  const r = $("scene").getBoundingClientRect();
+  scale = Math.min(r.width / (x1 - x0), r.height / (y1 - y0), 1.6);
+  tx = (r.width - (x0 + x1) * scale) / 2;
+  ty = (r.height - (y0 + y1) * scale) / 2;
+  appliquer();
+}
+
+// molette = zoom au curseur ; glisser = deplacement
+$("scene").addEventListener("wheel", e => {
+  e.preventDefault();
+  const r = $("scene").getBoundingClientRect();
+  zoomer(e.deltaY < 0 ? 1.18 : 1 / 1.18, e.clientX - r.left, e.clientY - r.top);
+}, {passive: false});
+
+let drag = null;
+$("scene").addEventListener("pointerdown", e => {
+  drag = {x: e.clientX - tx, y: e.clientY - ty};
+  $("scene").classList.add("drag");
+  $("scene").setPointerCapture(e.pointerId);
+});
+$("scene").addEventListener("pointermove", e => {
+  if (!drag) return;
+  tx = e.clientX - drag.x; ty = e.clientY - drag.y; appliquer();
+});
+$("scene").addEventListener("pointerup", () => {
+  drag = null; $("scene").classList.remove("drag");
+});
+
+(async () => {
+  const d = await fetch("/api/arbre/" + sejour).then(r => r.json());
+  $("titre").textContent =
+    `Arbre de décision — ${sejour.replace("SEJ-000", "P-")}`;
+  $("note").textContent =
+    `Substitution (profondeur ${d.profondeur}) imitant le modèle complet de 300 arbres — ` +
+    `fidélité R² ${d.fidelite.r2}, ${(d.fidelite.accord_seuil * 100).toFixed(0)} % d'accord au seuil. ` +
+    `La feuille donne la MOYENNE des séjours qui partagent ce chemin — pas le score du patient : ` +
+    `ici feuille ${(d.risque_arbre * 100).toFixed(0)} %, patient ${(d.risque_modele * 100).toFixed(0)} % (modèle complet, 132 variables). ` +
+    `L'écart est le prix de la lisibilité, et il est mesuré. Molette : zoom · glisser : déplacer.`;
+  window._risqueModele = d.risque_modele;
+  construire(d);
+  suivreChemin();
+})().catch(e => $("note").textContent = "Erreur : " + e);
+</script>
+</body>
+</html>

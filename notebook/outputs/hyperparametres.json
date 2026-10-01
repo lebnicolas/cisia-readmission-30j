@@ -1,0 +1,107 @@
+{
+  "n_essais": 50,
+  "n_plis_internes": 4,
+  "plis": [
+    {
+      "pli": 1,
+      "séjours test": 158,
+      "positifs test": 28,
+      "manuel": 0.599188354458374,
+      "Optuna": 0.6890852483622878,
+      "interne (recherche)": 0.3837359670419751,
+      "params": {
+        "learning_rate": 0.02389877762842284,
+        "max_leaf_nodes": 55,
+        "min_samples_leaf": 50,
+        "l2_regularization": 0.025414819942757846,
+        "max_features": 0.49098043559579996,
+        "max_iter": 100,
+        "early_stopping": true,
+        "validation_fraction": 0.15
+      }
+    },
+    {
+      "pli": 2,
+      "séjours test": 158,
+      "positifs test": 28,
+      "manuel": 0.4166651034882822,
+      "Optuna": 0.42851663582655464,
+      "interne (recherche)": 0.4535630668724747,
+      "params": {
+        "learning_rate": 0.015069404486532684,
+        "max_leaf_nodes": 41,
+        "min_samples_leaf": 49,
+        "l2_regularization": 3.1537088194262988,
+        "max_features": 0.4094206585087863,
+        "max_iter": 450,
+        "early_stopping": true,
+        "validation_fraction": 0.15
+      }
+    },
+    {
+      "pli": 3,
+      "séjours test": 158,
+      "positifs test": 29,
+      "manuel": 0.5615813188851374,
+      "Optuna": 0.4754310718983306,
+      "interne (recherche)": 0.418380933756632,
+      "params": {
+        "learning_rate": 0.033623014337433026,
+        "max_leaf_nodes": 52,
+        "min_samples_leaf": 44,
+        "l2_regularization": 0.020894194849057364,
+        "max_features": 0.4799789529143308,
+        "max_iter": 100,
+        "early_stopping": true,
+        "validation_fraction": 0.15
+      }
+    },
+    {
+      "pli": 4,
+      "séjours test": 156,
+      "positifs test": 28,
+      "manuel": 0.36551967338248237,
+      "Optuna": 0.39493849572082274,
+      "interne (recherche)": 0.4841915147497794,
+      "params": {
+        "learning_rate": 0.02082430630891322,
+        "max_leaf_nodes": 27,
+        "min_samples_leaf": 41,
+        "l2_regularization": 6.6264686496554495,
+        "max_features": 0.9065751473426759,
+        "max_iter": 200,
+        "early_stopping": true,
+        "validation_fraction": 0.15
+      }
+    },
+    {
+      "pli": 5,
+      "séjours test": 156,
+      "positifs test": 28,
+      "manuel": 0.41726872549294025,
+      "Optuna": 0.40921052750461717,
+      "interne (recherche)": 0.4770026537463249,
+      "params": {
+        "learning_rate": 0.03345348560702376,
+        "max_leaf_nodes": 55,
+        "min_samples_leaf": 20,
+        "l2_regularization": 0.013431567407213432,
+        "max_features": 0.8125520097984544,
+        "max_iter": 100,
+        "early_stopping": true,
+        "validation_fraction": 0.15
+      }
+    }
+  ],
+  "mise_en_commun": {
+    "manuel": 0.43545733073147636,
+    "Optuna": 0.42834834574802283
+  },
+  "moyenne_par_pli": {
+    "manuel": 0.47204463514144324,
+    "Optuna": 0.4794363958625226,
+    "écart-type manuel": 0.09121096795808419,
+    "écart-type Optuna": 0.10828949501371363
+  },
+  "écart": -0.007108984983453526
+}

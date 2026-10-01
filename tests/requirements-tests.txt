@@ -1,0 +1,12 @@
+# Dependances minimales pour executer la suite de tests.
+#
+# Le requirements.txt du notebook est un releve complet de l'environnement de
+# developpement : il embarque Jupyter, Playwright et des paquets specifiques a
+# Windows (pywinpty), qui echoueraient sur un agent Linux. La chaine
+# d'integration n'a besoin que du pipeline et de son evaluation.
+pandas==3.0.5
+numpy==2.4.6
+pyarrow==25.0.1
+scikit-learn==1.9.0
+lightgbm==4.7.0
+pytest==9.1.1

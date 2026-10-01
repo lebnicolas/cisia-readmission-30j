@@ -1,0 +1,49 @@
+{
+  "version": "etageA-2026-09-28-seed42",
+  "seuil": 0.11,
+  "rapport_cout": 5,
+  "sejours": 786,
+  "readmissions": 141,
+  "importance_globale": {
+    "demo_age": 0.176,
+    "demo_nb_pathologies": 0.085,
+    "demo_situation_familiale": 0.0211,
+    "dx_diagnostic_principal": 0.019,
+    "hist_duree_hospit_anterieure": 0.0138,
+    "cst_frequencecardiaque_pente": 0.0104,
+    "rx_nb_classes_atc": 0.0102,
+    "cst_temperature_taux_manquant": 0.0089,
+    "rx_nb_prescriptions": 0.0077,
+    "cst_tensionsystolique_pente": 0.0072,
+    "cst_frequencecardiaque_min": 0.0069,
+    "cst_temperature_fin_sejour": 0.0066
+  },
+  "colonnes_categorielle": [
+    "demo_sexe",
+    "demo_situation_familiale",
+    "sej_service",
+    "sej_type_sejour",
+    "sej_mode_sortie",
+    "sej_ghm_categorie",
+    "sej_ghm_severite",
+    "dx_diagnostic_principal",
+    "dx_chapitre_cim10",
+    "cr_gabarit"
+  ],
+  "performance_cv": {
+    "note": "PR-AUC de 0,39 a 0,44 selon la partition (cf. J3-11) ; les chiffres servis proviennent de la validation croisee, pas du modele reajuste.",
+    "pr_auc_seed42": 0.435,
+    "roc_auc_seed42": 0.778
+  },
+  "etage_b": {
+    "statut": "specifie, non entrainable",
+    "patients_couverts": 6,
+    "patients_requis": 170,
+    "fenetre_jours": 7,
+    "decisions_visees": [
+      "adaptation de la medication",
+      "visite a domicile",
+      "anticipation d'une rehospitalisation"
+    ]
+  }
+}

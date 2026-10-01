@@ -1,0 +1,621 @@
+PatientID,NomPrenom,DateNaissance,Sexe,CodePostal,Commune,RegimeAssurance,MedecinTraitant,PersonneAPrevenir,SituationFamiliale,PathologiesChroniques
+PAT-00001,Martin Monique,1927-02-12,F,97412,Bras-Panon,MSA,MED-056,Fils Martin,Vit seul,InsuffisanceRenale|InsuffisanceCardiaque|Hyperlipidemie|BPCO
+PAT-00002,Petit Christine,1974-05-24,F,97424,Cilaos,CPAM,MED-027,Fils Brun,Vit seul,Aucune
+PAT-00003,Guerin Chantal,1947-11-12,F,23000,Guéret,CPAM,MED-055,Fils Leroy,Vit seul,Aucune
+PAT-00004,Perrin Isabelle,1948-12-31,F,12000,Rodez,CPAM,MED-004,Fils Bertrand,En couple,InsuffisanceCardiaque|HTA
+PAT-00005,Henry Nathalie,1946-06-29,F,97414,Entre-Deux,CPAM,MED-003,Non renseigné,En famille,Aucune
+PAT-00006,Robert Laurent,1939-04-09,M,56000,Vannes,Non renseigne,MED-035,Fille Muller,Vit seul,BPCO|InsuffisanceRenale|InsuffisanceCardiaque
+PAT-00007,Durand Marie,1974-11-15,F,44000,Nantes,CPAM,MED-030,Enfant Andre,En famille,Aucune
+PAT-00008,Gauthier Christine,1944-02-14,F,03200,Vichy,CPAM,MED-029,Frere Henry,En famille,InsuffisanceRenale|Diabete
+PAT-00009,Dumont Philippe,1951-03-16,M,08000,Charleville-Mézières,CPAM,MED-037,Non renseigné,Non renseigné,Aucune
+PAT-00010,Dumont Philippe,1932-08-16,M,05000,Gap,MSA,MED-006,Enfant Dubois,En couple,InsuffisanceCardiaque|Diabete
+PAT-00011,Clement Thierry,1946-07-18,M,34000,Montpellier,CPAM,MED-050,Non renseigné,Vit seul,Diabete|BPCO|InsuffisanceCardiaque
+PAT-00012,Garcia Gérard,1963-07-09,M,97431,Plaine-des-Palmistes,CPAM,MED-006,Fils Mathieu,En famille,Aucune
+PAT-00013,Vincent Patrick,1941-04-16,M,97438,Sainte-Marie,Non renseigne,MED-023,Frere Petit,En famille,InsuffisanceCardiaque
+PAT-00014,Fontaine Gérard,1935-01-19,M,76000,Rouen,CPAM,MED-049,Conjoint David,Non renseigné,InsuffisanceCardiaque
+PAT-00015,Nicolas Alain,1946-10-10,M,97418,Le Tampon,Non renseigne,MED-007,Fille Robert,En famille,Aucune
+PAT-00016,Leroy Chantal,1949-04-03,F,97419,La Possession,AME,MED-054,Non renseigné,Vit seul,Diabete|HTA
+PAT-00017,Dumont Annick,1955-12-06,F,05000,Gap,CPAM,MED-027,Conjoint Petit,En couple,InsuffisanceRenale|Hyperlipidemie|Diabete
+PAT-00018,Perrin Sylvie,1929-04-30,F,72000,Le Mans,CPAM,MED-001,Conjoint Lefevre,Vit seul,InsuffisanceRenale
+PAT-00019,Lefevre Gérard,1946-10-21,Non renseigné,29200,Brest,CPAM,MED-015,Fils Girard,En famille,InsuffisanceCardiaque|Hyperlipidemie
+PAT-00020,Mercier Claudine,1925-02-09,F,97429,Petite-Île,CPAM,MED-037,Frere Morel,En couple,InsuffisanceRenale|Diabete|InsuffisanceCardiaque
+PAT-00021,Lefebvre Sylvie,1964-09-11,F,21000,Dijon,CPAM,MED-035,Fille Michel,En couple,Aucune
+PAT-00022,Lopez Éric,1949-09-12,M,48000,Mende,RSI,MED-044,Fille Lopez,En famille,Hyperlipidemie|Diabete
+PAT-00023,Brun Pierre,1955-12-29,M,21000,Dijon,CPAM,MED-020,Fils Martin,En famille,InsuffisanceRenale
+PAT-00024,Roussel Philippe,1990-11-27,M,06000,Nice,Non renseigne,MED-057,Fille Nicolas,En famille,Aucune
+PAT-00025,Henry Josiane,1953-05-21,F,97421,Saint-Leu,CPAM,MED-042,Conjoint Grondin,En couple,BPCO|InsuffisanceRenale
+PAT-00026,Thomas Isabelle,1951-01-05,F,59000,Lille,CPAM,MED-019,Conjoint Maillot,Vit seul,Diabete
+PAT-00027,Dumont Thierry,1962-10-12,M,97427,Étang-Salé,MSA,MED-033,Fille Gauthier,Vit seul,Aucune
+PAT-00028,Payet Thierry,1946-09-21,M,97433,Salazie,CPAM,MED-029,Frere Hoarau,En couple,InsuffisanceRenale|BPCO
+PAT-00029,Texier Sylvie,1951-02-23,F,69001,Lyon,CPAM,MED-011,Non renseigné,Non renseigné,Diabete
+PAT-00030,Girard Sylvaine,1963-10-08,F,87000,Limoges,Non renseigne,MED-038,Fils Clement,Non renseigné,BPCO
+PAT-00031,Thomas Thierry,1926-12-15,M,48000,Mende,CPAM,MED-026,Conjoint Texier,Vit seul,HTA|Diabete|BPCO
+PAT-00032,Rampal Daniel,1975-07-30,Non renseigné,97427,Étang-Salé,MSA,Non renseigné,Frere Fontaine,Non renseigné,Aucune
+PAT-00033,Lefebvre Éric,1973-12-31,M,08000,Charleville-Mézières,CPAM,MED-003,Fille Clement,En famille,Aucune
+PAT-00034,Dumont Patrick,1948-02-28,M,97427,Étang-Salé,CPAM,MED-027,Conjoint Michel,Vit seul,Hyperlipidemie|InsuffisanceCardiaque|InsuffisanceRenale
+PAT-00035,David Michel,1977-08-04,M,69001,Lyon,CPAM,MED-052,Non renseigné,En couple,Aucune
+PAT-00036,Girard Philippe,1925-04-10,M,29200,Brest,CPAM,MED-018,Conjoint Texier,En famille,InsuffisanceRenale|Hyperlipidemie|Diabete|HTA
+PAT-00037,Bègue Marie,1936-06-08,F,67000,Strasbourg,Non renseigne,MED-025,Fils Garcia,En famille,Hyperlipidemie
+PAT-00038,Texier Michel,1941-04-29,M,25000,Besançon,CPAM,MED-039,Conjoint Leroy,En famille,InsuffisanceCardiaque|InsuffisanceRenale
+PAT-00039,Maillot Chantal,1958-01-24,F,97422,Avirons,RSI,MED-049,Conjoint Rousseau,Vit seul,InsuffisanceCardiaque|InsuffisanceRenale
+PAT-00040,Mathieu Jean,1962-12-10,M,97460,Saint-Paul,CPAM,MED-015,Fille Bertrand,Vit seul,Aucune
+PAT-00041,Dubois Danièle,1964-08-07,F,97421,Saint-Leu,CPAM,MED-014,Non renseigné,Vit seul,InsuffisanceCardiaque
+PAT-00042,Mercier Isabelle,1972-08-19,F,59000,Lille,MSA,MED-032,Enfant Guerin,En couple,Aucune
+PAT-00043,Roux Michel,1948-10-29,M,97422,Avirons,CPAM,MED-055,Conjoint Leroy,Vit seul,Aucune
+PAT-00044,Martin Pierre,1941-04-03,M,97418,Le Tampon,CPAM,MED-029,Enfant Lefebvre,En famille,Aucune
+PAT-00045,Fontaine Gérard,1945-06-12,M,56000,Vannes,MSA,MED-046,Frere Lefevre,En couple,Diabete|InsuffisanceCardiaque|BPCO
+PAT-00046,Henry Nathalie,1943-09-29,F,29000,Quimper,CPAM,Non renseigné,Conjoint Roussel,En famille,HTA|InsuffisanceCardiaque|Diabete
+PAT-00047,Moreau Jean,1951-12-07,M,65000,Tarbes,CPAM,Non renseigné,Frere Blanc,Vit seul,HTA|InsuffisanceRenale|Diabete
+PAT-00048,Roux Sylvaine,1975-05-20,F,97419,La Possession,CPAM,MED-002,Fils Michel,En couple,Aucune
+PAT-00049,Morel Christian,1947-07-13,M,74000,Annecy,CPAM,MED-043,Fils Grondin,Vit seul,Hyperlipidemie|InsuffisanceCardiaque
+PAT-00050,Morel Laurent,1948-08-04,M,97438,Sainte-Marie,Non renseigne,MED-041,Conjoint Texier,Vit seul,Hyperlipidemie|InsuffisanceCardiaque|BPCO
+PAT-00051,Gauthier Christian,1931-08-18,M,97450,Saint-Louis,RSI,MED-051,Non renseigné,Vit seul,InsuffisanceRenale
+PAT-00052,Fournier Alain,1929-02-23,M,56100,Lorient,CPAM,MED-021,Fille Fournier,En couple,InsuffisanceRenale|HTA|InsuffisanceCardiaque
+PAT-00053,Nicolas Isabelle,1978-01-04,F,70000,Vesoul,CPAM,Non renseigné,Frere Payet,Vit seul,Aucune
+PAT-00054,Simon Josiane,1957-12-28,F,35000,Rennes,CPAM,Non renseigné,Conjoint Bègue,En famille,HTA
+PAT-00055,Bertrand Isabelle,1952-04-18,F,05000,Gap,Non renseigne,MED-054,Frere Thomas,Vit seul,Aucune
+PAT-00056,Robert Patrick,1974-04-21,M,25000,Besançon,CPAM,MED-005,Enfant Petit,En couple,Aucune
+PAT-00057,Mathieu Éric,1971-09-30,M,12000,Rodez,CPAM,MED-024,Fille Maillot,Vit seul,Aucune
+PAT-00058,Robert Thierry,1951-11-16,M,03200,Vichy,CPAM,MED-004,Frere Payet,En famille,InsuffisanceRenale
+PAT-00059,Michel Thierry,1976-09-28,M,97441,Sainte-Suzanne,Non renseigne,MED-001,Fille Garcia,En couple,Aucune
+PAT-00060,Brun Daniel,1951-08-16,M,31000,Toulouse,Non renseigne,MED-008,Conjoint Moreau,En couple,Aucune
+PAT-00061,Bernard Claudine,1940-11-26,F,59140,Dunkerque,CPAM,MED-005,Frere Lopez,Vit seul,InsuffisanceRenale|HTA|Hyperlipidemie|BPCO
+PAT-00062,Gauthier Marie,1926-01-06,F,20600,Bastia,MSA,MED-013,Fils David,Vit seul,InsuffisanceCardiaque|BPCO
+PAT-00063,Leroy Chantal,1953-07-24,F,69001,Lyon,AME,MED-025,Fille David,En couple,Hyperlipidemie|BPCO
+PAT-00064,Faure Alain,1943-01-31,M,67000,Strasbourg,RSI,MED-017,Fils Mathieu,En couple,BPCO|InsuffisanceRenale|InsuffisanceCardiaque
+PAT-00065,Hoarau Annick,1941-11-14,F,57000,Metz,CPAM,MED-028,Non renseigné,Vit seul,InsuffisanceRenale|HTA|Hyperlipidemie
+PAT-00066,Rampal Alain,1965-02-21,M,66000,Perpignan,CPAM,MED-046,Conjoint Garcia,Non renseigné,Aucune
+PAT-00067,Fontaine Laurent,1956-05-10,M,86000,Poitiers,CPAM,MED-036,Fille Bègue,En couple,BPCO
+PAT-00068,Bègue Patrick,1959-06-12,M,97412,Bras-Panon,MSA,MED-056,Fille Dumont,En couple,Aucune
+PAT-00069,Hoarau Christine,1944-09-29,F,12000,Rodez,Non renseigne,MED-059,Fille Petit,En couple,InsuffisanceCardiaque
+PAT-00070,Michel Isabelle,1946-09-12,F,33000,Bordeaux,CPAM,MED-018,Fils Vincent,En couple,Diabete|InsuffisanceRenale
+PAT-00071,Morel Sylvie,1972-10-02,F,97419,La Possession,CPAM,MED-024,Fille David,Vit seul,Aucune
+PAT-00072,Blanc Josiane,1951-04-10,F,35000,Rennes,CPAM,Non renseigné,Fils Blanc,En couple,HTA
+PAT-00073,Henry Éric,1961-01-08,M,65000,Tarbes,CPAM,Non renseigné,Conjoint Bègue,En couple,Aucune
+PAT-00074,Dubois Nathalie,1945-04-21,F,97442,Saint-Philippe,MSA,MED-054,Fils Morel,En famille,InsuffisanceCardiaque|HTA|Hyperlipidemie
+PAT-00075,Fontaine Isabelle,1964-07-16,F,97460,Saint-Paul,CPAM,MED-051,Non renseigné,En famille,InsuffisanceRenale
+PAT-00076,Rampal Marie,1963-07-01,F,37000,Tours,MSA,Non renseigné,Frere Mathieu,Vit seul,BPCO
+PAT-00077,Bertrand Danièle,1978-09-02,F,25000,Besançon,CPAM,Non renseigné,Non renseigné,Vit seul,Aucune
+PAT-00078,Dubois Nathalie,1949-03-29,F,54000,Nancy,CPAM,MED-059,Fils Morel,En famille,HTA|BPCO
+PAT-00079,Michel Sylvaine,1964-04-26,F,20600,Bastia,MSA,MED-033,Non renseigné,Vit seul,Aucune
+PAT-00080,Michel Sylvaine,1964-10-14,F,73000,Chambéry,MSA,MED-010,Enfant Durand,En couple,Aucune
+PAT-00081,Faure Christian,1952-12-26,M,97400,Saint-Denis,RSI,MED-013,Fils Payet,En couple,Hyperlipidemie|HTA
+PAT-00082,David Sylvaine,1932-05-24,F,56000,Vannes,CPAM,MED-006,Conjoint Durand,En famille,Hyperlipidemie|InsuffisanceCardiaque
+PAT-00083,Girard Michel,1954-11-06,M,97418,Le Tampon,CPAM,Non renseigné,Non renseigné,En couple,Aucune
+PAT-00084,Bègue Alain,1935-04-27,M,14000,Caen,Non renseigne,Non renseigné,Frere Thomas,Non renseigné,HTA|InsuffisanceRenale
+PAT-00085,Dumont Monique,1981-02-01,F,13001,Marseille,CPAM,MED-028,Conjoint Laurent,Vit seul,Aucune
+PAT-00086,Bernard Philippe,1930-06-26,M,66000,Perpignan,CPAM,MED-025,Fils Grondin,En couple,InsuffisanceCardiaque|HTA|BPCO
+PAT-00087,Thomas Isabelle,1929-09-10,F,97439,Sainte-Rose,CPAM,MED-010,Fille Rousseau,En famille,InsuffisanceCardiaque|BPCO|InsuffisanceRenale|HTA
+PAT-00088,Muller Monique,1931-01-11,F,59140,Dunkerque,CPAM,MED-034,Enfant Dumont,En couple,Aucune
+PAT-00089,Roux Alain,1952-01-29,M,13001,Marseille,CPAM,MED-040,Conjoint Leroy,En couple,HTA|InsuffisanceRenale|BPCO
+PAT-00090,Robert Sylvie,1944-07-23,F,34000,Montpellier,CPAM,MED-044,Fille Grondin,En couple,Aucune
+PAT-00091,Laurent Patrick,1946-03-25,M,54000,Nancy,RSI,Non renseigné,Enfant Dumont,En famille,Aucune
+PAT-00092,Petit Daniel,1972-08-31,M,97429,Petite-Île,CPAM,MED-003,Frere Durand,Vit seul,Aucune
+PAT-00093,Robert Nathalie,1940-11-11,F,33000,Bordeaux,MSA,MED-015,Conjoint Texier,En couple,InsuffisanceRenale|HTA
+PAT-00094,Maillot Daniel,1947-11-08,Non renseigné,54000,Nancy,CPAM,MED-023,Conjoint Clement,Vit seul,Aucune
+PAT-00095,Grondin Éric,1956-11-22,M,97470,Saint-André,CPAM,MED-055,Fils Thomas,Non renseigné,Aucune
+PAT-00096,David Monique,1966-11-05,F,97450,Saint-Louis,RSI,MED-032,Fils Muller,Non renseigné,Aucune
+PAT-00097,David Éric,1949-07-07,M,70000,Vesoul,Non renseigne,MED-054,Frere Lefevre,En couple,Diabete
+PAT-00098,Rousseau Sylvie,1963-04-11,F,97419,La Possession,CPAM,Non renseigné,Fils Rampal,Non renseigné,Aucune
+PAT-00099,Roussel Nathalie,1970-02-11,F,97418,Le Tampon,CPAM,MED-014,Non renseigné,Vit seul,Aucune
+PAT-00100,Hoarau Patrick,1943-05-29,M,25000,Besançon,CPAM,MED-051,Fille Muller,En couple,Aucune
+PAT-00101,Morel Josiane,1939-08-18,F,03200,Vichy,CPAM,MED-023,Fille Bertrand,En famille,BPCO|InsuffisanceRenale
+PAT-00102,Clement Philippe,1963-11-10,M,42000,Saint-Étienne,CPAM,MED-030,Enfant Texier,En couple,Aucune
+PAT-00103,Thomas Josiane,1970-10-20,F,97426,Trois-Bassins,CPAM,Non renseigné,Conjoint Lefevre,En famille,Aucune
+PAT-00104,Dubois Annick,1945-05-06,F,57000,Metz,MSA,MED-027,Fille Clement,En couple,InsuffisanceCardiaque|Hyperlipidemie|InsuffisanceRenale
+PAT-00105,Mathieu Marie,1969-07-07,F,97426,Trois-Bassins,CPAM,MED-023,Conjoint Petit,En famille,Aucune
+PAT-00106,Rousseau Annick,1970-12-06,F,48000,Mende,CPAM,MED-010,Conjoint Payet,En famille,Aucune
+PAT-00107,Moreau Éric,1940-04-13,M,34000,Montpellier,CPAM,MED-015,Non renseigné,En couple,HTA
+PAT-00108,Gauthier Nathalie,1966-12-07,F,48000,Mende,CPAM,MED-017,Enfant Moreau,En couple,Aucune
+PAT-00109,Hoarau Nathalie,1926-04-30,F,97412,Bras-Panon,CPAM,MED-017,Fils Fournier,Vit seul,Hyperlipidemie|InsuffisanceCardiaque|Diabete|BPCO
+PAT-00110,Lefevre Chantal,1939-07-02,F,29200,Brest,CPAM,MED-050,Conjoint Faure,Non renseigné,InsuffisanceCardiaque|InsuffisanceRenale|HTA
+PAT-00111,Texier Josiane,1944-07-04,F,97426,Trois-Bassins,CPAM,Non renseigné,Conjoint Clement,En famille,InsuffisanceCardiaque
+PAT-00112,Dumont Nathalie,1953-02-21,F,59140,Dunkerque,CPAM,MED-059,Fils Bègue,Non renseigné,Aucune
+PAT-00113,Texier Isabelle,1951-08-17,F,05000,Gap,CPAM,MED-046,Fils Laurent,Vit seul,HTA|Hyperlipidemie
+PAT-00114,Clement Christian,1953-12-17,M,97433,Salazie,CPAM,MED-045,Frere Girard,En couple,InsuffisanceRenale|BPCO|Hyperlipidemie|HTA
+PAT-00115,Bègue Thierry,1935-12-19,M,97429,Petite-Île,CPAM,MED-012,Conjoint Dumont,Non renseigné,HTA|Diabete
+PAT-00116,Lopez Pierre,1925-09-03,M,33000,Bordeaux,CPAM,Non renseigné,Fils Gauthier,En famille,Diabete|HTA|InsuffisanceCardiaque|Hyperlipidemie
+PAT-00117,Clement Christian,1952-12-06,M,05000,Gap,AME,MED-058,Frere Simon,En famille,Hyperlipidemie|InsuffisanceCardiaque
+PAT-00118,Dumont Isabelle,1953-07-21,F,86000,Poitiers,CPAM,MED-057,Fils Clement,En famille,InsuffisanceRenale
+PAT-00119,Bègue Daniel,1942-04-03,M,59140,Dunkerque,Non renseigne,MED-021,Fille Thomas,Vit seul,InsuffisanceRenale|BPCO
+PAT-00120,Texier Sylvaine,1950-04-14,F,97439,Sainte-Rose,CPAM,MED-014,Fille Grondin,Vit seul,Aucune
+PAT-00121,Bertrand Éric,1936-07-04,M,35000,Rennes,CPAM,MED-004,Non renseigné,En couple,InsuffisanceCardiaque
+PAT-00122,Lopez Annick,1958-03-12,F,97439,Sainte-Rose,CPAM,MED-013,Fille Lefebvre,Vit seul,HTA|InsuffisanceRenale
+PAT-00123,Durand Monique,1948-08-11,F,97431,Plaine-des-Palmistes,RSI,MED-012,Fils Blanc,Vit seul,BPCO|InsuffisanceRenale|Hyperlipidemie|Diabete
+PAT-00124,Robert Jean,1950-12-24,Non renseigné,87000,Limoges,CPAM,MED-049,Frere Payet,En couple,InsuffisanceCardiaque|BPCO
+PAT-00125,Girard Chantal,1950-04-08,F,44000,Nantes,CPAM,MED-010,Fils Nicolas,En famille,Aucune
+PAT-00126,Bertrand Philippe,1940-08-12,M,14000,Caen,RSI,MED-059,Frere Roux,En couple,InsuffisanceCardiaque|HTA
+PAT-00127,Nicolas Christian,1965-04-20,M,67000,Strasbourg,CPAM,Non renseigné,Enfant Andre,En famille,Aucune
+PAT-00128,Fontaine Daniel,1951-02-08,M,35000,Rennes,CPAM,MED-043,Fils Maillot,En couple,BPCO
+PAT-00129,Mercier Annick,1964-09-17,F,06000,Nice,CPAM,MED-031,Frere Girard,Vit seul,Aucune
+PAT-00130,Vincent Nathalie,1976-04-11,F,76000,Rouen,CPAM,MED-002,Fils Moreau,En couple,Aucune
+PAT-00131,Henry Christine,1957-10-05,F,73000,Chambéry,CPAM,MED-056,Frere Dumont,Non renseigné,Aucune
+PAT-00132,Vincent Claudine,1949-10-21,F,29200,Brest,Non renseigne,MED-035,Enfant Henry,En famille,InsuffisanceCardiaque
+PAT-00133,Lefebvre Christian,1940-10-04,M,97427,Étang-Salé,Non renseigne,MED-059,Fils Garcia,En couple,HTA|InsuffisanceCardiaque|InsuffisanceRenale
+PAT-00134,Lopez Christine,1940-12-07,F,87000,Limoges,CPAM,MED-051,Fils Rousseau,Vit seul,HTA
+PAT-00135,Nicolas Sylvaine,1945-12-28,F,62100,Calais,CPAM,MED-035,Frere Guerin,En couple,InsuffisanceCardiaque
+PAT-00136,Durand Éric,1955-01-15,M,42000,Saint-Étienne,CPAM,MED-054,Fils Roussel,En famille,InsuffisanceCardiaque|HTA
+PAT-00137,Mathieu Chantal,1942-11-02,F,97450,Saint-Louis,CPAM,Non renseigné,Enfant Fontaine,En couple,InsuffisanceCardiaque|Hyperlipidemie|InsuffisanceRenale
+PAT-00138,Dubois Nathalie,1959-06-24,F,67000,Strasbourg,CPAM,MED-009,Fils Andre,Non renseigné,Aucune
+PAT-00139,Lopez Philippe,1951-02-11,M,29000,Quimper,Non renseigne,MED-046,Conjoint Fontaine,Vit seul,BPCO|InsuffisanceRenale|InsuffisanceCardiaque
+PAT-00140,Perrin Annick,1976-04-25,F,87000,Limoges,CPAM,MED-028,Conjoint Morin,En couple,Aucune
+PAT-00141,Laurent Christine,1957-06-18,F,08000,Charleville-Mézières,CPAM,MED-056,Fils Simon,Vit seul,InsuffisanceRenale|Diabete
+PAT-00142,Leroy Christian,1975-05-17,Non renseigné,66000,Perpignan,CPAM,Non renseigné,Fille Mathieu,Vit seul,Aucune
+PAT-00143,Faure Marie,1949-09-27,F,12000,Rodez,CPAM,MED-015,Non renseigné,En famille,BPCO
+PAT-00144,Nicolas Nathalie,1945-07-09,F,97414,Entre-Deux,CPAM,MED-041,Frere Garcia,Vit seul,InsuffisanceRenale|HTA
+PAT-00145,Michel Chantal,1945-09-26,F,69001,Lyon,MSA,MED-050,Frere Leroy,En couple,Diabete
+PAT-00146,Gauthier Sylvie,1944-09-26,F,97410,Saint-Pierre,CPAM,MED-054,Enfant Dumont,Non renseigné,BPCO
+PAT-00147,Fontaine Josiane,1948-04-09,F,97433,Salazie,Non renseigne,Non renseigné,Conjoint Faure,En couple,Hyperlipidemie|Diabete
+PAT-00148,Texier Jean,1952-10-15,M,97418,Le Tampon,CPAM,MED-006,Fils Bègue,Vit seul,HTA|Diabete
+PAT-00149,Roux Claudine,1934-07-16,F,97426,Trois-Bassins,CPAM,Non renseigné,Conjoint Rousseau,En famille,BPCO|HTA
+PAT-00150,Morin Isabelle,1961-05-26,F,31000,Toulouse,MSA,MED-016,Enfant Andre,Vit seul,Aucune
+PAT-00151,Maillot Christine,1947-10-27,F,97439,Sainte-Rose,AME,MED-048,Frere Perrin,Non renseigné,Diabete
+PAT-00152,Gauthier Christian,1939-11-19,M,97442,Saint-Philippe,AME,MED-001,Non renseigné,Vit seul,InsuffisanceRenale
+PAT-00153,Garcia Marie,1952-11-10,F,44000,Nantes,CPAM,MED-023,Non renseigné,Vit seul,Aucune
+PAT-00154,Texier Gérard,1942-01-05,M,06000,Nice,CPAM,MED-002,Fille Morin,En famille,Hyperlipidemie|BPCO|Diabete
+PAT-00155,Clement Daniel,1974-10-06,Non renseigné,57000,Metz,CPAM,MED-044,Fille Lopez,Vit seul,Aucune
+PAT-00156,Bègue Claudine,1945-08-24,F,57000,Metz,CPAM,MED-027,Conjoint Payet,Vit seul,Hyperlipidemie|BPCO
+PAT-00157,Fournier Chantal,1949-07-23,F,73000,Chambéry,CPAM,MED-021,Fils Michel,Non renseigné,InsuffisanceCardiaque|Hyperlipidemie|BPCO
+PAT-00158,Bertrand Éric,1956-10-15,M,08000,Charleville-Mézières,CPAM,MED-007,Non renseigné,En couple,BPCO
+PAT-00159,Thomas Monique,1963-05-23,F,69001,Lyon,RSI,MED-056,Conjoint Blanc,En famille,Aucune
+PAT-00160,Petit Annick,1935-10-23,F,34000,Montpellier,AME,Non renseigné,Non renseigné,Non renseigné,HTA|InsuffisanceRenale|InsuffisanceCardiaque
+PAT-00161,Mercier Claudine,1945-05-12,F,42000,Saint-Étienne,CPAM,MED-003,Frere Robert,Non renseigné,InsuffisanceRenale|HTA
+PAT-00162,Lefevre Patrick,1964-10-01,M,35000,Rennes,CPAM,MED-022,Fille Michel,En couple,Aucune
+PAT-00163,Fontaine Annick,1955-01-12,F,13001,Marseille,CPAM,MED-018,Frere Hoarau,Vit seul,InsuffisanceRenale
+PAT-00164,Lefevre Éric,1928-08-18,Non renseigné,21000,Dijon,CPAM,MED-002,Frere Brun,En couple,InsuffisanceRenale|Diabete|Hyperlipidemie|InsuffisanceCardiaque
+PAT-00165,Girard Daniel,1966-02-27,M,97442,Saint-Philippe,CPAM,MED-041,Conjoint Perrin,Vit seul,Aucune
+PAT-00166,Moreau Thierry,1970-05-05,M,97421,Saint-Leu,CPAM,Non renseigné,Enfant Muller,Vit seul,Aucune
+PAT-00167,Texier Jean,1953-02-11,M,97421,Saint-Leu,CPAM,MED-028,Fille Lopez,En couple,Diabete|InsuffisanceRenale|HTA
+PAT-00168,Garcia Christine,1954-11-17,F,23000,Guéret,AME,Non renseigné,Non renseigné,En couple,Aucune
+PAT-00169,Morel Chantal,1968-01-26,F,97480,Saint-Joseph,CPAM,MED-012,Conjoint Fournier,En famille,Aucune
+PAT-00170,Girard Annick,1947-11-06,F,29000,Quimper,CPAM,MED-039,Conjoint Perrin,En famille,Diabete
+PAT-00171,Rampal Josiane,1961-12-20,F,97420,Le Port,CPAM,Non renseigné,Fille Lefebvre,En couple,Aucune
+PAT-00172,Mercier Michel,1951-03-05,M,65000,Tarbes,CPAM,MED-056,Conjoint Robert,En famille,Hyperlipidemie
+PAT-00173,Vincent Marie,1955-10-15,F,35000,Rennes,CPAM,MED-046,Enfant Bernard,En famille,Diabete
+PAT-00174,Faure Alain,1972-08-09,M,97438,Sainte-Marie,CPAM,Non renseigné,Conjoint Texier,Vit seul,Aucune
+PAT-00175,Thomas Pierre,1932-09-22,M,73000,Chambéry,CPAM,Non renseigné,Conjoint Texier,Vit seul,InsuffisanceCardiaque
+PAT-00176,Laurent Christian,1952-04-08,M,35000,Rennes,MSA,MED-053,Fille David,En couple,Hyperlipidemie|Diabete|InsuffisanceCardiaque
+PAT-00177,Bègue Sylvie,1963-07-11,F,03200,Vichy,CPAM,MED-055,Fils Robert,Non renseigné,Diabete
+PAT-00178,Michel Laurent,1955-04-21,M,56100,Lorient,CPAM,MED-043,Conjoint Maillot,En couple,InsuffisanceRenale
+PAT-00179,Dumont Thierry,1973-11-17,Non renseigné,14000,Caen,CPAM,MED-032,Non renseigné,En couple,Aucune
+PAT-00180,Blanc Thierry,1957-06-08,M,76000,Rouen,CPAM,MED-048,Fille Bernard,Vit seul,Aucune
+PAT-00181,Bègue Gérard,1958-03-09,M,97433,Salazie,CPAM,MED-006,Fils Brun,En couple,InsuffisanceRenale
+PAT-00182,Bernard Daniel,1955-05-03,M,97424,Cilaos,CPAM,MED-022,Conjoint Fournier,Non renseigné,Hyperlipidemie
+PAT-00183,Bernard Sylvie,1950-04-01,F,12000,Rodez,MSA,Non renseigné,Fille Hoarau,En couple,Aucune
+PAT-00184,Grondin Alain,1944-03-08,M,65000,Tarbes,CPAM,MED-033,Conjoint Bernard,En famille,InsuffisanceRenale|InsuffisanceCardiaque|BPCO
+PAT-00185,Payet Christian,1959-08-04,M,29000,Quimper,CPAM,MED-008,Enfant Leroy,Vit seul,InsuffisanceCardiaque
+PAT-00186,Dumont Philippe,1951-09-09,M,97414,Entre-Deux,CPAM,MED-054,Fils Brun,En couple,Diabete|InsuffisanceCardiaque
+PAT-00187,Moreau Alain,1952-04-12,M,97433,Salazie,CPAM,MED-001,Frere Roux,Vit seul,Diabete
+PAT-00188,Muller Josiane,1961-09-23,F,37000,Tours,CPAM,MED-033,Enfant Garcia,En famille,Aucune
+PAT-00189,Lefevre Isabelle,1945-04-02,F,25000,Besançon,CPAM,MED-015,Frere Bertrand,Vit seul,Aucune
+PAT-00190,Thomas Patrick,1950-01-26,M,57000,Metz,CPAM,MED-033,Conjoint Muller,En famille,Diabete
+PAT-00191,David Josiane,1927-03-30,F,76000,Rouen,CPAM,MED-012,Enfant Moreau,En couple,Hyperlipidemie|BPCO|InsuffisanceCardiaque|HTA
+PAT-00192,Rousseau Patrick,1946-02-12,M,12000,Rodez,CPAM,MED-040,Non renseigné,Vit seul,InsuffisanceRenale
+PAT-00193,David Sylvaine,1957-03-04,F,87000,Limoges,CPAM,MED-030,Enfant Simon,En famille,Hyperlipidemie|InsuffisanceRenale|BPCO|HTA
+PAT-00194,Dubois Monique,1925-10-14,F,65000,Tarbes,CPAM,MED-005,Fille Lopez,En couple,InsuffisanceCardiaque|BPCO|InsuffisanceRenale
+PAT-00195,Michel Gérard,1950-10-07,M,97442,Saint-Philippe,MSA,MED-044,Conjoint Texier,En couple,Hyperlipidemie|InsuffisanceRenale
+PAT-00196,Fontaine Patrick,1959-12-10,M,97431,Plaine-des-Palmistes,CPAM,MED-050,Conjoint Dumont,En famille,InsuffisanceRenale
+PAT-00197,David Monique,1959-06-10,F,97414,Entre-Deux,CPAM,MED-024,Conjoint Mercier,En famille,BPCO
+PAT-00198,Garcia Éric,1959-11-23,M,66000,Perpignan,CPAM,MED-017,Conjoint Michel,En couple,Diabete
+PAT-00199,Dumont Michel,1943-03-13,Non renseigné,48000,Mende,CPAM,MED-049,Fils Nicolas,En couple,InsuffisanceRenale|HTA|InsuffisanceCardiaque
+PAT-00200,Dumont Philippe,1965-01-31,M,97439,Sainte-Rose,CPAM,MED-015,Enfant Dumont,Non renseigné,Aucune
+PAT-00201,Lopez Christian,1946-10-22,M,31000,Toulouse,CPAM,MED-016,Fille Bertrand,En couple,Diabete
+PAT-00202,Rousseau Nathalie,1933-07-09,F,97424,Cilaos,CPAM,MED-004,Frere Robert,Vit seul,InsuffisanceRenale|Hyperlipidemie|InsuffisanceCardiaque
+PAT-00203,Dumont Danièle,1955-02-12,F,97426,Trois-Bassins,CPAM,MED-007,Conjoint Morel,En famille,BPCO|InsuffisanceCardiaque
+PAT-00204,Robert Gérard,1967-01-06,M,97470,Saint-André,Non renseigne,MED-006,Fille Brun,Vit seul,Aucune
+PAT-00205,Leroy Alain,1953-01-01,M,72000,Le Mans,CPAM,MED-021,Frere Durand,Vit seul,Aucune
+PAT-00206,Vincent Michel,1974-04-14,M,14000,Caen,CPAM,MED-035,Fils Fontaine,Vit seul,Aucune
+PAT-00207,Laurent Éric,1929-02-03,M,97420,Le Port,CPAM,MED-035,Fille Clement,Non renseigné,InsuffisanceCardiaque
+PAT-00208,Garcia Sylvaine,1938-10-26,F,86000,Poitiers,CPAM,MED-044,Non renseigné,En famille,InsuffisanceCardiaque
+PAT-00209,Lopez Jean,1937-10-13,M,97422,Avirons,AME,MED-026,Fille Dubois,Non renseigné,InsuffisanceRenale|BPCO|Hyperlipidemie
+PAT-00210,Fontaine Nathalie,1939-08-09,F,73000,Chambéry,CPAM,MED-041,Frere Fournier,Vit seul,BPCO|InsuffisanceCardiaque|HTA
+PAT-00211,Thomas Nathalie,1951-04-18,F,25000,Besançon,CPAM,MED-023,Frere Clement,Non renseigné,HTA
+PAT-00212,Texier Annick,1955-08-22,F,97421,Saint-Leu,CPAM,MED-019,Non renseigné,En couple,BPCO|Hyperlipidemie
+PAT-00213,Andre Chantal,1959-10-20,F,56100,Lorient,CPAM,MED-013,Frere Martin,Vit seul,Aucune
+PAT-00214,Roux André,1941-09-24,M,97426,Trois-Bassins,CPAM,MED-024,Non renseigné,Vit seul,InsuffisanceCardiaque|HTA|InsuffisanceRenale|Diabete
+PAT-00215,Fournier Sylvie,1944-10-02,F,97438,Sainte-Marie,Non renseigne,MED-040,Fille Guerin,Non renseigné,Diabete|BPCO
+PAT-00216,Lefevre Pierre,1954-03-28,M,97427,Étang-Salé,MSA,Non renseigné,Fille Texier,Vit seul,Aucune
+PAT-00217,Dubois Gérard,1971-10-15,M,14000,Caen,CPAM,MED-021,Fille Blanc,En couple,Aucune
+PAT-00218,Grondin Philippe,1975-05-18,M,74000,Annecy,CPAM,MED-019,Non renseigné,Non renseigné,Aucune
+PAT-00219,Dumont Sylvie,1962-05-22,F,97414,Entre-Deux,CPAM,MED-032,Fille Henry,Vit seul,Hyperlipidemie
+PAT-00220,Lopez Éric,1962-05-14,M,97441,Sainte-Suzanne,CPAM,MED-041,Fils Roussel,Vit seul,Aucune
+PAT-00221,Grondin Josiane,1941-07-10,F,12000,Rodez,CPAM,MED-017,Conjoint Henry,Vit seul,Diabete|BPCO|HTA|Hyperlipidemie
+PAT-00222,Simon Pierre,1965-12-23,M,06000,Nice,CPAM,MED-004,Fille Gauthier,En famille,Aucune
+PAT-00223,Rousseau Michel,1969-03-24,M,57000,Metz,CPAM,MED-045,Conjoint Henry,Vit seul,Aucune
+PAT-00224,Thomas Gérard,1957-12-18,M,57000,Metz,CPAM,Non renseigné,Frere Michel,En famille,HTA|Hyperlipidemie
+PAT-00225,Robert Michel,1942-08-18,M,97427,Étang-Salé,CPAM,MED-035,Frere Moreau,Vit seul,BPCO|HTA
+PAT-00226,Thomas Patrick,1951-09-04,M,97426,Trois-Bassins,Non renseigne,MED-043,Non renseigné,Vit seul,BPCO
+PAT-00227,Clement Laurent,1947-09-02,M,20600,Bastia,Non renseigne,MED-019,Fille Gauthier,En famille,Aucune
+PAT-00228,Bernard Michel,1969-04-08,M,29000,Quimper,CPAM,MED-030,Frere Garcia,En couple,Aucune
+PAT-00229,Lefebvre Sylvie,1952-09-25,F,13001,Marseille,CPAM,MED-039,Conjoint Thomas,Vit seul,Diabete|HTA|Hyperlipidemie|BPCO
+PAT-00230,Petit Nathalie,1956-10-01,F,05000,Gap,CPAM,MED-055,Enfant Mathieu,Non renseigné,BPCO|Diabete|Hyperlipidemie|HTA
+PAT-00231,Moreau Sylvie,1942-11-03,F,97419,La Possession,Non renseigne,MED-018,Fille Blanc,En famille,InsuffisanceRenale|HTA
+PAT-00232,Roussel Gérard,1935-08-05,M,29200,Brest,CPAM,MED-048,Enfant Henry,En couple,InsuffisanceRenale|Diabete
+PAT-00233,Durand Michel,1957-04-29,M,08000,Charleville-Mézières,CPAM,MED-032,Non renseigné,En famille,Diabete|Hyperlipidemie
+PAT-00234,David Marie,1946-08-06,F,65000,Tarbes,CPAM,MED-024,Fille Thomas,En famille,Aucune
+PAT-00235,Moreau Annick,1968-06-13,F,48000,Mende,CPAM,MED-008,Non renseigné,Vit seul,Aucune
+PAT-00236,Bertrand Daniel,1967-12-03,M,70000,Vesoul,CPAM,MED-005,Fille Lefebvre,Vit seul,Aucune
+PAT-00237,David Pierre,1960-01-27,M,97412,Bras-Panon,Non renseigne,MED-042,Non renseigné,En famille,Aucune
+PAT-00238,Dumont Marie,1942-04-23,F,97422,Avirons,CPAM,MED-002,Non renseigné,En famille,Diabete
+PAT-00239,Simon Isabelle,1953-10-22,F,37000,Tours,CPAM,MED-045,Enfant Blanc,Vit seul,BPCO|InsuffisanceRenale|HTA|Diabete
+PAT-00240,Vincent Sylvaine,1938-02-07,F,15000,Aurillac,CPAM,MED-051,Fille Guerin,Vit seul,Diabete
+PAT-00241,Clement Jean,1928-11-18,M,97438,Sainte-Marie,MSA,MED-028,Conjoint Roux,En couple,BPCO|InsuffisanceCardiaque
+PAT-00242,Maillot Chantal,1944-10-25,F,31000,Toulouse,CPAM,MED-056,Frere Gauthier,Vit seul,HTA|BPCO
+PAT-00243,Bègue Sylvie,1940-08-26,F,97424,Cilaos,CPAM,Non renseigné,Conjoint Robert,En couple,Diabete
+PAT-00244,David Pierre,1956-12-23,M,12000,Rodez,CPAM,MED-020,Enfant Maillot,Vit seul,BPCO|InsuffisanceRenale
+PAT-00245,Moreau Laurent,1955-07-28,M,97438,Sainte-Marie,CPAM,MED-020,Non renseigné,Vit seul,Aucune
+PAT-00246,Henry Claudine,1952-11-30,F,44000,Nantes,CPAM,MED-028,Enfant Morin,En couple,InsuffisanceRenale|Hyperlipidemie|InsuffisanceCardiaque
+PAT-00247,Bertrand Daniel,1952-03-11,M,65000,Tarbes,CPAM,Non renseigné,Non renseigné,Vit seul,Diabete
+PAT-00248,Fontaine Alain,1937-07-10,M,59000,Lille,CPAM,MED-018,Non renseigné,Vit seul,Hyperlipidemie
+PAT-00249,Durand Daniel,1969-04-01,M,97421,Saint-Leu,CPAM,MED-050,Frere Laurent,Non renseigné,Aucune
+PAT-00250,Bernard Annick,1960-08-07,F,31000,Toulouse,CPAM,MED-034,Fils Hoarau,En couple,BPCO
+PAT-00251,Dumont Annick,1956-03-25,F,15000,Aurillac,CPAM,MED-020,Non renseigné,Vit seul,Aucune
+PAT-00252,Simon Christine,1961-07-22,F,21000,Dijon,CPAM,MED-034,Fils Bertrand,En couple,Aucune
+PAT-00253,Bertrand Pierre,1957-06-20,M,54000,Nancy,CPAM,MED-022,Frere Lopez,En famille,Aucune
+PAT-00254,Morin Marie,1950-08-20,F,57000,Metz,CPAM,MED-055,Conjoint Rampal,Non renseigné,BPCO
+PAT-00255,Maillot Laurent,1943-02-15,M,97438,Sainte-Marie,CPAM,MED-016,Fille Bernard,En famille,InsuffisanceRenale
+PAT-00256,Mercier Pierre,1941-06-02,M,87000,Limoges,CPAM,MED-050,Fils Dumont,En couple,InsuffisanceRenale
+PAT-00257,Texier Pierre,1955-12-01,M,87000,Limoges,CPAM,MED-004,Conjoint Gauthier,Vit seul,BPCO|HTA
+PAT-00258,Vincent Christine,1963-07-10,F,29000,Quimper,AME,MED-052,Conjoint Rousseau,Non renseigné,Aucune
+PAT-00259,Rousseau Sylvie,1965-08-09,F,97431,Plaine-des-Palmistes,CPAM,MED-019,Enfant Dubois,En couple,Diabete
+PAT-00260,Clement Laurent,1955-02-15,M,23000,Guéret,CPAM,MED-038,Non renseigné,Non renseigné,InsuffisanceRenale|Hyperlipidemie|Diabete
+PAT-00261,Martin André,1946-05-02,M,20600,Bastia,MSA,MED-023,Enfant Gauthier,En couple,InsuffisanceRenale|InsuffisanceCardiaque
+PAT-00262,Brun Danièle,1958-11-16,F,62100,Calais,CPAM,MED-021,Fille Hoarau,En famille,InsuffisanceRenale|InsuffisanceCardiaque
+PAT-00263,Blanc Isabelle,1952-02-09,F,03200,Vichy,CPAM,MED-034,Fils Mathieu,En couple,InsuffisanceCardiaque|BPCO
+PAT-00264,Morin Alain,1964-04-23,M,06000,Nice,MSA,MED-028,Enfant Guerin,Non renseigné,BPCO|Hyperlipidemie
+PAT-00265,Fontaine Marie,1950-07-13,F,63000,Clermont-Ferrand,RSI,Non renseigné,Fille Dumont,En couple,Aucune
+PAT-00266,Faure Christine,1939-08-01,F,97460,Saint-Paul,CPAM,MED-001,Conjoint David,Vit seul,InsuffisanceRenale
+PAT-00267,Payet Christine,1941-07-11,F,56100,Lorient,CPAM,MED-039,Frere Bègue,Vit seul,Diabete|Hyperlipidemie|BPCO
+PAT-00268,Dumont Alain,1944-07-20,M,25000,Besançon,CPAM,MED-036,Frere Payet,Non renseigné,BPCO|InsuffisanceRenale|Hyperlipidemie|Diabete
+PAT-00269,Bertrand Isabelle,1948-11-30,F,23000,Guéret,CPAM,MED-010,Conjoint Muller,En couple,BPCO|Diabete|InsuffisanceCardiaque
+PAT-00270,Dumont Chantal,1965-10-25,F,48000,Mende,CPAM,Non renseigné,Frere Rampal,En famille,InsuffisanceRenale
+PAT-00271,Martin Isabelle,1943-07-25,F,59000,Lille,CPAM,MED-056,Fille Simon,Vit seul,Diabete|Hyperlipidemie
+PAT-00272,Andre Gérard,1947-09-11,M,12000,Rodez,Non renseigne,MED-019,Fille Lefevre,En famille,InsuffisanceRenale|Diabete|BPCO
+PAT-00273,Lopez Pierre,1944-06-19,M,35000,Rennes,CPAM,MED-035,Enfant Dumont,En couple,Diabete
+PAT-00274,Andre Danièle,1951-01-01,F,97414,Entre-Deux,CPAM,MED-021,Fille David,Vit seul,InsuffisanceRenale
+PAT-00275,Dumont Isabelle,1952-11-22,F,87000,Limoges,CPAM,MED-004,Enfant Nicolas,Vit seul,InsuffisanceCardiaque
+PAT-00276,Petit Sylvie,1925-07-02,F,12000,Rodez,CPAM,MED-037,Fille Payet,En couple,InsuffisanceRenale|Diabete
+PAT-00277,Morin Nathalie,1933-08-01,F,73000,Chambéry,CPAM,MED-006,Enfant Fournier,Vit seul,InsuffisanceRenale
+PAT-00278,Texier Christian,1961-08-17,M,42000,Saint-Étienne,CPAM,MED-003,Conjoint Lefebvre,En couple,Diabete
+PAT-00279,Lefebvre Sylvie,1960-05-20,F,56100,Lorient,RSI,MED-044,Frere Mathieu,En famille,InsuffisanceRenale|Hyperlipidemie
+PAT-00280,Rousseau Daniel,1968-07-13,M,97438,Sainte-Marie,MSA,MED-026,Fille Michel,En famille,Aucune
+PAT-00281,Grondin Christian,1955-08-10,M,86000,Poitiers,CPAM,MED-044,Fils Mercier,En famille,InsuffisanceRenale
+PAT-00282,Faure Marie,1956-01-13,F,97420,Le Port,CPAM,MED-051,Fils Blanc,Vit seul,HTA
+PAT-00283,Lefevre Gérard,1974-07-24,M,97424,Cilaos,CPAM,MED-014,Conjoint Mercier,Vit seul,Aucune
+PAT-00284,Dumont Isabelle,1960-12-26,F,12000,Rodez,CPAM,MED-031,Fille Maillot,Non renseigné,InsuffisanceCardiaque
+PAT-00285,Dumont Danièle,1942-05-13,F,48000,Mende,Non renseigne,Non renseigné,Fille Garcia,Vit seul,BPCO|InsuffisanceCardiaque|InsuffisanceRenale
+PAT-00286,Bertrand Annick,1955-03-27,F,97438,Sainte-Marie,CPAM,MED-033,Fille Henry,Vit seul,Aucune
+PAT-00287,Thomas Christine,1942-10-01,F,97424,Cilaos,CPAM,MED-002,Fille Grondin,En famille,Hyperlipidemie
+PAT-00288,Morin Monique,1948-08-17,F,65000,Tarbes,CPAM,MED-026,Fille Clement,En couple,BPCO
+PAT-00289,David Thierry,1972-10-08,M,48000,Mende,CPAM,MED-056,Fille Girard,En couple,Aucune
+PAT-00290,Andre Marie,1935-02-03,F,97418,Le Tampon,MSA,MED-022,Fille Lopez,En couple,InsuffisanceRenale|HTA|BPCO|Diabete
+PAT-00291,Morel Claudine,1936-10-20,F,97426,Trois-Bassins,MSA,MED-040,Non renseigné,En couple,Aucune
+PAT-00292,Martin Laurent,1964-09-14,M,21000,Dijon,CPAM,MED-020,Fille Lefevre,En couple,Aucune
+PAT-00293,Petit Danièle,1967-05-29,F,33000,Bordeaux,CPAM,MED-009,Conjoint Vincent,Non renseigné,Aucune
+PAT-00294,Garcia Annick,1943-02-05,F,86000,Poitiers,MSA,MED-059,Frere Durand,En famille,InsuffisanceCardiaque|Diabete|HTA
+PAT-00295,Andre Sylvie,1955-11-28,F,73000,Chambéry,CPAM,MED-042,Conjoint Dumont,En famille,Diabete|InsuffisanceCardiaque
+PAT-00296,Rousseau Claudine,1956-08-28,F,33000,Bordeaux,CPAM,MED-031,Frere Laurent,En famille,Aucune
+PAT-00297,Laurent Jean,1933-10-26,M,87000,Limoges,MSA,MED-006,Fils Gauthier,En couple,Aucune
+PAT-00298,Thomas Sylvaine,1982-10-09,F,97414,Entre-Deux,CPAM,Non renseigné,Non renseigné,Vit seul,Aucune
+PAT-00299,Bertrand Sylvaine,1956-06-13,F,97421,Saint-Leu,CPAM,Non renseigné,Fils Faure,En couple,BPCO|Diabete|HTA
+PAT-00300,Petit Laurent,1947-09-20,M,97431,Plaine-des-Palmistes,CPAM,MED-059,Enfant Roux,En couple,Aucune
+PAT-00301,Thomas Sylvie,1968-11-24,F,86000,Poitiers,CPAM,MED-009,Non renseigné,Vit seul,Aucune
+PAT-00302,Durand Sylvaine,1964-02-02,F,57000,Metz,CPAM,MED-004,Frere Martin,Vit seul,Aucune
+PAT-00303,Thomas Christine,1928-02-03,F,56100,Lorient,CPAM,Non renseigné,Fils Martin,Vit seul,HTA
+PAT-00304,Moreau Sylvie,1965-10-11,F,31000,Toulouse,MSA,MED-018,Frere Thomas,Vit seul,Aucune
+PAT-00305,David Daniel,1946-10-18,M,97419,La Possession,CPAM,MED-055,Fille Michel,En couple,Aucune
+PAT-00306,Laurent Michel,1961-08-20,M,97431,Plaine-des-Palmistes,RSI,MED-015,Fils Perrin,En couple,BPCO
+PAT-00307,Henry Danièle,1955-04-01,F,97429,Petite-Île,CPAM,MED-049,Fils Dubois,En couple,InsuffisanceRenale
+PAT-00308,Mercier Thierry,1952-05-26,M,97427,Étang-Salé,CPAM,MED-005,Fille Moreau,En couple,HTA|BPCO
+PAT-00309,Morel Pierre,1962-07-26,M,70000,Vesoul,CPAM,MED-027,Non renseigné,En famille,Aucune
+PAT-00310,Brun Gérard,1948-02-27,M,05000,Gap,CPAM,MED-024,Conjoint Bernard,En couple,InsuffisanceCardiaque|InsuffisanceRenale
+PAT-00311,David Christine,1963-04-29,F,35000,Rennes,AME,MED-032,Conjoint Thomas,Vit seul,Aucune
+PAT-00312,Brun Gérard,1968-11-21,M,97426,Trois-Bassins,CPAM,MED-009,Fille Lopez,Vit seul,Aucune
+PAT-00313,Andre Michel,1936-07-05,M,97431,Plaine-des-Palmistes,CPAM,MED-054,Frere Hoarau,En couple,Diabete|BPCO|InsuffisanceRenale|HTA
+PAT-00314,Perrin Isabelle,1943-02-13,F,42000,Saint-Étienne,CPAM,MED-053,Conjoint Lopez,En couple,BPCO|InsuffisanceRenale|Diabete|InsuffisanceCardiaque
+PAT-00315,Clement Christian,1953-05-08,M,29200,Brest,CPAM,Non renseigné,Enfant Lopez,Vit seul,Aucune
+PAT-00316,Gauthier Daniel,1947-08-17,M,65000,Tarbes,CPAM,MED-015,Fille Blanc,Vit seul,InsuffisanceRenale
+PAT-00317,Roussel Chantal,1946-07-16,F,87000,Limoges,CPAM,MED-051,Fille Martin,En couple,Hyperlipidemie|InsuffisanceRenale|HTA
+PAT-00318,Roux Éric,1940-06-15,M,62100,Calais,RSI,MED-039,Non renseigné,En famille,HTA|Diabete|BPCO
+PAT-00319,Girard Chantal,1944-05-05,F,72000,Le Mans,CPAM,MED-050,Non renseigné,En famille,Aucune
+PAT-00320,Laurent Annick,1941-03-22,F,97450,Saint-Louis,CPAM,MED-055,Fille Nicolas,En couple,Diabete
+PAT-00321,Lefevre Marie,1939-07-05,F,21000,Dijon,CPAM,MED-020,Conjoint Michel,Vit seul,Aucune
+PAT-00322,Dumont Annick,1954-11-24,F,21000,Dijon,CPAM,MED-052,Frere Michel,Non renseigné,Aucune
+PAT-00323,Clement Patrick,1965-06-29,M,97412,Bras-Panon,CPAM,MED-028,Frere Henry,En famille,Aucune
+PAT-00324,Lopez Danièle,1953-05-05,F,67000,Strasbourg,CPAM,MED-051,Enfant Roux,Vit seul,Aucune
+PAT-00325,Faure Jean,1938-03-25,M,97410,Saint-Pierre,CPAM,MED-055,Enfant Morin,Vit seul,InsuffisanceCardiaque|InsuffisanceRenale|BPCO|Diabete
+PAT-00326,Dumont Sylvie,1965-12-13,F,97421,Saint-Leu,CPAM,MED-056,Fils Blanc,Vit seul,Aucune
+PAT-00327,Gauthier Laurent,1947-12-05,M,62100,Calais,RSI,MED-010,Fils Guerin,Vit seul,Aucune
+PAT-00328,Blanc Danièle,1962-08-22,F,33000,Bordeaux,CPAM,MED-059,Frere Brun,En famille,InsuffisanceCardiaque
+PAT-00329,Durand Nathalie,1940-11-18,F,97442,Saint-Philippe,AME,MED-002,Frere Lefebvre,En famille,Aucune
+PAT-00330,Andre Michel,1945-02-18,M,97410,Saint-Pierre,CPAM,MED-051,Conjoint Muller,Vit seul,HTA
+PAT-00331,Fournier Jean,1940-03-25,M,08000,Charleville-Mézières,AME,Non renseigné,Conjoint Bernard,Vit seul,Aucune
+PAT-00332,Gauthier Claudine,1943-07-21,F,56000,Vannes,CPAM,MED-008,Frere Morin,Non renseigné,Diabete|Hyperlipidemie|InsuffisanceCardiaque|BPCO
+PAT-00333,Rampal Michel,1939-02-14,M,54000,Nancy,CPAM,MED-029,Fils Roussel,Non renseigné,InsuffisanceCardiaque
+PAT-00334,Andre Daniel,1962-11-25,M,97418,Le Tampon,CPAM,MED-017,Fils Blanc,Vit seul,InsuffisanceRenale
+PAT-00335,Maillot Claudine,1956-07-14,F,97439,Sainte-Rose,CPAM,MED-014,Frere David,Vit seul,BPCO
+PAT-00336,Michel Philippe,1957-07-15,M,97460,Saint-Paul,CPAM,MED-022,Enfant Leroy,En famille,InsuffisanceCardiaque|HTA
+PAT-00337,Fontaine Daniel,1951-02-23,M,13001,Marseille,CPAM,MED-052,Non renseigné,En famille,Aucune
+PAT-00338,Clement Josiane,1947-02-17,F,97400,Saint-Denis,CPAM,MED-017,Enfant Lopez,Vit seul,Hyperlipidemie|BPCO
+PAT-00339,Bernard Isabelle,1938-04-08,F,56000,Vannes,MSA,MED-045,Frere Dumont,Vit seul,InsuffisanceRenale
+PAT-00340,Bertrand Isabelle,1951-05-21,F,59140,Dunkerque,CPAM,MED-041,Enfant Garcia,Vit seul,Hyperlipidemie|Diabete|InsuffisanceRenale|HTA
+PAT-00341,Brun Annick,1941-05-31,F,33000,Bordeaux,CPAM,MED-040,Conjoint Guerin,En famille,InsuffisanceRenale|BPCO|Diabete
+PAT-00342,Roussel Sylvie,1966-02-26,F,97427,Étang-Salé,MSA,MED-027,Frere Rampal,Vit seul,Aucune
+PAT-00343,Roux Danièle,1960-04-12,F,73000,Chambéry,CPAM,MED-018,Enfant Texier,Vit seul,Aucune
+PAT-00344,Mercier Josiane,1964-10-29,F,03200,Vichy,CPAM,Non renseigné,Fille Muller,En couple,Aucune
+PAT-00345,Girard Danièle,1931-09-08,F,73000,Chambéry,CPAM,MED-046,Frere Bègue,Vit seul,Diabete|BPCO
+PAT-00346,Robert Annick,1947-02-09,F,05000,Gap,MSA,MED-002,Frere Bègue,Vit seul,BPCO|Hyperlipidemie
+PAT-00347,Dumont Monique,1974-01-06,F,66000,Perpignan,RSI,MED-006,Non renseigné,Vit seul,Aucune
+PAT-00348,Nicolas Patrick,1964-07-22,Non renseigné,87000,Limoges,Non renseigne,MED-017,Frere Garcia,Vit seul,Aucune
+PAT-00349,Nicolas Chantal,1951-11-25,F,20600,Bastia,CPAM,MED-024,Conjoint Henry,Vit seul,Aucune
+PAT-00350,Robert Alain,1947-11-24,M,32000,Auch,CPAM,MED-045,Frere David,En famille,Aucune
+PAT-00351,Faure Chantal,1948-10-01,F,23000,Guéret,CPAM,MED-035,Conjoint Roussel,En famille,Diabete|InsuffisanceCardiaque|BPCO|HTA
+PAT-00352,Morin Josiane,1946-08-28,F,97421,Saint-Leu,Non renseigne,MED-013,Conjoint Martin,En couple,BPCO|Hyperlipidemie|InsuffisanceRenale|HTA
+PAT-00353,Rampal Philippe,1942-12-26,M,66000,Perpignan,CPAM,MED-033,Non renseigné,En couple,HTA|BPCO
+PAT-00354,Hoarau Michel,1974-05-30,M,25000,Besançon,MSA,MED-029,Conjoint Vincent,En couple,Aucune
+PAT-00355,Fontaine Isabelle,1949-10-14,F,70000,Vesoul,CPAM,MED-004,Fils Laurent,Vit seul,Aucune
+PAT-00356,Bernard Chantal,1948-06-28,F,65000,Tarbes,AME,MED-045,Enfant Simon,En famille,Aucune
+PAT-00357,Roussel Claudine,1935-08-26,F,33000,Bordeaux,CPAM,MED-053,Enfant Nicolas,Non renseigné,InsuffisanceCardiaque
+PAT-00358,Henry Monique,1968-03-29,F,69001,Lyon,CPAM,MED-052,Fils Bernard,Vit seul,Aucune
+PAT-00359,Durand Laurent,1991-08-15,M,97429,Petite-Île,CPAM,MED-043,Non renseigné,En famille,Aucune
+PAT-00360,Clement Alain,1969-01-21,M,97410,Saint-Pierre,CPAM,MED-017,Conjoint Mercier,Vit seul,Aucune
+PAT-00361,Faure Éric,1956-09-02,M,66000,Perpignan,CPAM,MED-015,Frere Mercier,En couple,Aucune
+PAT-00362,Michel Josiane,1940-12-04,F,48000,Mende,CPAM,MED-006,Frere Gauthier,Vit seul,InsuffisanceCardiaque|BPCO|HTA
+PAT-00363,Girard Monique,1953-08-11,F,20600,Bastia,CPAM,Non renseigné,Enfant Perrin,Vit seul,InsuffisanceRenale
+PAT-00364,Hoarau Christine,1930-06-09,F,97427,Étang-Salé,RSI,MED-045,Non renseigné,Vit seul,BPCO|InsuffisanceCardiaque
+PAT-00365,Thomas Monique,1961-07-11,F,59000,Lille,CPAM,MED-055,Conjoint Michel,En couple,Aucune
+PAT-00366,Laurent Christian,1959-07-05,M,29200,Brest,CPAM,MED-059,Fils Dumont,Non renseigné,Aucune
+PAT-00367,Garcia Annick,1955-12-19,F,86000,Poitiers,CPAM,MED-003,Fille Henry,En couple,Aucune
+PAT-00368,Mercier Marie,1973-08-11,F,20600,Bastia,CPAM,MED-017,Fils Hoarau,En couple,Aucune
+PAT-00369,Rampal Alain,1962-05-05,M,20600,Bastia,CPAM,MED-027,Non renseigné,Vit seul,InsuffisanceCardiaque
+PAT-00370,Simon Josiane,1966-05-16,F,12000,Rodez,CPAM,MED-010,Non renseigné,En couple,Aucune
+PAT-00371,Thomas Philippe,1959-08-23,M,67000,Strasbourg,CPAM,MED-026,Fils Dumont,Non renseigné,Aucune
+PAT-00372,Lefebvre Nathalie,1951-01-25,F,37000,Tours,CPAM,MED-027,Enfant Fournier,En couple,InsuffisanceRenale
+PAT-00373,Gauthier Claudine,1959-11-12,F,42000,Saint-Étienne,CPAM,MED-036,Fille Nicolas,Vit seul,Aucune
+PAT-00374,Brun Danièle,1952-11-23,F,59000,Lille,CPAM,MED-026,Conjoint David,Vit seul,InsuffisanceRenale
+PAT-00375,Fournier Danièle,1957-04-29,F,97431,Plaine-des-Palmistes,CPAM,MED-008,Fille Muller,Vit seul,Aucune
+PAT-00376,Payet Sylvie,1954-02-15,F,05000,Gap,CPAM,Non renseigné,Enfant Lefebvre,En couple,BPCO
+PAT-00377,Lefebvre Michel,1949-06-23,M,97414,Entre-Deux,CPAM,MED-033,Fils Vincent,Vit seul,Hyperlipidemie|BPCO
+PAT-00378,Petit Claudine,1949-05-14,F,29200,Brest,CPAM,MED-059,Frere Garcia,En famille,Hyperlipidemie
+PAT-00379,Perrin Christian,1936-04-12,M,29200,Brest,CPAM,MED-018,Fils Blanc,En famille,InsuffisanceCardiaque
+PAT-00380,Laurent Nathalie,1953-08-04,F,59140,Dunkerque,CPAM,MED-056,Conjoint Roussel,Non renseigné,BPCO
+PAT-00381,Blanc Sylvie,1939-03-12,F,97419,La Possession,CPAM,MED-021,Enfant David,En famille,InsuffisanceCardiaque|BPCO
+PAT-00382,Rampal Sylvie,1953-05-03,F,87000,Limoges,MSA,Non renseigné,Conjoint Muller,En couple,Hyperlipidemie|BPCO|InsuffisanceRenale
+PAT-00383,Lefebvre Gérard,1966-06-04,M,97426,Trois-Bassins,CPAM,MED-031,Enfant Roussel,Vit seul,Aucune
+PAT-00384,Rousseau Annick,1966-10-20,F,97442,Saint-Philippe,CPAM,MED-001,Non renseigné,En couple,Aucune
+PAT-00385,Bertrand Nathalie,1925-03-01,F,86000,Poitiers,CPAM,MED-031,Enfant David,Non renseigné,HTA|InsuffisanceRenale
+PAT-00386,Henry Sylvaine,1963-11-05,F,59140,Dunkerque,CPAM,Non renseigné,Enfant Perrin,En couple,Aucune
+PAT-00387,Moreau Josiane,1939-01-29,F,97442,Saint-Philippe,CPAM,MED-031,Fille Henry,Vit seul,BPCO|Hyperlipidemie|Diabete|HTA
+PAT-00388,Simon Thierry,1963-03-14,M,06000,Nice,CPAM,MED-057,Frere Fournier,En famille,Aucune
+PAT-00389,Bertrand Éric,1935-06-18,M,44000,Nantes,CPAM,Non renseigné,Non renseigné,En famille,Aucune
+PAT-00390,Bertrand André,1936-06-15,M,31000,Toulouse,CPAM,MED-053,Conjoint Lefebvre,Vit seul,Diabete|Hyperlipidemie
+PAT-00391,Bègue Michel,1932-11-27,M,48000,Mende,CPAM,MED-014,Non renseigné,En famille,BPCO|Diabete|InsuffisanceCardiaque
+PAT-00392,Andre Sylvie,1961-11-25,F,97414,Entre-Deux,CPAM,MED-031,Enfant Dumont,Vit seul,Aucune
+PAT-00393,Dumont Josiane,1975-06-07,F,97426,Trois-Bassins,CPAM,MED-007,Enfant Faure,En couple,Aucune
+PAT-00394,Vincent Nathalie,1958-12-30,F,97420,Le Port,MSA,MED-025,Fils David,En couple,InsuffisanceCardiaque
+PAT-00395,Bernard Patrick,1960-06-30,Non renseigné,56000,Vannes,MSA,MED-038,Fils David,Vit seul,HTA
+PAT-00396,Brun Chantal,1948-10-08,F,14000,Caen,CPAM,MED-050,Enfant Grondin,Vit seul,HTA|InsuffisanceRenale|InsuffisanceCardiaque
+PAT-00397,Michel Isabelle,1946-07-05,F,86000,Poitiers,CPAM,MED-003,Frere Bègue,Vit seul,Aucune
+PAT-00398,Mercier Isabelle,1930-07-19,F,97460,Saint-Paul,CPAM,MED-021,Fils Bernard,En couple,Diabete|Hyperlipidemie|BPCO|HTA
+PAT-00399,Thomas Sylvie,1952-08-20,F,97433,Salazie,CPAM,MED-005,Enfant Mercier,Vit seul,Hyperlipidemie
+PAT-00400,Vincent Christian,1934-10-26,M,97429,Petite-Île,CPAM,MED-050,Fille Maillot,Vit seul,Aucune
+PAT-00401,Guerin Marie,1953-01-17,F,32000,Auch,CPAM,MED-032,Non renseigné,En famille,Aucune
+PAT-00402,Bernard André,1955-08-09,M,56000,Vannes,CPAM,MED-013,Non renseigné,En famille,HTA|BPCO
+PAT-00403,Fontaine Philippe,1951-05-15,M,97412,Bras-Panon,CPAM,MED-022,Non renseigné,Vit seul,HTA
+PAT-00404,Lefevre Claudine,1970-11-25,F,70000,Vesoul,AME,MED-035,Frere Guerin,Vit seul,Aucune
+PAT-00405,Dumont Marie,1964-12-10,F,29000,Quimper,CPAM,MED-006,Fils Durand,Vit seul,Aucune
+PAT-00406,Dumont Josiane,1955-11-06,F,33000,Bordeaux,CPAM,MED-036,Fille Morel,En couple,Diabete
+PAT-00407,David Sylvie,1949-01-29,F,67000,Strasbourg,CPAM,MED-025,Non renseigné,En famille,HTA
+PAT-00408,Dumont Marie,1951-06-22,F,29000,Quimper,CPAM,MED-049,Frere Texier,En couple,Aucune
+PAT-00409,Brun Laurent,1958-09-07,M,74000,Annecy,RSI,MED-020,Frere Maillot,En famille,InsuffisanceRenale|Hyperlipidemie
+PAT-00410,Mathieu Gérard,1960-11-13,M,73000,Chambéry,CPAM,MED-057,Fils Simon,Vit seul,Hyperlipidemie
+PAT-00411,Mathieu André,1938-09-25,M,37000,Tours,CPAM,MED-051,Enfant Texier,Vit seul,InsuffisanceRenale
+PAT-00412,Mathieu Christian,1960-04-30,M,97441,Sainte-Suzanne,CPAM,MED-001,Fils Simon,Vit seul,Aucune
+PAT-00413,Vincent Josiane,1950-05-15,F,97442,Saint-Philippe,CPAM,Non renseigné,Conjoint Morel,En couple,Aucune
+PAT-00414,Rampal Éric,1959-09-15,M,97438,Sainte-Marie,CPAM,MED-015,Fils Leroy,En famille,InsuffisanceCardiaque
+PAT-00415,Vincent Christine,1947-09-23,F,54000,Nancy,CPAM,MED-014,Enfant Perrin,En famille,Diabete
+PAT-00416,Morin Annick,1934-12-09,F,66000,Perpignan,CPAM,MED-025,Fille Muller,Non renseigné,InsuffisanceCardiaque|InsuffisanceRenale|HTA
+PAT-00417,Durand Claudine,1961-07-27,F,56100,Lorient,Non renseigne,MED-023,Fille Bernard,Vit seul,HTA
+PAT-00418,Henry Jean,1963-10-01,M,97422,Avirons,CPAM,MED-035,Fils Dumont,En famille,Aucune
+PAT-00419,Dubois Annick,1945-04-15,F,97419,La Possession,CPAM,MED-012,Frere Fournier,Non renseigné,Hyperlipidemie|HTA
+PAT-00420,Robert André,1961-01-02,M,97422,Avirons,CPAM,MED-012,Enfant Morin,En couple,Aucune
+PAT-00421,Brun Monique,1948-12-11,F,05000,Gap,CPAM,MED-042,Fille Roux,Non renseigné,Aucune
+PAT-00422,Texier Marie,1932-09-07,F,73000,Chambéry,CPAM,MED-047,Fils Maillot,En famille,InsuffisanceRenale|Hyperlipidemie|Diabete|HTA
+PAT-00423,Dubois Danièle,1954-02-13,F,97470,Saint-André,MSA,MED-008,Enfant Bègue,Vit seul,InsuffisanceRenale
+PAT-00424,Thomas Monique,1931-01-22,F,63000,Clermont-Ferrand,CPAM,MED-045,Conjoint Moreau,En famille,BPCO
+PAT-00425,Dubois Annick,1940-12-14,F,97439,Sainte-Rose,MSA,MED-004,Non renseigné,En couple,Aucune
+PAT-00426,Thomas Laurent,1967-04-07,M,97421,Saint-Leu,CPAM,MED-055,Enfant Lopez,Non renseigné,Aucune
+PAT-00427,Morel Monique,1977-09-08,F,97410,Saint-Pierre,AME,MED-053,Non renseigné,En couple,Aucune
+PAT-00428,Bertrand Christian,1948-03-07,M,97427,Étang-Salé,CPAM,MED-021,Enfant Bertrand,Vit seul,HTA
+PAT-00429,Petit Sylvaine,1952-09-18,F,29000,Quimper,CPAM,MED-029,Frere Leroy,Vit seul,BPCO
+PAT-00430,Petit Christine,1968-06-05,F,97412,Bras-Panon,CPAM,MED-037,Frere David,En couple,Aucune
+PAT-00431,Dubois Michel,1943-10-12,M,62100,Calais,CPAM,MED-019,Fille Roux,En famille,InsuffisanceRenale|HTA
+PAT-00432,Mercier André,1951-09-09,M,97420,Le Port,CPAM,MED-057,Conjoint Fontaine,Vit seul,HTA|Hyperlipidemie|BPCO
+PAT-00433,Lefebvre Christine,1952-05-25,F,29000,Quimper,CPAM,MED-018,Non renseigné,Non renseigné,HTA
+PAT-00434,Clement Philippe,1964-10-19,M,29000,Quimper,CPAM,MED-010,Non renseigné,Vit seul,Aucune
+PAT-00435,Bertrand Éric,1952-12-11,M,32000,Auch,CPAM,MED-043,Fille Fontaine,En couple,Hyperlipidemie|HTA|Diabete
+PAT-00436,Girard Patrick,1940-10-14,M,86000,Poitiers,CPAM,MED-015,Fille Bernard,En couple,InsuffisanceCardiaque|HTA
+PAT-00437,Fontaine Christian,1957-12-24,M,97460,Saint-Paul,CPAM,MED-018,Non renseigné,En famille,Aucune
+PAT-00438,Andre Laurent,1933-06-12,M,97438,Sainte-Marie,MSA,MED-026,Non renseigné,En couple,BPCO|InsuffisanceRenale|InsuffisanceCardiaque
+PAT-00439,Henry Danièle,1942-10-04,F,74000,Annecy,CPAM,Non renseigné,Non renseigné,En famille,Diabete|HTA
+PAT-00440,Dumont Sylvie,1947-01-02,F,13001,Marseille,CPAM,MED-046,Non renseigné,En couple,Aucune
+PAT-00441,Durand Gérard,1941-08-14,M,97419,La Possession,CPAM,MED-022,Fille Dumont,Vit seul,BPCO|HTA
+PAT-00442,Texier Sylvie,1952-05-13,F,42000,Saint-Étienne,CPAM,MED-053,Frere Rampal,En couple,BPCO
+PAT-00443,Texier Claudine,1952-06-24,F,69001,Lyon,RSI,MED-022,Fille Blanc,En couple,Aucune
+PAT-00444,Simon Sylvaine,1954-12-12,F,56100,Lorient,CPAM,Non renseigné,Frere Faure,En famille,Aucune
+PAT-00445,Hoarau Sylvaine,1969-06-16,F,97460,Saint-Paul,MSA,Non renseigné,Non renseigné,En famille,Aucune
+PAT-00446,Girard Pierre,1956-08-10,M,12000,Rodez,CPAM,MED-033,Fille Bertrand,En famille,Aucune
+PAT-00447,Lopez Josiane,1932-04-01,F,97429,Petite-Île,CPAM,MED-006,Non renseigné,Vit seul,Hyperlipidemie|HTA|InsuffisanceCardiaque|Diabete
+PAT-00448,Mercier Claudine,1934-02-15,F,70000,Vesoul,AME,MED-040,Conjoint Henry,En famille,Diabete|HTA
+PAT-00449,Dubois Alain,1957-02-03,M,73000,Chambéry,CPAM,MED-023,Non renseigné,En couple,Aucune
+PAT-00450,Lefebvre Chantal,1958-05-17,F,97420,Le Port,AME,MED-021,Fils Nicolas,En couple,InsuffisanceCardiaque
+PAT-00451,Dumont Éric,1952-03-21,M,97427,Étang-Salé,CPAM,MED-022,Conjoint Roussel,En famille,Aucune
+PAT-00452,Rampal Christian,1977-01-20,Non renseigné,97429,Petite-Île,CPAM,MED-052,Fils Dumont,En famille,Aucune
+PAT-00453,Brun Danièle,1959-09-18,F,97429,Petite-Île,CPAM,MED-007,Fille Guerin,En famille,Aucune
+PAT-00454,Dumont Claudine,1953-06-15,F,74000,Annecy,CPAM,MED-034,Fille Brun,Vit seul,BPCO|InsuffisanceRenale
+PAT-00455,Guerin Thierry,1940-04-11,M,44000,Nantes,CPAM,MED-012,Enfant Faure,En famille,InsuffisanceCardiaque
+PAT-00456,Morin Philippe,1956-10-20,M,63000,Clermont-Ferrand,CPAM,MED-047,Enfant Roussel,En couple,Aucune
+PAT-00457,Lopez Michel,1937-12-26,M,97419,La Possession,CPAM,MED-037,Enfant Leroy,En famille,InsuffisanceCardiaque|Hyperlipidemie
+PAT-00458,Rampal Éric,1955-02-07,Non renseigné,97422,Avirons,CPAM,MED-050,Frere Andre,Vit seul,BPCO
+PAT-00459,Morin Laurent,1959-06-23,M,97433,Salazie,MSA,MED-008,Conjoint Guerin,Vit seul,Aucune
+PAT-00460,Thomas Sylvaine,1975-11-15,F,37000,Tours,CPAM,MED-036,Enfant Bertrand,Vit seul,Aucune
+PAT-00461,Bègue Laurent,1971-08-31,M,97418,Le Tampon,CPAM,MED-044,Non renseigné,Non renseigné,Aucune
+PAT-00462,Bertrand Éric,1963-07-14,M,87000,Limoges,CPAM,Non renseigné,Conjoint Andre,Vit seul,BPCO
+PAT-00463,Dumont Danièle,1930-10-20,F,56100,Lorient,CPAM,MED-035,Non renseigné,Non renseigné,HTA
+PAT-00464,Michel Sylvaine,1934-06-05,F,15000,Aurillac,CPAM,MED-015,Enfant Perrin,En famille,Diabete|BPCO
+PAT-00465,Rampal Laurent,1957-12-07,M,65000,Tarbes,CPAM,MED-036,Enfant Lefebvre,Vit seul,Aucune
+PAT-00466,Bègue Christian,1942-03-27,M,25000,Besançon,CPAM,MED-036,Non renseigné,Vit seul,Aucune
+PAT-00467,Fournier Christian,1945-02-27,M,97442,Saint-Philippe,CPAM,MED-050,Conjoint Laurent,En couple,Aucune
+PAT-00468,Bertrand Gérard,1950-09-30,M,97420,Le Port,CPAM,MED-010,Enfant Lefebvre,En famille,BPCO
+PAT-00469,Morel Danièle,1955-01-02,F,35000,Rennes,Non renseigne,MED-059,Enfant Roux,Vit seul,Diabete
+PAT-00470,Guerin Christian,1939-09-23,M,14000,Caen,CPAM,MED-022,Fils Mercier,Vit seul,InsuffisanceCardiaque|Hyperlipidemie|Diabete|BPCO
+PAT-00471,Guerin Chantal,1945-06-30,F,63000,Clermont-Ferrand,CPAM,MED-004,Enfant Gauthier,En famille,Diabete|BPCO
+PAT-00472,Texier Sylvie,1960-11-21,F,63000,Clermont-Ferrand,Non renseigne,MED-044,Fille Durand,En famille,BPCO|Diabete
+PAT-00473,Girard Josiane,1929-09-14,F,97422,Avirons,CPAM,MED-008,Frere Hoarau,Vit seul,BPCO|Diabete
+PAT-00474,Gauthier Thierry,1954-07-12,Non renseigné,23000,Guéret,CPAM,MED-024,Fille Andre,En couple,HTA
+PAT-00475,Grondin Marie,1945-12-03,F,97427,Étang-Salé,RSI,MED-048,Enfant Leroy,En couple,HTA|BPCO
+PAT-00476,Roux Isabelle,1944-02-25,F,44000,Nantes,CPAM,MED-001,Fille Muller,En couple,Aucune
+PAT-00477,Simon Jean,1948-12-08,M,86000,Poitiers,CPAM,Non renseigné,Frere Dumont,Vit seul,Hyperlipidemie|Diabete
+PAT-00478,Moreau Gérard,1975-01-28,M,97460,Saint-Paul,CPAM,MED-032,Fille Simon,En famille,Aucune
+PAT-00479,Andre Thierry,1970-10-21,M,32000,Auch,CPAM,MED-056,Non renseigné,En couple,Aucune
+PAT-00480,Simon Sylvaine,1946-02-12,F,97470,Saint-André,CPAM,MED-045,Frere Martin,Vit seul,Diabete|InsuffisanceRenale
+PAT-00481,Bègue Isabelle,1943-01-20,F,97418,Le Tampon,CPAM,MED-007,Enfant Michel,En couple,HTA|InsuffisanceRenale
+PAT-00482,Mathieu Chantal,1931-11-29,F,35000,Rennes,CPAM,MED-038,Fille Bertrand,Non renseigné,InsuffisanceCardiaque|Diabete|HTA|InsuffisanceRenale
+PAT-00483,David Marie,1964-02-15,F,97400,Saint-Denis,CPAM,MED-034,Fils Henry,En couple,Aucune
+PAT-00484,Perrin Marie,1969-08-25,F,44000,Nantes,CPAM,MED-047,Frere Lopez,En couple,Aucune
+PAT-00485,Texier Annick,1955-08-16,F,32000,Auch,MSA,MED-032,Conjoint Morin,En famille,Aucune
+PAT-00486,Guerin Thierry,1941-11-05,M,97429,Petite-Île,CPAM,MED-046,Conjoint Mercier,Vit seul,Hyperlipidemie|BPCO|HTA
+PAT-00487,Nicolas Claudine,1955-12-21,F,97414,Entre-Deux,CPAM,MED-031,Conjoint Roux,En couple,Aucune
+PAT-00488,Roussel Christine,1942-07-13,F,13001,Marseille,CPAM,MED-012,Enfant Rousseau,Vit seul,Hyperlipidemie
+PAT-00489,Lefebvre Chantal,1970-08-05,F,67000,Strasbourg,CPAM,MED-054,Frere Vincent,Vit seul,Aucune
+PAT-00490,Roussel Danièle,1928-07-30,F,21000,Dijon,CPAM,MED-026,Conjoint Durand,Vit seul,InsuffisanceCardiaque|Hyperlipidemie|Diabete|HTA
+PAT-00491,Henry Alain,1925-02-18,M,34000,Montpellier,CPAM,MED-027,Non renseigné,En famille,Diabete|Hyperlipidemie
+PAT-00492,Bernard Nathalie,1927-01-01,F,97426,Trois-Bassins,CPAM,Non renseigné,Non renseigné,En famille,InsuffisanceRenale|BPCO|HTA
+PAT-00493,Texier Christine,1942-03-26,F,05000,Gap,Non renseigne,MED-030,Frere Morin,Non renseigné,InsuffisanceRenale|Diabete
+PAT-00494,Clement Éric,1978-10-04,M,23000,Guéret,CPAM,MED-013,Enfant Morin,Vit seul,Aucune
+PAT-00495,Faure Daniel,1926-01-13,M,76000,Rouen,CPAM,MED-003,Fils Durand,En couple,Diabete|HTA|InsuffisanceCardiaque|InsuffisanceRenale
+PAT-00496,Simon Patrick,1967-04-21,M,86000,Poitiers,CPAM,MED-027,Frere Garcia,En couple,Aucune
+PAT-00497,Michel Monique,1977-08-12,F,67000,Strasbourg,CPAM,MED-009,Conjoint Payet,En couple,Aucune
+PAT-00498,Henry Claudine,1940-08-23,F,74000,Annecy,CPAM,MED-054,Fille Petit,En couple,BPCO|InsuffisanceCardiaque
+PAT-00499,Mercier Claudine,1962-11-28,F,29200,Brest,CPAM,MED-056,Fils Muller,Vit seul,Aucune
+PAT-00500,Lefevre Daniel,1960-03-05,M,97431,Plaine-des-Palmistes,CPAM,MED-058,Enfant David,En famille,Aucune
+PAT-00501,Perrin Monique,1932-09-14,F,57000,Metz,CPAM,MED-012,Fils Leroy,Non renseigné,Diabete
+PAT-00502,Bertrand Alain,1953-09-05,M,72000,Le Mans,CPAM,MED-028,Conjoint Fontaine,Vit seul,Aucune
+PAT-00503,Robert Danièle,1936-07-18,F,97480,Saint-Joseph,Non renseigne,MED-043,Conjoint Laurent,Vit seul,Hyperlipidemie|HTA|InsuffisanceRenale|Diabete
+PAT-00504,Muller Annick,1945-07-14,F,33000,Bordeaux,CPAM,Non renseigné,Non renseigné,En couple,InsuffisanceRenale
+PAT-00505,Andre Sylvaine,1978-06-13,F,59140,Dunkerque,CPAM,MED-008,Frere Rampal,En couple,Aucune
+PAT-00506,Perrin Claudine,1925-03-04,F,48000,Mende,CPAM,MED-048,Frere Lefevre,En famille,HTA|InsuffisanceRenale|Hyperlipidemie
+PAT-00507,Robert Annick,1950-05-04,F,97420,Le Port,CPAM,MED-043,Fille Garcia,En couple,Hyperlipidemie
+PAT-00508,Gauthier Thierry,1956-03-12,M,97470,Saint-André,Non renseigne,MED-036,Non renseigné,Vit seul,InsuffisanceCardiaque
+PAT-00509,Perrin Nathalie,1958-04-20,F,65000,Tarbes,CPAM,MED-052,Fils Michel,En famille,Aucune
+PAT-00510,Michel Patrick,1957-09-20,Non renseigné,03200,Vichy,CPAM,MED-006,Conjoint Michel,En couple,InsuffisanceCardiaque|HTA
+PAT-00511,Clement Michel,1962-02-27,M,08000,Charleville-Mézières,CPAM,MED-053,Frere Martin,Vit seul,Diabete
+PAT-00512,Morin Sylvaine,1959-04-20,F,97421,Saint-Leu,CPAM,MED-015,Non renseigné,Vit seul,Aucune
+PAT-00513,Simon Daniel,1955-10-02,Non renseigné,97400,Saint-Denis,CPAM,MED-031,Enfant Perrin,Vit seul,InsuffisanceCardiaque
+PAT-00514,Bernard Pierre,1960-07-18,M,97424,Cilaos,CPAM,MED-053,Fille Michel,En famille,Aucune
+PAT-00515,Morin Jean,1945-10-07,M,29000,Quimper,CPAM,MED-055,Conjoint Durand,En famille,Aucune
+PAT-00516,Roussel Patrick,1955-10-28,M,35000,Rennes,CPAM,MED-021,Fils Nicolas,En couple,InsuffisanceRenale
+PAT-00517,Bernard Michel,1955-07-11,M,97424,Cilaos,CPAM,MED-036,Fils Clement,Non renseigné,Diabete|InsuffisanceCardiaque|InsuffisanceRenale
+PAT-00518,Bernard Isabelle,1986-01-27,F,97433,Salazie,CPAM,MED-031,Enfant Dumont,Non renseigné,Aucune
+PAT-00519,Lefebvre Danièle,1955-08-26,F,97450,Saint-Louis,CPAM,Non renseigné,Non renseigné,Vit seul,Aucune
+PAT-00520,Petit Pierre,1941-12-13,M,97426,Trois-Bassins,CPAM,Non renseigné,Frere Michel,En couple,Aucune
+PAT-00521,Durand Thierry,1957-11-13,Non renseigné,03200,Vichy,CPAM,MED-035,Fils Michel,En couple,Aucune
+PAT-00522,Texier Jean,1940-06-04,M,13001,Marseille,CPAM,MED-012,Non renseigné,En famille,InsuffisanceCardiaque|Diabete
+PAT-00523,Dubois Laurent,1949-09-03,M,76000,Rouen,CPAM,MED-049,Conjoint Robert,Vit seul,Aucune
+PAT-00524,Bertrand Philippe,1956-06-22,M,65000,Tarbes,CPAM,MED-018,Frere Durand,Non renseigné,BPCO
+PAT-00525,Payet Annick,1950-03-28,F,03200,Vichy,CPAM,MED-047,Fils Thomas,En famille,HTA
+PAT-00526,Andre Chantal,1960-01-02,F,97429,Petite-Île,CPAM,MED-039,Conjoint Blanc,En famille,BPCO
+PAT-00527,Vincent Isabelle,1946-04-06,F,56100,Lorient,CPAM,MED-035,Non renseigné,En famille,InsuffisanceRenale|InsuffisanceCardiaque
+PAT-00528,Morin Chantal,1955-02-23,F,97427,Étang-Salé,CPAM,MED-004,Conjoint Payet,Vit seul,InsuffisanceCardiaque
+PAT-00529,Leroy Sylvie,1938-03-11,F,97431,Plaine-des-Palmistes,CPAM,MED-023,Fils Morel,En couple,InsuffisanceCardiaque|InsuffisanceRenale
+PAT-00530,Girard Isabelle,1955-09-25,F,97418,Le Tampon,CPAM,MED-005,Frere Fontaine,En famille,BPCO
+PAT-00531,Martin Pierre,1968-10-28,M,15000,Aurillac,CPAM,MED-008,Non renseigné,Vit seul,Aucune
+PAT-00532,Vincent Christine,1972-12-09,F,97420,Le Port,CPAM,MED-032,Non renseigné,Vit seul,Aucune
+PAT-00533,Hoarau Gérard,1941-03-24,M,97420,Le Port,MSA,MED-017,Frere Bègue,En couple,Hyperlipidemie|Diabete|InsuffisanceRenale
+PAT-00534,Morel Michel,1943-12-21,M,86000,Poitiers,CPAM,MED-004,Frere Brun,En couple,Diabete|HTA
+PAT-00535,Dubois André,1950-12-20,M,06000,Nice,CPAM,MED-043,Fille Vincent,En couple,HTA|Hyperlipidemie
+PAT-00536,Simon Alain,1960-02-09,M,97441,Sainte-Suzanne,CPAM,MED-018,Frere Bernard,En famille,Aucune
+PAT-00537,Nicolas Michel,1944-08-21,M,73000,Chambéry,CPAM,MED-010,Non renseigné,En couple,BPCO
+PAT-00538,Bernard Nathalie,1958-02-03,F,32000,Auch,CPAM,Non renseigné,Fils Fournier,Vit seul,InsuffisanceRenale|InsuffisanceCardiaque
+PAT-00539,Michel Pierre,1961-10-11,M,33000,Bordeaux,CPAM,Non renseigné,Enfant Texier,En famille,InsuffisanceCardiaque|Diabete
+PAT-00540,Guerin Sylvaine,1957-10-30,F,86000,Poitiers,Non renseigne,MED-012,Frere Perrin,En couple,Aucune
+PAT-00541,Lefebvre Danièle,1966-06-14,F,97421,Saint-Leu,CPAM,MED-050,Non renseigné,En couple,Aucune
+PAT-00542,Garcia Claudine,1958-07-15,F,34000,Montpellier,CPAM,MED-039,Enfant Andre,En couple,Aucune
+PAT-00543,Bernard Josiane,1956-05-02,F,14000,Caen,CPAM,Non renseigné,Frere Morel,En famille,BPCO|HTA
+PAT-00544,Garcia Gérard,1937-06-12,M,32000,Auch,CPAM,MED-004,Non renseigné,Non renseigné,Aucune
+PAT-00545,Maillot Christian,1940-04-16,M,87000,Limoges,CPAM,MED-005,Frere Garcia,En famille,InsuffisanceCardiaque|HTA|Diabete|BPCO
+PAT-00546,Roussel Marie,1955-05-11,F,42000,Saint-Étienne,CPAM,MED-035,Frere Fontaine,Vit seul,Aucune
+PAT-00547,Petit André,1967-09-26,M,54000,Nancy,CPAM,MED-015,Fille Henry,En famille,Aucune
+PAT-00548,Thomas Laurent,1952-10-16,M,76000,Rouen,CPAM,MED-018,Frere Clement,En famille,Hyperlipidemie|BPCO|InsuffisanceRenale
+PAT-00549,Morin Patrick,1932-10-20,M,97414,Entre-Deux,CPAM,MED-015,Fils Roux,En couple,HTA
+PAT-00550,Fontaine Michel,1958-07-13,M,42000,Saint-Étienne,CPAM,MED-053,Enfant Faure,En couple,Aucune
+PAT-00551,Rampal Alain,1957-11-08,M,97400,Saint-Denis,Non renseigne,MED-042,Enfant Clement,En couple,InsuffisanceRenale
+PAT-00552,Rousseau Marie,1952-12-29,F,97470,Saint-André,RSI,MED-016,Conjoint Faure,En famille,InsuffisanceRenale|HTA
+PAT-00553,Simon Michel,1949-07-13,M,20600,Bastia,MSA,Non renseigné,Non renseigné,En couple,Aucune
+PAT-00554,Blanc Daniel,1929-01-23,M,20600,Bastia,Non renseigne,MED-015,Non renseigné,Vit seul,HTA|InsuffisanceCardiaque|BPCO|Diabete
+PAT-00555,Dumont Gérard,1966-01-15,M,97424,Cilaos,CPAM,MED-013,Conjoint Petit,En famille,HTA|Diabete
+PAT-00556,Robert Sylvie,1937-02-10,F,97441,Sainte-Suzanne,CPAM,MED-023,Fils Texier,Vit seul,InsuffisanceCardiaque|Diabete
+PAT-00557,Maillot Claudine,1956-06-21,F,59000,Lille,CPAM,MED-011,Non renseigné,En couple,Diabete|Hyperlipidemie|BPCO
+PAT-00558,Morel Nathalie,1967-07-09,F,69001,Lyon,CPAM,MED-028,Non renseigné,Non renseigné,Aucune
+PAT-00559,Gauthier Patrick,1965-02-12,M,29200,Brest,CPAM,MED-013,Enfant Bègue,En couple,Aucune
+PAT-00560,Dumont André,1957-04-16,M,97418,Le Tampon,CPAM,MED-016,Fille Martin,En couple,Aucune
+PAT-00561,Thomas Éric,1954-09-11,M,97418,Le Tampon,CPAM,MED-010,Non renseigné,Non renseigné,HTA|InsuffisanceRenale
+PAT-00562,Fournier Gérard,1962-03-03,M,97426,Trois-Bassins,CPAM,MED-038,Conjoint Blanc,Vit seul,Hyperlipidemie
+PAT-00563,Faure Claudine,1939-02-06,F,67000,Strasbourg,CPAM,MED-059,Frere Lefevre,Vit seul,Hyperlipidemie|BPCO
+PAT-00564,Clement Michel,1933-04-13,M,03200,Vichy,CPAM,MED-021,Fille Bertrand,En couple,Hyperlipidemie|HTA|Diabete|InsuffisanceRenale
+PAT-00565,Dumont Patrick,1942-12-31,M,44000,Nantes,CPAM,MED-029,Non renseigné,En couple,Hyperlipidemie|InsuffisanceCardiaque|Diabete
+PAT-00566,Grondin Alain,1961-08-09,M,97422,Avirons,CPAM,MED-023,Non renseigné,En couple,Aucune
+PAT-00567,David Christine,1957-11-20,F,97442,Saint-Philippe,CPAM,MED-032,Enfant Dumont,Non renseigné,Aucune
+PAT-00568,Perrin Michel,1959-12-16,M,13001,Marseille,CPAM,Non renseigné,Fils Guerin,En couple,Hyperlipidemie
+PAT-00569,Blanc Philippe,1957-07-16,M,08000,Charleville-Mézières,CPAM,MED-039,Non renseigné,En famille,HTA
+PAT-00570,Andre Nathalie,1957-11-07,F,15000,Aurillac,CPAM,Non renseigné,Non renseigné,En couple,Aucune
+PAT-00571,Bègue Pierre,1926-10-08,Non renseigné,73000,Chambéry,CPAM,MED-012,Fils Vincent,En couple,BPCO|InsuffisanceCardiaque|Hyperlipidemie|Diabete
+PAT-00572,Faure Claudine,1939-04-14,F,25000,Besançon,CPAM,MED-032,Fille Fontaine,Vit seul,BPCO|InsuffisanceRenale|InsuffisanceCardiaque
+PAT-00573,Clement Monique,1960-06-28,F,32000,Auch,CPAM,MED-019,Enfant Rampal,Non renseigné,Aucune
+PAT-00574,Perrin Claudine,1952-12-20,F,69001,Lyon,CPAM,MED-029,Fille Dubois,Vit seul,Aucune
+PAT-00575,Moreau Pierre,1944-02-27,M,08000,Charleville-Mézières,CPAM,MED-007,Enfant Garcia,En famille,Aucune
+PAT-00576,Texier Gérard,1957-01-06,M,97420,Le Port,RSI,MED-013,Frere Petit,En couple,Hyperlipidemie
+PAT-00577,Gauthier Danièle,1951-11-19,F,69001,Lyon,CPAM,MED-008,Frere Bertrand,Vit seul,InsuffisanceRenale|HTA|Diabete
+PAT-00578,Grondin Josiane,1931-07-13,F,97442,Saint-Philippe,Non renseigne,MED-009,Enfant Blanc,En famille,Hyperlipidemie|BPCO|InsuffisanceCardiaque|Diabete
+PAT-00579,Garcia Daniel,1951-10-25,M,97460,Saint-Paul,CPAM,MED-002,Enfant Rousseau,Vit seul,Aucune
+PAT-00580,Blanc Isabelle,1933-02-14,F,97480,Saint-Joseph,CPAM,MED-029,Non renseigné,Vit seul,BPCO|Diabete|InsuffisanceRenale|HTA
+PAT-00581,Dumont Michel,1964-09-30,M,29000,Quimper,MSA,MED-032,Non renseigné,Vit seul,InsuffisanceCardiaque
+PAT-00582,Muller Christine,1958-09-03,F,97421,Saint-Leu,CPAM,MED-004,Fille Durand,Vit seul,Aucune
+PAT-00583,Martin Nathalie,1964-10-25,F,74000,Annecy,MSA,MED-027,Enfant Guerin,En famille,Aucune
+PAT-00584,Moreau Josiane,1954-09-25,F,97426,Trois-Bassins,CPAM,MED-032,Fils Blanc,Vit seul,Diabete|BPCO
+PAT-00585,Andre Laurent,1951-11-06,M,54000,Nancy,CPAM,Non renseigné,Frere Durand,En couple,HTA
+PAT-00586,Leroy Christian,1940-01-28,Non renseigné,62100,Calais,MSA,MED-044,Non renseigné,Vit seul,InsuffisanceRenale
+PAT-00587,Laurent Sylvie,1965-08-29,F,56100,Lorient,MSA,MED-044,Non renseigné,En famille,Aucune
+PAT-00588,Guerin Sylvie,1943-08-04,F,87000,Limoges,CPAM,MED-015,Fille Maillot,En couple,HTA|BPCO
+PAT-00589,Mathieu Daniel,1958-01-04,M,86000,Poitiers,CPAM,MED-057,Fils Gauthier,En couple,Aucune
+PAT-00590,Vincent Patrick,1963-09-03,M,69001,Lyon,CPAM,MED-026,Enfant Vincent,En couple,Hyperlipidemie
+PAT-00591,David Patrick,1959-08-28,M,97424,Cilaos,CPAM,MED-008,Conjoint Andre,En famille,Aucune
+PAT-00592,Roussel Alain,1930-05-02,M,76000,Rouen,CPAM,Non renseigné,Frere Rousseau,Vit seul,Diabete|InsuffisanceRenale|InsuffisanceCardiaque|BPCO
+PAT-00593,Morin Daniel,1952-01-02,M,29000,Quimper,CPAM,MED-037,Non renseigné,En couple,Diabete
+PAT-00594,Lefebvre Sylvie,1943-05-18,F,05000,Gap,CPAM,MED-042,Non renseigné,En couple,Aucune
+PAT-00595,Morin Sylvie,1953-02-06,F,97433,Salazie,CPAM,MED-049,Fille Fournier,En famille,BPCO|InsuffisanceCardiaque
+PAT-00596,Nicolas Marie,1951-01-17,F,21000,Dijon,CPAM,MED-040,Fils Grondin,Vit seul,HTA
+PAT-00597,Thomas Michel,1976-09-29,M,97460,Saint-Paul,CPAM,MED-026,Non renseigné,En couple,Aucune
+PAT-00598,Bègue Patrick,1954-12-02,M,08000,Charleville-Mézières,CPAM,MED-001,Conjoint Fontaine,Vit seul,Aucune
+PAT-00599,Durand Claudine,1983-10-10,F,86000,Poitiers,MSA,MED-010,Conjoint Leroy,Non renseigné,Aucune
+PAT-00600,Andre André,1925-06-15,M,56000,Vannes,MSA,MED-013,Fille Roussel,En famille,Diabete|InsuffisanceRenale|HTA|Hyperlipidemie
+PAT-00601,Roussel Pierre,1956-10-10,M,33000,Bordeaux,MSA,MED-031,Fille Maillot,En couple,Hyperlipidemie
+PAT-00602,Girard Josiane,1936-11-23,F,08000,Charleville-Mézières,RSI,Non renseigné,Frere Dumont,En famille,BPCO|Diabete
+PAT-00603,Rousseau Daniel,1972-06-21,M,97420,Le Port,AME,MED-002,Fille Perrin,Vit seul,Aucune
+PAT-00604,Fournier Christine,1938-02-07,F,54000,Nancy,MSA,MED-025,Non renseigné,Vit seul,InsuffisanceRenale|InsuffisanceCardiaque|BPCO
+PAT-00605,Roussel Michel,1965-07-29,Non renseigné,97438,Sainte-Marie,CPAM,MED-028,Enfant Henry,Non renseigné,Aucune
+PAT-00606,Guerin Christian,1939-08-31,M,97460,Saint-Paul,CPAM,MED-032,Frere Bègue,Non renseigné,Hyperlipidemie|InsuffisanceCardiaque|InsuffisanceRenale
+PAT-00607,Morel Annick,1952-09-08,F,63000,Clermont-Ferrand,CPAM,MED-025,Enfant Bertrand,En famille,Aucune
+PAT-00608,Leroy Alain,1949-01-28,M,37000,Tours,CPAM,MED-046,Frere Roussel,En couple,InsuffisanceRenale|InsuffisanceCardiaque
+PAT-00609,Garcia Nathalie,1947-01-11,F,37000,Tours,MSA,MED-027,Frere Rousseau,Vit seul,Hyperlipidemie|InsuffisanceRenale
+PAT-00610,Guerin Josiane,1957-04-11,F,57000,Metz,CPAM,MED-037,Enfant Lopez,En famille,Aucune
+PAT-00611,Bernard Christine,1950-08-14,F,05000,Gap,MSA,MED-028,Fille Blanc,En couple,BPCO
+PAT-00612,Gauthier Éric,1958-10-13,M,42000,Saint-Étienne,CPAM,MED-051,Non renseigné,Vit seul,Aucune
+PAT-00613,Vincent Éric,1946-04-26,M,97422,Avirons,CPAM,MED-018,Conjoint Durand,Non renseigné,InsuffisanceCardiaque
+PAT-00614,Robert Danièle,1957-09-29,F,14000,Caen,CPAM,MED-026,Fils Lopez,En famille,Aucune
+PAT-00615,Hoarau Annick,1952-10-30,F,03200,Vichy,CPAM,MED-057,Fils Lefebvre,En famille,InsuffisanceRenale
+PAT-00616,Leroy Patrick,1927-05-06,M,56100,Lorient,CPAM,MED-052,Fille Dumont,En couple,InsuffisanceRenale|BPCO|Diabete|Hyperlipidemie
+PAT-00617,Guerin Gérard,1947-10-22,M,37000,Tours,CPAM,MED-019,Fille Lefevre,En famille,InsuffisanceCardiaque
+PAT-00618,Guerin Michel,1957-11-04,Non renseigné,59000,Lille,MSA,MED-009,Frere Nicolas,Vit seul,InsuffisanceCardiaque
+PAT-00619,Michel Christine,1991-04-26,F,97431,Plaine-des-Palmistes,RSI,MED-020,Non renseigné,En couple,Aucune
+PAT-00620,Garcia Marie,1951-02-22,F,97414,Entre-Deux,CPAM,MED-016,Frere Simon,En couple,Aucune

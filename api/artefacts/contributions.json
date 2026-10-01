@@ -1,0 +1,13 @@
+{
+  "base": 0.1858,
+  "methode": "valeurs de Shapley par permutations (shap.explainers.Permutation) sur predict_proba du modele complet ; contributions en probabilite, additives : base + somme = score",
+  "permutations": 8,
+  "fond": 100,
+  "graine": 42,
+  "shap_version": "0.52.0",
+  "date": "2026-09-28",
+  "controle": {
+    "ecart_additivite_max": 2.1094237467877974e-15,
+    "version_modele": "etageA-2026-09-28-seed42"
+  }
+}

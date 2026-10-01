@@ -1,0 +1,10 @@
+demo_sexe
+demo_situation_familiale
+sej_service
+sej_type_sejour
+sej_mode_sortie
+sej_ghm_categorie
+sej_ghm_severite
+dx_diagnostic_principal
+dx_chapitre_cim10
+cr_gabarit

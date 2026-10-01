@@ -1,0 +1,57 @@
+name: Soutenance CISIA — pipeline et modèle
+
+# Ce qui déclenche la chaîne : toute modification du code, des tests ou des
+# données, sur la branche principale comme sur une pull request. Le support de
+# présentation et le README ne déclenchent rien — une chaîne qui se lance pour
+# rien finit par être ignorée.
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'notebook/**'
+      - 'api/**'
+      - 'tests/**'
+      - 'CISIA*/**'
+      - '.github/workflows/soutenance-cisia.yml'
+  pull_request:
+    paths:
+      - 'notebook/**'
+      - 'api/**'
+      - 'tests/**'
+      - 'CISIA*/**'
+  workflow_dispatch:
+
+jobs:
+  tests:
+    name: Tests du pipeline et évaluation du modèle
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Récupérer le dépôt
+        uses: actions/checkout@v4
+
+      - name: Installer Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: tests/requirements-tests.txt
+
+      - name: Installer les dépendances de test
+        run: python -m pip install -r tests/requirements-tests.txt
+
+      - name: Contrôles du pipeline de préparation
+        run: python -m pytest tests/test_nettoyage.py tests/test_assemblage.py tests/test_inventaire.py -v
+
+      # Étape séparée, et c'est délibéré : ce n'est pas un test unitaire mais
+      # une évaluation du modèle. Elle rejoue le protocole du dossier —
+      # validation croisée groupée par patient, prédictions hors échantillon —
+      # et refuse une performance sortie des bornes documentées, dans un sens
+      # comme dans l'autre. Une PR-AUC trop basse signale une régression ;
+      # trop haute, une fuite.
+      - name: Évaluation du modèle sur le protocole du dossier
+        run: python -m pytest tests/test_modele.py -v
+
+      - name: Récapitulatif
+        if: always()
+        run: python -m pytest tests/ -q --no-header
